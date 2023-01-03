@@ -82,12 +82,12 @@ export default function SignIn() {
           <Grid container>
             <Grid item xs>
               <Link href="#" variant="body2">
-                Forgot password?
+                Quên mật khẩu?
               </Link>
             </Grid>
             <Grid item>
               <Link href="#" variant="body2">
-                {"Don't have an account? Sign Up"}
+                {"Bạn chưa có tài khoản? ĐĂNG KÝ"}
               </Link>
             </Grid>
           </Grid>
