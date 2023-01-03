@@ -1,6 +1,8 @@
 import * as React from "react";
 import Link from "next/link";
 
+import styles from "./Login.module.css";
+
 import {
   Card,
   CardContent,
@@ -31,68 +33,74 @@ export default function SignIn() {
 
   return (
     <main>
-      <Box
-        sx={{
-          marginTop: 8,
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          maxWidth: "600px",
-        }}
-      >
-        <Link href="/" sx={{ mt: 1 }}>
-          <Avatar src="/daylaixe/512x512.png" />
-        </Link>
-        <Typography component="h1" variant="h5">
-          ĐĂNG NHẬP
-        </Typography>
-        <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
-          <TextField
-            margin="normal"
-            required
-            fullWidth
-            id="email"
-            label="Email Address"
-            name="email"
-            autoComplete="email"
-            autoFocus
-          />
-          <TextField
-            margin="normal"
-            required
-            fullWidth
-            name="password"
-            label="Password"
-            type="password"
-            id="password"
-            autoComplete="current-password"
-          />
-          <FormControlLabel
-            control={<Checkbox value="remember" color="primary" />}
-            label="Remember me"
-          />
-          <Button
-            type="submit"
-            fullWidth
-            variant="contained"
-            sx={{ mt: 3, mb: 2 }}
+      <Card>
+        <CardContent>
+          <div className={styles.login_icon}>
+            <Link href="/" sx={{ mt: 1 }}>
+              <Avatar src="/daylaixe/512x512.png" />
+            </Link>
+          </div>
+
+          <Typography
+            className={styles.text_title_center}
+            component="h1"
+            variant="h5"
           >
-            Sign In
-          </Button>
-          <Grid container>
-            <Grid item xs>
-              <Link href="#" variant="body2">
-                Quên mật khẩu?
-              </Link>
+            ĐĂNG NHẬP
+          </Typography>
+          <Box
+            component="form"
+            onSubmit={handleSubmit}
+            noValidate
+            sx={{ mt: 1 }}
+          >
+            <TextField
+              margin="normal"
+              required
+              fullWidth
+              id="email"
+              label="Email Address"
+              name="email"
+              autoComplete="email"
+              autoFocus
+            />
+            <TextField
+              margin="normal"
+              required
+              fullWidth
+              name="password"
+              label="Password"
+              type="password"
+              id="password"
+              autoComplete="current-password"
+            />
+            <FormControlLabel
+              control={<Checkbox value="remember" color="primary" />}
+              label="Remember me"
+            />
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              sx={{ mt: 3, mb: 2 }}
+            >
+              Sign In
+            </Button>
+            <Grid container>
+              <Grid item xs>
+                <Link href="#" variant="body2">
+                  Quên mật khẩu?
+                </Link>
+              </Grid>
+              <Grid item>
+                <Link href="#" variant="body2">
+                  {"Bạn chưa có tài khoản? ĐĂNG KÝ"}
+                </Link>
+              </Grid>
             </Grid>
-            <Grid item>
-              <Link href="#" variant="body2">
-                {"Bạn chưa có tài khoản? ĐĂNG KÝ"}
-              </Link>
-            </Grid>
-          </Grid>
-        </Box>
-      </Box>
+          </Box>
+        </CardContent>
+      </Card>
     </main>
   );
 }

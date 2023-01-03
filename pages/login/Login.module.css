@@ -1,8 +1,28 @@
-.main {
+.login_icon {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 20px;
-  min-height: 100vh;
+}
+
+.login_icon::before {
+  background: var(--secondary-glow);
+  border-radius: 50%;
+}
+
+.login_icon::after {
+  background: var(--primary-glow);
+}
+
+.login_icon::before,
+.login_icon::after {
+  content: "";
+  filter: blur(45px);
+  transform: translateZ(0);
+}
+
+.text_title_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
