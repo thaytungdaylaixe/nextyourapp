@@ -3,14 +3,16 @@ import { DataContext } from "../../store/GlobalState";
 
 import Link from "next/link";
 
-import styles from "./Login.module.css";
+import TextFieldMui from "../components/form/TextFieldMui";
+
+import styles from "./Register.module.css";
 
 import {
+  TextField,
   Card,
   CardContent,
   Avatar,
   Button,
-  TextField,
   FormControlLabel,
   Checkbox,
   Grid,
@@ -19,18 +21,22 @@ import {
   Container,
 } from "@mui/material";
 
-export default function SignIn() {
+export default function SignUp() {
   //   const [state, dispatch] = useContext(DataContext);
   //   const { data_login } = state;
-  const [data_login, SetDataLogin] = useState({});
+  const [data, SetData] = useState({});
 
-  const InputChange = (input) => {
+  const InputChange = (inputData) => {
     // dispatch({
     //   type: "data_login",
     //   payload: input,
     //   //   payload: true,
     // });
-    SetDataLogin(input);
+
+    // const dtInput = { inputData };
+    console.log(inputData);
+
+    SetData({ ...data, ...inputData });
   };
 
   return (
@@ -52,41 +58,21 @@ export default function SignIn() {
             ĐĂNG NHẬP
           </Typography>
           <Box sx={{ mt: 1 }}>
-            <TextField
+            <TextFieldMui
               size="small"
-              defaultValue={data_login.sdt ? data_login.sdt : ""}
-              variant="outlined"
-              margin="normal"
-              fullWidth
+              defaultValue=""
               id="sdt"
-              label="Số điện thoại"
-              name="sdt"
-              autoFocus
-              onChange={(e) => {
-                e.preventDefault();
-                const { value } = e.target;
-                InputChange({ ...data_login, ["sdt"]: value });
-
-                // setData({ ...data, [name]: value });
-              }}
+              label="so dt"
+              onChange={InputChange}
             />
-            <TextField
-              margin="normal"
-              required
-              fullWidth
-              name="Mật khẩu"
-              label="Mật khẩu"
-              type="password"
-              id="Mật khẩu"
-              autoComplete="current-password"
-              onChange={(e) => {
-                e.preventDefault();
-                const { value } = e.target;
-                InputChange({ ...data_login, ["password"]: value });
-
-                // setData({ ...data, [name]: value });
-              }}
+            <TextFieldMui
+              size="small"
+              defaultValue=""
+              id="password"
+              label="Mat khau"
+              onChange={InputChange}
             />
+
             <FormControlLabel
               control={<Checkbox value="remember" color="primary" />}
               label="Remember me"
@@ -98,7 +84,7 @@ export default function SignIn() {
               sx={{ mt: 3, mb: 2 }}
               onClick={(e) => {
                 e.preventDefault();
-                console.log(data_login);
+                console.log(data);
               }}
             >
               Sign In
@@ -110,8 +96,8 @@ export default function SignIn() {
                 </Link>
               </Grid>
               <Grid item>
-                <Link href="/register" variant="body2">
-                  {"Bạn chưa có tài khoản? ĐĂNG KÝ"}
+                <Link href="/login" variant="body2">
+                  {"Bạn đã có tài khoản? ĐĂNG NHẬP"}
                 </Link>
               </Grid>
             </Grid>
