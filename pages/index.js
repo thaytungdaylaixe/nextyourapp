@@ -61,12 +61,12 @@ export default function Home() {
             </Grid>
           </Link>
 
-          <Link href="/daylaixe">
+          <Link href="/login">
             <Grid>
               <Card className={styles.card} sx={{ minWidth: 275 }}>
                 <CardContent>
                   <h2 className={inter.className}>
-                    Học lái xe <span>-&gt;</span>
+                    Đăng nhập <span>-&gt;</span>
                   </h2>
                   <p className={inter.className}>
                     Find in-depth information about Next.js features
