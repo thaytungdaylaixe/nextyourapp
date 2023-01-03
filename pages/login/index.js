@@ -1,4 +1,6 @@
 import * as React from "react";
+import Link from "next/link";
+
 import {
   Card,
   CardContent,
@@ -13,7 +15,7 @@ import {
   Container,
 } from "@mui/material";
 
-import Link from "@mui/material/Link";
+// import Link from "@mui/material/Link";
 
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 
@@ -38,9 +40,9 @@ export default function SignIn() {
           maxWidth: "600px",
         }}
       >
-        <Avatar sx={{ m: 1 }}>
+        <Link href="/" sx={{ mt: 1 }}>
           <Avatar src="/daylaixe/512x512.png" />
-        </Avatar>
+        </Link>
         <Typography component="h1" variant="h5">
           ĐĂNG NHẬP
         </Typography>

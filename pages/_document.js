@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta name="description" content="Thầy Tùng - Dạy lái xe" />
-        <link rel="icon" href="/daylaixe/android-chrome-512x512.png" />
+        <link rel="icon" href="/daylaixe/512x512.png" />
         <link rel="manifest" href="/manifest.json" />
       </Head>
       <body>

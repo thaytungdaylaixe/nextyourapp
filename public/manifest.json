@@ -8,23 +8,23 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/daylaixe/android-chrome-192x192.png",
+      "src": "/daylaixe/192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/daylaixe/android-chrome-512x512.png",
+      "src": "/daylaixe/512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "/daylaixe/android-chrome-192x192.png",
+      "src": "/daylaixe/192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/daylaixe/android-chrome-512x512.png",
+      "src": "/daylaixe/512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
