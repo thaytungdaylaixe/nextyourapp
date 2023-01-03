@@ -1,5 +1,7 @@
 import * as React from "react";
 import {
+  Card,
+  CardContent,
   Avatar,
   Button,
   TextField,
@@ -26,13 +28,14 @@ export default function SignIn() {
   };
 
   return (
-    <Container component="main" maxWidth="xs">
+    <main>
       <Box
         sx={{
           marginTop: 8,
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
+          maxWidth: "600px",
         }}
       >
         <Avatar sx={{ m: 1 }}>
@@ -88,6 +91,6 @@ export default function SignIn() {
           </Grid>
         </Box>
       </Box>
-    </Container>
+    </main>
   );
 }
