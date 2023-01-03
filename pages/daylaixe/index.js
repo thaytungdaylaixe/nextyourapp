@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 const Index = () => {
   return (
-    <main className={styles.main}>
+    <main>
       <Link href="/" className={styles.card}>
         <h2 className={inter.className}>Trang chủ</h2>
         <p className={inter.className}>
