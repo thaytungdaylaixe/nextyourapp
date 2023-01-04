@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 
 import styles from "../styles/Home.module.css";
@@ -44,12 +43,12 @@ export default function Home() {
             </Grid>
           </Link>
 
-          <Link href="/daylaixe">
+          <Link href="/daylaixe/hocvien">
             <Grid>
               <Card className={styles.card} sx={{ minWidth: 275 }}>
                 <CardContent>
                   <h2 className={inter.className}>
-                    Thời khóa biểu <span>-&gt;</span>
+                    Hoc Vien <span>-&gt;</span>
                   </h2>
                   <p className={inter.className}>
                     Find in-depth information about Next.js features

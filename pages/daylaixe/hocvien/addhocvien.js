@@ -8,11 +8,20 @@ export default function SignUp() {
     data_hocvien: { hvs },
   } = state;
 
+  const keyUrl =
+    "AKfycbxq2EeLB6GX3WFjaPKfjV61dHH8Ttk5vLjOMX0CMp05_IOgK8vzOndoQVg0D18U6DUQ";
+
+  const urlApi = "https://script.google.com/macros/s/" + keyUrl + "/exec";
+
   useEffect(() => {
     const Submit = async () => {
-      const { data } = await axios.get(
-        `https://script.google.com/macros/s/AKfycbzMVt97kyWqMsooLp5bAPRWjPKcNq4oN9Q5YQ8vLO5Ii63nYWaVzcvg6oVWZTHKvNg7/exec`
-      );
+      //   const dataPost = { action: "addData" };
+
+      const { data } = await axios.get(urlApi, {
+        params: { action: "themData", themData: "abc" },
+      });
+
+      console.log(data);
 
       dispatch({
         type: "data_hocvien",
