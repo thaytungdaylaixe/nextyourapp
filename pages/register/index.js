@@ -8,18 +8,16 @@ import TextFieldMui from "../components/form/TextFieldMui";
 import styles from "./Register.module.css";
 
 import {
-  TextField,
   Card,
   CardContent,
   Avatar,
   Button,
   FormControlLabel,
   Checkbox,
-  Grid,
-  Box,
   Typography,
-  Container,
 } from "@mui/material";
+
+import Grid from "@mui/material/Unstable_Grid2";
 
 export default function SignUp() {
   //   const [state, dispatch] = useContext(DataContext);
@@ -39,10 +37,16 @@ export default function SignUp() {
     SetData({ ...data, ...inputData });
   };
 
+  const propertiesTextfield = {
+    fullWidth: true,
+    size: "small",
+    defaultValue: "",
+  };
+
   return (
     <main>
       {}
-      <Card>
+      <Card sx={{ maxWidth: 600, width: "100%" }}>
         <CardContent>
           <div className={styles.login_icon}>
             <Link href="/" sx={{ mt: 1 }}>
@@ -55,53 +59,77 @@ export default function SignUp() {
             component="h1"
             variant="h5"
           >
-            ĐĂNG NHẬP
+            ĐĂNG KÝ
           </Typography>
-          <Box sx={{ mt: 1 }}>
-            <TextFieldMui
-              size="small"
-              defaultValue=""
-              id="sdt"
-              label="so dt"
-              onChange={InputChange}
-            />
-            <TextFieldMui
-              size="small"
-              defaultValue=""
-              id="password"
-              label="Mat khau"
-              onChange={InputChange}
-            />
-
-            <FormControlLabel
-              control={<Checkbox value="remember" color="primary" />}
-              label="Remember me"
-            />
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              sx={{ mt: 3, mb: 2 }}
-              onClick={(e) => {
-                e.preventDefault();
-                console.log(data);
-              }}
-            >
-              Sign In
-            </Button>
-            <Grid container>
-              <Grid item xs>
-                <Link href="#" variant="body2">
-                  Quên mật khẩu?
-                </Link>
-              </Grid>
-              <Grid item>
-                <Link href="/login" variant="body2">
-                  {"Bạn đã có tài khoản? ĐĂNG NHẬP"}
-                </Link>
+          <Grid
+            container
+            direction="column"
+            spacing={2}
+            xs={12}
+            justify="center"
+          >
+            <Grid item>
+              <TextFieldMui
+                properties={{ ...propertiesTextfield }}
+                id="sdt"
+                label="Số điện thoại"
+                onChange={InputChange}
+              />
+            </Grid>
+            <Grid item>
+              <TextFieldMui
+                properties={{ ...propertiesTextfield }}
+                id="password"
+                label="Mat khau"
+                onChange={InputChange}
+              />
+            </Grid>
+            <Grid item>
+              <FormControlLabel
+                control={
+                  <Checkbox value="remember" color="primary" size="small" />
+                }
+                label="Remember me"
+              />
+            </Grid>
+            <Grid item>
+              <Button
+                type="submit"
+                fullWidth
+                variant="contained"
+                onClick={(e) => {
+                  e.preventDefault();
+                  console.log(data);
+                }}
+              >
+                Sign In
+              </Button>
+            </Grid>
+            <Grid item>
+              <Grid
+                container
+                direction="row"
+                spacing={3}
+                xs={{ width: "100%" }}
+              >
+                <Grid item>
+                  <Link href="#">
+                    <Typography variant="caption">
+                      {" "}
+                      {"Quên mật khẩu?"}
+                    </Typography>
+                  </Link>
+                </Grid>
+                <Grid item>
+                  <Link href="/login">
+                    <Typography variant="caption">
+                      {"Bạn đã có tài khoản? ĐĂNG NHẬP"}
+                    </Typography>
+                  </Link>
+                </Grid>
               </Grid>
             </Grid>
-          </Box>
+          </Grid>
         </CardContent>
       </Card>
     </main>

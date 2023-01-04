@@ -1,14 +1,12 @@
 import React from "react";
 import { TextField } from "@mui/material";
 
-const TextFieldMui = ({ size, defaultValue, id, label, onChange }) => {
+const TextFieldMui = ({ properties, id, label, onChange }) => {
   return (
     <TextField
-      fullWidth
-      size={size}
-      defaultValue={defaultValue}
-      id={id}
+      {...properties}
       label={label}
+      id={id}
       name={id}
       onChange={(e) => {
         e.preventDefault();
