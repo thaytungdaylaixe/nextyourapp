@@ -1,4 +1,5 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
+import axios from "axios";
 import { DataContext } from "../../store/GlobalState";
 
 import Link from "next/link";
@@ -20,29 +21,39 @@ import {
 import Grid from "@mui/material/Unstable_Grid2";
 
 export default function SignUp() {
-  //   const [state, dispatch] = useContext(DataContext);
-  //   const { data_login } = state;
-  const [data, SetData] = useState({});
-
-  const InputChange = (inputData) => {
-    // dispatch({
-    //   type: "data_login",
-    //   payload: input,
-    //   //   payload: true,
-    // });
-
-    // const dtInput = { inputData };
-    console.log(inputData);
-
-    SetData({ ...data, ...inputData });
-  };
-
   const propertiesTextfield = {
     fullWidth: true,
     size: "small",
     defaultValue: "",
   };
+  const [state, dispatch] = useContext(DataContext);
+  //   const { data_register } = state;
 
+  const [data, SetData] = useState({});
+
+  const InputChange = (inputData) => {
+    SetData({ ...data, ...inputData });
+  };
+
+  const Submit = async () => {
+    const { data } = await axios.get(
+      `https://jsonplaceholder.typicode.com/users`
+    );
+
+    let dataResults = await Promise.all(data);
+
+    dispatch({
+      type: "data_register",
+      payload: dataResults,
+    });
+  };
+
+  useEffect(() => {
+    console.log("state", state);
+  }, [state]);
+
+  // error={errors && errors[props.id] && !!errors[props.id]}
+  //     helperText={errors && errors[props.id] && errors[props.id]}
   return (
     <main>
       {}
@@ -79,8 +90,32 @@ export default function SignUp() {
             <Grid item>
               <TextFieldMui
                 properties={{ ...propertiesTextfield }}
+                id="email"
+                label="Email"
+                onChange={InputChange}
+              />
+            </Grid>
+            <Grid item>
+              <TextFieldMui
+                properties={{ ...propertiesTextfield }}
+                id="hovaten"
+                label="Họ và tên"
+                onChange={InputChange}
+              />
+            </Grid>
+            <Grid item>
+              <TextFieldMui
+                properties={{ ...propertiesTextfield, type: "password" }}
                 id="password"
-                label="Mat khau"
+                label="Mật khẩu"
+                onChange={InputChange}
+              />
+            </Grid>
+            <Grid item>
+              <TextFieldMui
+                properties={{ ...propertiesTextfield, type: "password" }}
+                id="cf_password"
+                label="Nhập lại mật khẩu"
                 onChange={InputChange}
               />
             </Grid>
@@ -99,7 +134,7 @@ export default function SignUp() {
                 variant="contained"
                 onClick={(e) => {
                   e.preventDefault();
-                  console.log(data);
+                  Submit();
                 }}
               >
                 Sign In
