@@ -4,6 +4,8 @@ import { DataContext } from "../../store/GlobalState";
 
 import Link from "next/link";
 
+import { postData } from "../api/utils/fetchData";
+
 import TextFieldMui from "../components/form/TextFieldMui";
 
 import styles from "./Register.module.css";
@@ -36,16 +38,20 @@ export default function SignUp() {
   };
 
   const Submit = async () => {
-    const { data } = await axios.get(
-      `https://jsonplaceholder.typicode.com/users`
-    );
+    const res = await postData("auth/register", data);
 
-    let dataResults = await Promise.all(data);
+    console.log(res);
 
-    dispatch({
-      type: "data_register",
-      payload: dataResults,
-    });
+    // const { data } = await axios.get(
+    //   `https://jsonplaceholder.typicode.com/users`
+    // );
+
+    // let dataResults = await Promise.all(data);
+
+    // dispatch({
+    //   type: "data_register",
+    //   payload: dataResults,
+    // });
   };
 
   useEffect(() => {
