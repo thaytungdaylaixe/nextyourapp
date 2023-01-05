@@ -9,106 +9,72 @@ function validateEmail(email) {
   return re.test(email);
 }
 
-export const ValidRegister = (data) => {
+export const ValidData = (data) => {
   let errors = {};
-  let countErrors = 0;
-
-  if (data.sdt === "") {
-    errors.sdt = "Bạn chưa nhập số điện thoại.";
-    countErrors += 1;
-  }
-  if (!validateNumber(data.sdt)) {
-    errors.sdt = "Số điện thoại không đúng.";
-    countErrors += 1;
+  for (const key in data) {
+    let msg = ValidInputForm(key, data[key], data.password);
+    if (msg !== null) {
+      errors[key] = msg;
+    }
   }
 
-  if (data.email === "") {
-    errors.email = "Bạn chưa nhập email.";
-    countErrors += 1;
-  }
-  if (!validateEmail(data.email)) {
-    errors.email = "Email không đúng.";
-    countErrors += 1;
-  }
-
-  if (data.hovaten === "") {
-    errors.hovaten = "Bạn chưa nhập họ và tên.";
-    countErrors += 1;
-  }
-  if (data.hovaten.length < 4) {
-    errors.hovaten = "Họ và tên phải lớn hơn 4 ký tự.";
-    countErrors += 1;
-  }
-
-  if (data.password === "") {
-    errors.password = "Bạn chưa nhập mật khẩu.";
-    countErrors += 1;
-  } else if (data.password.length < 6) {
-    errors.password = "Mật khẩu phải hơn 6 ký tự.";
-    countErrors += 1;
-  } else if (data.password !== data.cf_password) {
-    errors.cf_password = "Mật khẩu không khớp.";
-    countErrors += 1;
-  }
-
-  if (data.cf_password === "") {
-    errors.cf_password = "Bạn chưa nhập lại mật khẩu.";
-    countErrors += 1;
-  } else if (data.password !== data.cf_password) {
-    errors.cf_password = "Mật khẩu không khớp.";
-    countErrors += 1;
-  }
-
-  return { errors, countErrors };
+  return errors;
 };
 
-// export const ValidInputForm = (name, value) => {
-//   switch (name) {
-//     case "sdt":
-//       if (value === "") return "Bạn chưa nhập số điện thoại.";
-//       if (!validateNumber(value)) return "Số điện thoại không đúng.";
-//       if (value.length < 10) return "Số điện thoại không đủ.";
-//       return null;
+export const ValidInputForm = (key, value, password) => {
+  let msg = "";
+  switch (key) {
+    case "sdt":
+      if (value === undefined || value === "") {
+        msg = "Bạn chưa nhập số điện thoại.";
+      } else if (!validateNumber(value)) {
+        msg = "Số điện thoại không đúng.";
+      } else if (value.length < 10) {
+        msg = "Số điện thoại không đủ.";
+      } else {
+        msg = null;
+      }
+      return msg;
 
-//     case "hovaten":
-//       if (value === "") return "Bạn chưa nhập họ và tên.";
-//       if (value.length < 4) return "Họ và tên phải lớn hơn 4 ký tự.";
-//       return null;
+    case "email":
+      if (value === undefined || value === "") {
+        msg = "Bạn chưa nhập email.";
+      } else if (!validateEmail(value)) {
+        msg = "Email không đúng.";
+      } else {
+        msg = null;
+      }
+      return msg;
 
-//     case "password":
-//       if (value === "") return "Bạn chưa nhập mật khẩu.";
-//       if (value.length < 6) return "Mật khẩu phải hơn 6 ký tự.";
-//       return null;
+    case "hovaten":
+      if (value === undefined || value === "") {
+        msg = "Bạn chưa nhập họ và tên.";
+      } else if (value.length < 4) {
+        msg = "Họ và tên phải lớn hơn 4 ký tự.";
+      } else {
+        msg = null;
+      }
+      return msg;
 
-//     case "cf_password":
-//       if (value === "") return "Bạn chưa nhập mật khẩu.";
-//       return null;
+    case "password":
+      if (value === undefined || value === "") {
+        msg = "Bạn chưa nhập mật khẩu.";
+      } else if (value.length < 6) {
+        msg = "Mật khẩu phải hơn 6 ký tự.";
+      } else {
+        msg = null;
+      }
+      return msg;
 
-//     default:
-//       return;
-//   }
-// };
+    case "cf_password":
+      if (value !== password) {
+        msg = "Mật khẩu không khớp.";
+      } else {
+        msg = null;
+      }
+      return msg;
 
-// export const ValidDangNhap = (data) => {
-//   const errors = {};
-//   const countErrors = 0;
-
-//   if (data.sdt === "") {
-//     errors.sdt = "Bạn chưa nhập số điện thoại.";
-//     countErrors += 1;
-//   }
-//   if (!validateNumber(data.sdt)) {
-//     errors.sdt = "Số điện thoại không đúng.";
-//     countErrors += 1;
-//   }
-
-//   if (data.password === "") {
-//     errors.password = "Bạn chưa nhập mật khẩu.";
-//     countErrors += 1;
-//   } else if (data.password.length < 6) {
-//     errors.password = "Mật khẩu phải hơn 6 ký tự.";
-//     countErrors += 1;
-//   }
-
-//   return { errors, countErrors };
-// };
+    default:
+      return;
+  }
+};

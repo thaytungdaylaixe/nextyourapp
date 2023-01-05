@@ -1,12 +1,12 @@
 import React, { useState, useContext, useEffect } from "react";
-import axios from "axios";
+
 import { DataContext } from "../../store/GlobalState";
 
 import Link from "next/link";
 
 import { postData } from "../api/utils/fetchData";
 
-import TextFieldMui from "../components/form/TextFieldMui";
+import { ValidInputForm } from "../api/utils/valid";
 
 import styles from "./Register.module.css";
 
@@ -18,48 +18,70 @@ import {
   FormControlLabel,
   Checkbox,
   Typography,
+  TextField,
 } from "@mui/material";
 
 import Grid from "@mui/material/Unstable_Grid2";
 
-export default function SignUp() {
-  const propertiesTextfield = {
-    fullWidth: true,
-    size: "small",
-    defaultValue: "",
-  };
+export default function Register() {
+  const InputRenderForm = [
+    { id: "sdt", label: "Số điện thoại" },
+    { id: "email", label: "Email" },
+    { id: "hovaten", label: "Họ và tên" },
+    { id: "password", label: "Mật khẩu" },
+    { id: "cf_password", label: "Nhập lại mật khẩu" },
+  ];
+
   const [state, dispatch] = useContext(DataContext);
-  //   const { data_register } = state;
 
-  const [data, SetData] = useState({});
+  const initDataForm = {
+    sdt: "",
+    email: "",
+    hovaten: "",
+    password: "",
+    cf_password: "",
+  };
 
-  const InputChange = (inputData) => {
-    SetData({ ...data, ...inputData });
+  const [data, SetData] = useState(initDataForm);
+  const [errors, setErrors] = useState({});
+
+  const InputChange = (key, val) => {
+    const errorMsg = ValidInputForm(key, val, data.password);
+
+    SetData({ ...data, [key]: val });
+
+    if (errorMsg === null) {
+      delete errors[key];
+      setErrors({ ...errors });
+      return;
+    }
+
+    setErrors({ ...errors, [key]: errorMsg });
   };
 
   const Submit = async () => {
-    const res = await postData("auth/register", data);
+    if (
+      data.sdt !== "" &&
+      data.email !== "" &&
+      data.hovaten !== "" &&
+      data.password !== "" &&
+      data.cf_password !== "" &&
+      Object.keys(errors).length === 0
+    ) {
+      const res = await postData("auth/register", data);
 
-    console.log(res);
+      console.log(res);
+      if (res.errors) return setErrors(res.errors);
 
-    // const { data } = await axios.get(
-    //   `https://jsonplaceholder.typicode.com/users`
-    // );
-
-    // let dataResults = await Promise.all(data);
-
-    // dispatch({
-    //   type: "data_register",
-    //   payload: dataResults,
-    // });
+      SetData(initDataForm);
+      setErrors({});
+    }
   };
 
   useEffect(() => {
-    console.log("state", state);
+    console.log("Register useEffect state", state);
   }, [state]);
 
-  // error={errors && errors[props.id] && !!errors[props.id]}
-  //     helperText={errors && errors[props.id] && errors[props.id]}
   return (
     <main>
       {}
@@ -78,6 +100,7 @@ export default function SignUp() {
           >
             ĐĂNG KÝ
           </Typography>
+
           <Grid
             container
             direction="column"
@@ -85,46 +108,26 @@ export default function SignUp() {
             xs={12}
             justify="center"
           >
-            <Grid item>
-              <TextFieldMui
-                properties={{ ...propertiesTextfield }}
-                id="sdt"
-                label="Số điện thoại"
-                onChange={InputChange}
-              />
-            </Grid>
-            <Grid item>
-              <TextFieldMui
-                properties={{ ...propertiesTextfield }}
-                id="email"
-                label="Email"
-                onChange={InputChange}
-              />
-            </Grid>
-            <Grid item>
-              <TextFieldMui
-                properties={{ ...propertiesTextfield }}
-                id="hovaten"
-                label="Họ và tên"
-                onChange={InputChange}
-              />
-            </Grid>
-            <Grid item>
-              <TextFieldMui
-                properties={{ ...propertiesTextfield, type: "password" }}
-                id="password"
-                label="Mật khẩu"
-                onChange={InputChange}
-              />
-            </Grid>
-            <Grid item>
-              <TextFieldMui
-                properties={{ ...propertiesTextfield, type: "password" }}
-                id="cf_password"
-                label="Nhập lại mật khẩu"
-                onChange={InputChange}
-              />
-            </Grid>
+            {InputRenderForm.map((ip, i) => (
+              <Grid item key={"ip" + i}>
+                <TextField
+                  fullWidth
+                  size="small"
+                  error={errors && errors[ip.id] && !!errors[ip.id]}
+                  helperText={errors && errors[ip.id] && errors[ip.id]}
+                  id={ip.id}
+                  name={ip.id}
+                  label={ip.label}
+                  value={data[ip.id]}
+                  onChange={(e) => {
+                    e.preventDefault();
+                    const newVal = e.target.value;
+                    InputChange(ip.id, newVal);
+                  }}
+                />
+              </Grid>
+            ))}
+
             <Grid item>
               <FormControlLabel
                 control={
@@ -143,7 +146,7 @@ export default function SignUp() {
                   Submit();
                 }}
               >
-                Sign In
+                ĐĂNG NHẬP
               </Button>
             </Grid>
             <Grid item>

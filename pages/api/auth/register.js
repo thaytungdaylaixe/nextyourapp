@@ -1,6 +1,6 @@
 import connectDB from "../utils/connectDB";
 import Users from "../models/usersModel";
-import { ValidRegister } from "../utils/valid";
+import { ValidData } from "../utils/valid";
 import bcrypt from "bcrypt";
 
 connectDB();
@@ -17,7 +17,7 @@ const register = async (req, res) => {
   try {
     const { sdt, email, hovaten, password, cf_password } = req.body;
 
-    const errMsg = ValidRegister({
+    const errors = ValidData({
       sdt,
       email,
       hovaten,
@@ -25,10 +25,9 @@ const register = async (req, res) => {
       cf_password,
     });
 
-    console.log(errMsg);
-
-    if (errMsg.countErrors > 0)
-      return res.json({ info: "error", msg: "Có lỗi xảy ra!" });
+    if (Object.keys(errors).length > 0) {
+      return res.json({ errors });
+    }
 
     const findBySdt = await Users.findOne({ sdt });
     if (findBySdt)
@@ -43,12 +42,10 @@ const register = async (req, res) => {
       cf_password,
     });
 
-    console.log(newUser);
-
     await newUser.save();
 
-    res.json({ info: "success", msg: "Bạn đã đăng ký thành công!" });
+    res.json({ success: "Bạn đã đăng ký thành công!" });
   } catch (err) {
-    return res.json({ info: "error", msg: err.message });
+    return res.json({ errors: err.message });
   }
 };
