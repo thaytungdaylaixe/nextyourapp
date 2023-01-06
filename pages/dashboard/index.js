@@ -29,7 +29,12 @@ export default function Dashboard() {
     if (reason === "clickaway") {
       return;
     }
-    SetDataSnackbar({ ...dataSnackbar, open: false });
+    SetDataSnackbar({
+      ...dataSnackbar,
+      open: false,
+      severity: "info",
+      msg: "This is an information message!",
+    });
   };
 
   return (
