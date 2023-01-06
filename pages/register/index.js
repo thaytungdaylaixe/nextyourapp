@@ -146,7 +146,7 @@ export default function Register() {
                   Submit();
                 }}
               >
-                ĐĂNG NHẬP
+                ĐĂNG KÝ
               </Button>
             </Grid>
             <Grid item>

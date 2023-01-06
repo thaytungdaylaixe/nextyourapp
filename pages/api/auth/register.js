@@ -30,8 +30,7 @@ const register = async (req, res) => {
     }
 
     const findBySdt = await Users.findOne({ sdt });
-    if (findBySdt)
-      return res.json({ info: "error", msg: "Số điện thoại đã được sử dụng!" });
+    if (findBySdt) return res.json({ errors });
 
     const passwordHash = await bcrypt.hash(password, 12);
     const newUser = new Users({
