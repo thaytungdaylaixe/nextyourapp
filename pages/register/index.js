@@ -1,4 +1,5 @@
 import React, { useState, useContext, useEffect } from "react";
+import { useRouter } from "next/router";
 
 import { DataContext } from "../../store/GlobalState";
 
@@ -19,17 +20,31 @@ import {
   Checkbox,
   Typography,
   TextField,
+  Autocomplete,
+  Snackbar,
 } from "@mui/material";
 
 import Grid from "@mui/material/Unstable_Grid2";
 
+const optionsSelectRole = [
+  { role: "HV", label: "Học viên" },
+  { role: "GV", label: "Giáo viên" },
+];
+
 export default function Register() {
+  const router = useRouter();
   const InputRenderForm = [
-    { id: "sdt", label: "Số điện thoại" },
-    { id: "email", label: "Email" },
-    { id: "hovaten", label: "Họ và tên" },
-    { id: "password", label: "Mật khẩu" },
-    { id: "cf_password", label: "Nhập lại mật khẩu" },
+    { id: "sdt", label: "Số điện thoại", type: "number" },
+    { id: "email", label: "Email", type: "text" },
+    { id: "hovaten", label: "Họ và tên", type: "text" },
+    // {
+    //   id: "role",
+    //   label: "Bạn là ...",
+    //   type: "select",
+    //   option: optionsSelectRole,
+    // },
+    { id: "password", label: "Mật khẩu", type: "password" },
+    { id: "cf_password", label: "Nhập lại mật khẩu", type: "password" },
   ];
 
   const [state, dispatch] = useContext(DataContext);
@@ -38,12 +53,16 @@ export default function Register() {
     sdt: "",
     email: "",
     hovaten: "",
+    role: "GV",
     password: "",
     cf_password: "",
   };
 
   const [data, SetData] = useState(initDataForm);
   const [errors, setErrors] = useState({});
+
+  const [valueSelect, setValueSelect] = useState(null);
+  const [inputValueSelect, setInputValueSelect] = useState("");
 
   const InputChange = (key, val) => {
     const errorMsg = ValidInputForm(key, val, data.password);
@@ -59,11 +78,19 @@ export default function Register() {
     setErrors({ ...errors, [key]: errorMsg });
   };
 
+  const selectChange = (newValue) => {
+    setValueSelect(newValue);
+    const roleData = newValue === null ? "" : newValue.role;
+
+    InputChange("role", roleData);
+  };
+
   const Submit = async () => {
     if (
       data.sdt !== "" &&
       data.email !== "" &&
       data.hovaten !== "" &&
+      data.role !== "" &&
       data.password !== "" &&
       data.cf_password !== "" &&
       Object.keys(errors).length === 0
@@ -75,16 +102,14 @@ export default function Register() {
 
       SetData(initDataForm);
       setErrors({});
+
+      router.push("/dashboard");
     }
   };
 
-  useEffect(() => {
-    console.log("Register useEffect state", state);
-  }, [state]);
-
   return (
     <main>
-      {}
+      <SnackbarMui open={openSnackbar} severity="error" msg="test" />
       <Card sx={{ maxWidth: 600, width: "100%" }}>
         <CardContent>
           <div className={styles.login_icon}>
@@ -113,6 +138,7 @@ export default function Register() {
                 <TextField
                   fullWidth
                   size="small"
+                  type={ip.type}
                   error={errors && errors[ip.id] && !!errors[ip.id]}
                   helperText={errors && errors[ip.id] && errors[ip.id]}
                   id={ip.id}
@@ -179,3 +205,44 @@ export default function Register() {
     </main>
   );
 }
+
+// {ip.type === "select" ? (
+//   <Autocomplete
+//     value={valueSelect}
+//     onChange={(event, newValue) => {
+//       selectChange(newValue);
+//     }}
+//     inputValue={inputValueSelect}
+//     onInputChange={(event, newInputValue) => {
+//       setInputValueSelect(newInputValue);
+//     }}
+//     options={ip.option}
+//     renderInput={(params) => (
+//       <TextField
+//         {...params}
+//         fullWidth
+//         size="small"
+//         label="Bạn là..."
+//         error={errors && errors[ip.id] && !!errors[ip.id]}
+//         helperText={errors && errors[ip.id] && errors[ip.id]}
+//       />
+//     )}
+//   />
+// ) : (
+//   <TextField
+//     fullWidth
+//     size="small"
+//     type={ip.type}
+//     error={errors && errors[ip.id] && !!errors[ip.id]}
+//     helperText={errors && errors[ip.id] && errors[ip.id]}
+//     id={ip.id}
+//     name={ip.id}
+//     label={ip.label}
+//     value={data[ip.id]}
+//     onChange={(e) => {
+//       e.preventDefault();
+//       const newVal = e.target.value;
+//       InputChange(ip.id, newVal);
+//     }}
+//   />
+// )}

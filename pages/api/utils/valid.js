@@ -56,6 +56,14 @@ export const ValidInputForm = (key, value, password) => {
       }
       return msg;
 
+    case "role":
+      if (value === undefined || value === "") {
+        msg = "Bạn là...";
+      } else {
+        msg = null;
+      }
+      return msg;
+
     case "password":
       if (value === undefined || value === "") {
         msg = "Bạn chưa nhập mật khẩu.";

@@ -10,7 +10,6 @@ const userSchema = new mongoose.Schema(
     email: {
       type: String,
       required: true,
-      unique: true,
     },
     hovaten: {
       type: String,
@@ -22,7 +21,7 @@ const userSchema = new mongoose.Schema(
     },
     role: {
       type: String,
-      default: "HV",
+      default: "GV",
     },
     active: {
       type: Boolean,

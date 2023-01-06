@@ -15,12 +15,13 @@ export default async (req, res) => {
 
 const register = async (req, res) => {
   try {
-    const { sdt, email, hovaten, password, cf_password } = req.body;
+    const { sdt, email, hovaten, role, password, cf_password } = req.body;
 
     const errors = ValidData({
       sdt,
       email,
       hovaten,
+      role,
       password,
       cf_password,
     });
@@ -30,18 +31,26 @@ const register = async (req, res) => {
     }
 
     const findBySdt = await Users.findOne({ sdt });
-    if (findBySdt) return res.json({ errors });
+    if (findBySdt) {
+      errors["sdt"] = "Số điện thoại đã được sử dụng!";
+      return res.json({ errors });
+    }
 
     const passwordHash = await bcrypt.hash(password, 12);
     const newUser = new Users({
       sdt,
       email,
       hovaten,
+      role,
       password: passwordHash,
       cf_password,
     });
 
-    await newUser.save();
+    await newUser.save((err) => {
+      return console.log(err);
+    });
+
+    console.log(newUser.id);
 
     res.json({ success: "Bạn đã đăng ký thành công!" });
   } catch (err) {
