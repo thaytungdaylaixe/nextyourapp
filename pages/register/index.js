@@ -109,7 +109,6 @@ export default function Register() {
 
   return (
     <main>
-      <SnackbarMui open={openSnackbar} severity="error" msg="test" />
       <Card sx={{ maxWidth: 600, width: "100%" }}>
         <CardContent>
           <div className={styles.login_icon}>
