@@ -2,10 +2,22 @@ import axios from "axios";
 
 const reducers = (state, action) => {
   switch (action.type) {
-    case "data_login":
+    case "AddUser":
       return {
         ...state,
-        data_login: action.payload,
+        user: action.payload,
+      };
+
+    case "SnackBar":
+      return {
+        ...state,
+        snackbar: action.payload,
+      };
+
+    case "Loading":
+      return {
+        ...state,
+        loading: action.payload,
       };
 
     case "data_register":

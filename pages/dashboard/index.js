@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import React, { useState, useContext, useEffect } from "react";
+import { DataContext } from "../../store/GlobalState";
 
 import Grid from "@mui/material/Unstable_Grid2";
 import { Card, CardContent, Avatar, Button } from "@mui/material";
@@ -11,31 +12,31 @@ import { Inter } from "@next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Dashboard() {
+  const [state, dispatch] = useContext(DataContext);
+
   const [dataSnackbar, SetDataSnackbar] = useState({
     open: false,
-    severity: "info",
-    msg: "This is an information message!",
   });
 
-  const handleOpenSnackbar = () => {
+  const openSnackbar = () => {
     SetDataSnackbar({
+      ...dataSnackbar,
       open: true,
       severity: "warning",
       msg: "This is an warning message!",
     });
   };
 
-  const handleCloseSnackbar = (e, reason) => {
+  const closeSnackbar = (e, reason) => {
     if (reason === "clickaway") {
       return;
     }
-    SetDataSnackbar({
-      ...dataSnackbar,
-      open: false,
-      severity: "info",
-      msg: "This is an information message!",
-    });
+    SetDataSnackbar({ ...dataSnackbar, open: false });
   };
+
+  useEffect(() => {
+    console.log(state);
+  }, []);
 
   return (
     <>
@@ -43,19 +44,23 @@ export default function Dashboard() {
         open={dataSnackbar.open}
         severity={dataSnackbar.severity}
         msg={dataSnackbar.msg}
-        close={handleCloseSnackbar}
+        close={closeSnackbar}
       />
       <main>
         Dashboard
         <Button
           variant="outlined"
           onClick={(e) => {
-            SetDataSnackbar({ ...dataSnackbar, open: true });
+            SetDataSnackbar({
+              open: true,
+              severity: "info",
+              msg: "This is an information message!",
+            });
           }}
         >
           Open success snackbar
         </Button>
-        <Button variant="outlined" onClick={handleOpenSnackbar}>
+        <Button variant="outlined" onClick={openSnackbar}>
           warning
         </Button>
       </main>

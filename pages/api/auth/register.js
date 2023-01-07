@@ -1,6 +1,7 @@
 import connectDB from "../utils/connectDB";
 import Users from "../models/usersModel";
 import { ValidData } from "../utils/valid";
+import { createAccessToken, createRefreshToken } from "../utils/generateToken";
 import bcrypt from "bcrypt";
 
 connectDB();
@@ -50,10 +51,24 @@ const register = async (req, res) => {
       return console.log(err);
     });
 
-    console.log(newUser.id);
+    const access_token = createAccessToken({ id: newUser.id });
+    const refresh_token = createRefreshToken({ id: newUser.id });
 
-    res.json({ success: "Bạn đã đăng ký thành công!" });
+    return res.json({
+      success: "Đăng ký thành công!",
+      access_token,
+      refresh_token,
+      user: {
+        sdt: newUser.sdt,
+        email: newUser.email,
+        hovaten: newUser.hovaten,
+        role: newUser.role,
+        active: newUser.active,
+      },
+    });
+
+    // res.json({ success: "Bạn đã đăng ký thành công!" });
   } catch (err) {
-    return res.json({ errors: err.message });
+    return res.json({ error: err.message });
   }
 };
