@@ -1,6 +1,6 @@
 import React from "react";
 import Loading from "./Loading";
-import SnackbarMui from "../form/SnackbarMui";
+import SnackbarMui from "./SnackbarMui";
 
 const Layout = ({ children }) => {
   return (
