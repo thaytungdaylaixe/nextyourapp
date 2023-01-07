@@ -16,6 +16,7 @@ export const DataProvider = ({ children }) => {
       msg: "Hi!",
     },
     loading: false,
+    access_token: "null",
 
     data_login: {},
     data_hocvien: [],
