@@ -43,7 +43,7 @@ export default function Cauhoi({ data, i }) {
                       : i % 2 == 0
                       ? "#D6DBDC"
                       : "",
-                  paddingLeft: "10px",
+                  padding: "10px",
                   borderRadius: "5px",
                   margin: "2px",
                 }}
