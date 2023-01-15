@@ -12,12 +12,9 @@ import {
 
 export default function Cauhoi({ data, i }) {
   const [value, setValue] = useState(null);
-  const [dungsai, SetDungsai] = useState(false);
 
   const handleChange = (event) => {
-    const { value } = event.target;
-    setValue(value);
-    value === data.dapandung ? SetDungsai(true) : SetDungsai(false);
+    setValue(event.target.value);
   };
 
   return data ? (
@@ -36,14 +33,35 @@ export default function Cauhoi({ data, i }) {
             onChange={handleChange}
           >
             {data.dapan.map((dapan, i) => (
-              <FormControlLabel
-                key={i}
-                value={dapan}
-                control={<Radio />}
-                label={
-                  <Typography variant="h6">{i + 1 + ". " + dapan}</Typography>
-                }
-              />
+              <div
+                style={{
+                  backgroundColor:
+                    (value === dapan) & (dapan === data.dapandung)
+                      ? "#4BB543"
+                      : (value === dapan) & (dapan !== data.dapandung)
+                      ? "#ED6C02"
+                      : i % 2 == 0
+                      ? "#D6DBDC"
+                      : "",
+                  paddingLeft: "10px",
+                  borderRadius: "5px",
+                  margin: "2px",
+                }}
+              >
+                <FormControlLabel
+                  key={i}
+                  value={dapan}
+                  control={<Radio />}
+                  label={
+                    <Typography
+                      variant="h6"
+                      color={value === dapan ? "white" : "grey"}
+                    >
+                      {i + 1 + ". " + dapan}
+                    </Typography>
+                  }
+                />
+              </div>
             ))}
           </RadioGroup>
         </FormControl>
@@ -58,18 +76,6 @@ export default function Cauhoi({ data, i }) {
         >
           Xóa ....
         </Typography>
-
-        {value && dungsai ? (
-          <Typography gutterBottom variant="h6" color="#4BB543">
-            Đúng - Đáp án đúng là: {data.dapandung}
-          </Typography>
-        ) : value && !dungsai ? (
-          <Typography gutterBottom variant="h6" color="#BC211D">
-            Sai - Đáp án đúng là: {data.dapandung}
-          </Typography>
-        ) : (
-          ""
-        )}
       </CardContent>
     </Card>
   ) : (
@@ -77,10 +83,11 @@ export default function Cauhoi({ data, i }) {
   );
 }
 
-// {
-//   data.dapan.map((dapan, i) => (
-//     <Typography key={i} component="div" color="text.secondary">
-//       {i + 1}. {dapan}
-//     </Typography>
-//   ));
-// }
+// <div style={{ backgroundColor: i % 2 == 0 ? "#D6DBDC" : "" }}>
+//   <FormControlLabel
+//     key={i}
+//     value={dapan}
+//     control={<Radio />}
+//     label={<Typography variant="h6">{i + 1 + ". " + dapan}</Typography>}
+//   />
+// </div>
