@@ -20,7 +20,7 @@ export default function Cauhoi({ data, i }) {
     value === data.dapandung ? SetDungsai(true) : SetDungsai(false);
   };
 
-  return (
+  return data ? (
     <Card sx={{ maxWidth: "100%" }}>
       <CardContent>
         <FormControl>
@@ -74,6 +74,8 @@ export default function Cauhoi({ data, i }) {
         )}
       </CardContent>
     </Card>
+  ) : (
+    ""
   );
 }
 
