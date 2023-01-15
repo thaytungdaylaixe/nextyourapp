@@ -54,7 +54,7 @@ export default function Cauhoi({ data, i }) {
                   control={<Radio />}
                   label={
                     <Typography
-                      variant="h6"
+                      variant="bady2"
                       color={value === dapan ? "white" : "grey"}
                     >
                       {i + 1 + ". " + dapan}
@@ -64,18 +64,18 @@ export default function Cauhoi({ data, i }) {
               </div>
             ))}
           </RadioGroup>
+          <Typography
+            gutterBottom
+            variant="bady2"
+            color="primary"
+            style={{ cursor: "pointer" }}
+            onClick={(e) => {
+              setValue(null);
+            }}
+          >
+            Xóa ....
+          </Typography>
         </FormControl>
-        <Typography
-          gutterBottom
-          variant="h6"
-          color="primary"
-          style={{ cursor: "pointer" }}
-          onClick={(e) => {
-            setValue(null);
-          }}
-        >
-          Xóa ....
-        </Typography>
       </CardContent>
     </Card>
   ) : (
