@@ -49,7 +49,7 @@ export default function Cauhoi({ data, i }) {
         </FormControl>
         <Typography
           gutterBottom
-          variant="body2"
+          variant="h6"
           color="primary"
           style={{ cursor: "pointer" }}
           onClick={(e) => {
@@ -60,11 +60,11 @@ export default function Cauhoi({ data, i }) {
         </Typography>
 
         {value && dungsai ? (
-          <Typography gutterBottom variant="body2" color="#4BB543">
+          <Typography gutterBottom variant="h6" color="#4BB543">
             Đúng - Đáp án đúng là: {data.dapandung}
           </Typography>
         ) : value && !dungsai ? (
-          <Typography gutterBottom variant="body2" color="#BC211D">
+          <Typography gutterBottom variant="h6" color="#BC211D">
             Sai - Đáp án đúng là: {data.dapandung}
           </Typography>
         ) : (
