@@ -65,7 +65,9 @@ export default function Login() {
       data.password !== "" &&
       Object.keys(errors).length === 0
     ) {
-      const res = await postData("auth/register", data);
+      const res = await postData("auth/login", data);
+
+      console.log(res);
 
       if (res.errors) {
         await dispatch({

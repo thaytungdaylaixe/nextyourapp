@@ -5,10 +5,13 @@ import reducers from "./Reducers";
 
 import { getData } from "../pages/api/utils/fetchData";
 
+import lmsData from "./lmsData.json";
+
 export const DataContext = createContext();
 
 export const DataProvider = ({ children }) => {
   const initialState = {
+    lmsData,
     user: {},
     snackbar: {
       open: false,

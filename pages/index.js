@@ -27,7 +27,7 @@ export default function Home() {
         </div>
 
         <Grid container spacing={2}>
-          <Link href="/daylaixe">
+          <Link href="/dashboard">
             <Grid>
               <Card className={styles.card} sx={{ minWidth: 275 }}>
                 <CardContent>
@@ -75,12 +75,12 @@ export default function Home() {
             </Grid>
           </Link>
 
-          <Link href="/daylaixe">
+          <Link href="/lms">
             <Grid>
               <Card className={styles.card} sx={{ minWidth: 275 }}>
                 <CardContent>
                   <h2 className={inter.className}>
-                    Học lái xe <span>-&gt;</span>
+                    LMS rdi.edu.vn <span>-&gt;</span>
                   </h2>
                   <p className={inter.className}>
                     Find in-depth information about Next.js features

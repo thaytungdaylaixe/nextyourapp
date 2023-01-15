@@ -19,6 +19,11 @@ import {
 
 import MenuIcon from "@mui/icons-material/Menu";
 import AccountCircle from "@mui/icons-material/AccountCircle";
+
+import HomeSharpIcon from "@mui/icons-material/HomeSharp";
+import LoginIcon from "@mui/icons-material/Login";
+import DashboardSharpIcon from "@mui/icons-material/DashboardSharp";
+
 import MailIcon from "@mui/icons-material/Mail";
 
 import InboxIcon from "@mui/icons-material/MoveToInbox";
@@ -46,6 +51,11 @@ export default function AppBarSideBar() {
     setDrawer({ ...drawer, [anchordrawer]: open });
   };
 
+  const dataDrawer = [
+    { text: "Trang chủ", link: "/", icon: <HomeSharpIcon /> },
+    { text: "Đăng nhập", link: "/login", icon: <LoginIcon /> },
+    { text: "Dashboard", link: "/dashboard", icon: <DashboardSharpIcon /> },
+  ];
   const list = (anchordrawer) => (
     <Box
       sx={{
@@ -57,13 +67,18 @@ export default function AppBarSideBar() {
       onKeyDown={toggleDrawer(anchordrawer, false)}
     >
       <List>
-        {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
-          <ListItem key={text} disablePadding>
+        {dataDrawer.map((menuDrawer, i) => (
+          <ListItem
+            onClick={(e) => {
+              toggleDrawer(anchordrawer, false);
+              router.push(menuDrawer.link);
+            }}
+            key={menuDrawer.text + i}
+            disablePadding
+          >
             <ListItemButton>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
+              <ListItemIcon>{menuDrawer.icon}</ListItemIcon>
+              <ListItemText primary={menuDrawer.text} />
             </ListItemButton>
           </ListItem>
         ))}
