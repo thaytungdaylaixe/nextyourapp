@@ -41,9 +41,7 @@ export default function Cauhoi({ data, i }) {
                 value={dapan}
                 control={<Radio />}
                 label={
-                  <Typography variant="body2">
-                    {i + 1 + ". " + dapan}
-                  </Typography>
+                  <Typography variant="h6">{i + 1 + ". " + dapan}</Typography>
                 }
               />
             ))}
