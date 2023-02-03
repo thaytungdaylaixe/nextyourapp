@@ -2,6 +2,54 @@ import axios from "axios";
 
 const reducers = (state, action) => {
   switch (action.type) {
+    case "ChangeMaMon":
+      return {
+        ...state,
+        dataShow: state.lmsData[action.payload],
+      };
+
+    case "AZ":
+      return {
+        ...state,
+        dataShow: state.dataShow
+          ? state["dataShow"].sort((a, b) => a.cauhoi.localeCompare(b.cauhoi))
+          : null,
+      };
+
+    case "ZA":
+      return {
+        ...state,
+        dataShow: state.dataShow
+          ? state["dataShow"].sort((a, b) => b.cauhoi.localeCompare(a.cauhoi))
+          : null,
+      };
+
+    case "RD":
+      return {
+        ...state,
+        dataShow: state.dataShow
+          ? state["dataShow"].sort(() => Math.random() - 0.5)
+          : null,
+      };
+
+    case "Loading":
+      return {
+        ...state,
+        loading: action.payload,
+      };
+
+    case "Ketqua":
+      return {
+        ...state,
+        ketqua: { ...state.ketqua, ...action.payload },
+      };
+
+    case "showKetqua":
+      return {
+        ...state,
+        showKetqua: action.payload,
+      };
+
     case "AddUser":
       return {
         ...state,
@@ -12,12 +60,6 @@ const reducers = (state, action) => {
       return {
         ...state,
         snackbar: action.payload,
-      };
-
-    case "Loading":
-      return {
-        ...state,
-        loading: action.payload,
       };
 
     case "data_register":

@@ -12,13 +12,18 @@ export const DataContext = createContext();
 export const DataProvider = ({ children }) => {
   const initialState = {
     lmsData,
+    dataShow: null,
+    ten_mon: "",
+    ketqua: {},
+    loading: false,
+    showKetqua: false,
+
     user: {},
     snackbar: {
       open: false,
       severity: "info",
       msg: "Hi!",
     },
-    loading: false,
     access_token: "null",
 
     data_login: {},

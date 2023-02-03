@@ -27,6 +27,21 @@ export default function Home() {
         </div>
 
         <Grid container spacing={2}>
+        <Link href="/lms">
+            <Grid>
+              <Card className={styles.card} sx={{ minWidth: 275 }}>
+                <CardContent>
+                  <h2 className={inter.className}>
+                    LMS rdi.edu.vn <span>-&gt;</span>
+                  </h2>
+                  <p className={inter.className}>
+                    Find in-depth information about Next.js features
+                    and&nbsp;API.
+                  </p>
+                </CardContent>
+              </Card>
+            </Grid>
+          </Link>
           <Link href="/dashboard">
             <Grid>
               <Card className={styles.card} sx={{ minWidth: 275 }}>
@@ -75,21 +90,7 @@ export default function Home() {
             </Grid>
           </Link>
 
-          <Link href="/lms">
-            <Grid>
-              <Card className={styles.card} sx={{ minWidth: 275 }}>
-                <CardContent>
-                  <h2 className={inter.className}>
-                    LMS rdi.edu.vn <span>-&gt;</span>
-                  </h2>
-                  <p className={inter.className}>
-                    Find in-depth information about Next.js features
-                    and&nbsp;API.
-                  </p>
-                </CardContent>
-              </Card>
-            </Grid>
-          </Link>
+          
         </Grid>
       </main>
     </>

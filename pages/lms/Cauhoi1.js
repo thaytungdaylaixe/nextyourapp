@@ -1,5 +1,4 @@
 import React, { useState, useContext, useEffect } from "react";
-import { DataContext } from "../../store/GlobalState";
 import {
   Card,
   CardContent,
@@ -11,34 +10,20 @@ import {
   FormLabel,
 } from "@mui/material";
 
-export default function Cauhoi({ data, stt, socau }) {
-  const [state, dispatch] = useContext(DataContext);
-  const { showKetqua } = state;
-
+export default function Cauhoi({ data, i }) {
   const [value, setValue] = useState(null);
 
   const handleChange = (event) => {
     setValue(event.target.value);
   };
 
-  useEffect(() => {
-    if (value) {
-      const { dapandung } = data;
-      const dung_sai = value === dapandung ? 1 : 0;
-      dispatch({
-        type: "Ketqua",
-        payload: { [stt]: dung_sai },
-      });
-    }
-  }, [value]);
-
   return data ? (
-    <Card id={"cau" + stt} sx={{ maxWidth: "100%", marginBottom: "10px" }}>
+    <Card sx={{ maxWidth: "100%" }}>
       <CardContent>
         <FormControl style={{ width: "100%" }}>
           <FormLabel id="demo-controlled-radio-buttons-group">
             <Typography gutterBottom variant="h6" color="primary">
-              {stt + "/" + socau} : {data.cauhoi}
+              {i + 1} : {data.cauhoi}
             </Typography>
           </FormLabel>
           <RadioGroup
@@ -53,9 +38,7 @@ export default function Cauhoi({ data, stt, socau }) {
                 style={{
                   fontFamily: "Roboto",
                   backgroundColor:
-                    showKetqua & (dapan === data.dapandung)
-                      ? "#4BB543"
-                      : (value === dapan) & (dapan === data.dapandung)
+                    (value === dapan) & (dapan === data.dapandung)
                       ? "#4BB543"
                       : (value === dapan) & (dapan !== data.dapandung)
                       ? "#ED6C02"
@@ -73,13 +56,7 @@ export default function Cauhoi({ data, stt, socau }) {
                     <Typography
                       style={{ lineHeight: 2 }}
                       variant="body2"
-                      color={
-                        showKetqua & (dapan === data.dapandung)
-                          ? "white"
-                          : value === dapan
-                          ? "white"
-                          : "grey"
-                      }
+                      color={value === dapan ? "white" : "grey"}
                     >
                       {d + 1 + ". " + dapan}
                     </Typography>
