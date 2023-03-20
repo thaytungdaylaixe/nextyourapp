@@ -66,8 +66,8 @@ export default function Sidebar() {
     setStateDrawer({ ...stateDrawer, [anchor]: open });
   };
 
-  let { infoMon } = lmsData;
-  infoMon = infoMon.reverse();
+  const infoMon = lmsData.infoMon.reverse();
+
   // const obj_mon = infoMon.find((obj) => {
   //   return obj.ma_mon === ma_mon;
   // });
@@ -104,7 +104,7 @@ export default function Sidebar() {
               <Link key={index} href={"/lms/" + mon.ma_mon}>
                 <ListItem disablePadding>
                   <ListItemButton>
-                    {index + 1}. &nbsp;&nbsp;&nbsp
+                    {index + 1}. &nbsp;&nbsp;&nbsp;
                     <ListItemText primary={mon.ten_mon} />
                   </ListItemButton>
                 </ListItem>
