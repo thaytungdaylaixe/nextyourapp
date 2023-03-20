@@ -104,7 +104,7 @@ export default function Sidebar() {
               <Link key={index} href={"/lms/" + mon.ma_mon}>
                 <ListItem disablePadding>
                   <ListItemButton>
-                    {index + 1}. &nbsp;&nbsp;&nbsp;
+                    {index + 1}. &nbsp;
                     <ListItemText primary={mon.ten_mon} />
                   </ListItemButton>
                 </ListItem>
