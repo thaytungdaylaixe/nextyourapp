@@ -67,9 +67,10 @@ export default function Sidebar() {
   };
 
   const { infoMon } = lmsData;
-  const obj_mon = infoMon.find((obj) => {
-    return obj.ma_mon === ma_mon;
-  });
+  infoMon = infoMon.reverse();
+  // const obj_mon = infoMon.find((obj) => {
+  //   return obj.ma_mon === ma_mon;
+  // });
 
   const anHienKetqua = () => {
     dispatch({
@@ -103,7 +104,7 @@ export default function Sidebar() {
               <Link key={index} href={"/lms/" + mon.ma_mon}>
                 <ListItem disablePadding>
                   <ListItemButton>
-                    {index + 1}. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    {index + 1}. &nbsp;&nbsp;&nbsp
                     <ListItemText primary={mon.ten_mon} />
                   </ListItemButton>
                 </ListItem>
