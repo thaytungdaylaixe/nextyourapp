@@ -1,0 +1,152 @@
+[
+  {
+    "cauhoi": "Nhà cung cấp dịch vụ đường truyền để kết nối với Internet được viết tắt là gì?",
+    "dapan": ["IAP", "ISP", "ICP", "IIS"],
+    "dapandung": "IAP"
+  },
+  {
+    "cauhoi": "Dịch vụ FTP sử dụng cổng mặc định nào để truyền lệnh?",
+    "dapan": ["25", "22", "20", "21"],
+    "dapandung": "21"
+  },
+  {
+    "cauhoi": "Một địa chỉ IPv4: 172.16.10.10 (chuẩn) có hai phần là phần địa chỉ mạng (Network ID) và địa chỉ máy (Host ID). Anh/ chị hãy cho biết đâu là địa chỉ mạng của địa chỉ IP 172.16.10.10?",
+    "dapan": ["172.16.10", "172.16", "172", "16.10.10"],
+    "dapandung": "172.16"
+  },
+  {
+    "cauhoi": "Hệ thống tên miền được tổ chức như thế nào?",
+    "dapan": [
+      "Không có tổ chức rõ ràng",
+      "Phân cấp hình cây",
+      "Theo các lớp",
+      "Ngang hàng"
+    ],
+    "dapandung": "Phân cấp hình cây"
+  },
+  {
+    "cauhoi": "Giao thức SMTP được sử dụng trong thư điện tử sử dụng cổng mặc định nào để kết nối?",
+    "dapan": ["110", "25", "21", "143"],
+    "dapandung": "25"
+  },
+  {
+    "cauhoi": "Dịch vụ FTP sử dụng cổng mặc định nào để truyền dữ liệu?",
+    "dapan": ["22", "20", "25", "21"],
+    "dapandung": "20"
+  },
+  {
+    "cauhoi": "DNS dùng để làm gì?",
+    "dapan": [
+      "Phân giải tên miền",
+      "Duyệt web",
+      "Định tuyến",
+      "Cấp phát địa chỉ IP"
+    ],
+    "dapandung": "Phân giải tên miền"
+  },
+  {
+    "cauhoi": "Địa chỉ IP lớp C có bao nhiêu bit dành cho phần mạng mạng?",
+    "dapan": ["4", "8", "16", "24"],
+    "dapandung": "24"
+  },
+  {
+    "cauhoi": "Địa chỉ tên miền nào sao đây có mức cao nhất được đăng ký tại Việt Nam?",
+    "dapan": ["rdi.tvu.edu.vn", "rdi.vn", "www.rdi.edu.vn", "rdi.edu.vn"],
+    "dapandung": "rdi.vn"
+  },
+  {
+    "cauhoi": "Internet được chính thức cho phép hoạt động tại Việt Nam vào năm nào?",
+    "dapan": ["1997", "1993", "1995", "1999"],
+    "dapandung": "1997"
+  },
+  {
+    "cauhoi": "Địa chỉ IPv4 bao gồm bao nhiêu bit?",
+    "dapan": ["32 bit", "128 bit", "16 bit", "48 bit"],
+    "dapandung": "32 bit"
+  },
+  {
+    "cauhoi": "Đâu KHÔNG phải ưu điểm của việc sử dụng đường truyền cáp quang để kết nối Internet?",
+    "dapan": [
+      "Lưu lượng truy cập lớn",
+      "Tốc độ truy cập nhanh",
+      "Lắp đặt đơn giản",
+      "Không bị nhiễu do thời tiết"
+    ],
+    "dapandung": "Lắp đặt đơn giản"
+  },
+  {
+    "cauhoi": "Ứng dụng nào sau đây KHÔNG hỗ trợ hội thoại trực tuyến?",
+    "dapan": ["Skype", "Facebook Messenger", "Gmail", "Yahoo Messenger"],
+    "dapandung": "Gmail"
+  },
+  {
+    "cauhoi": "Chuẩn giao thức nào được sử dụng cho mạng Internet?",
+    "dapan": ["TCP/IP", "H.324", "IPX/SPX", "NETBEUI"],
+    "dapandung": "TCP/IP"
+  },
+  {
+    "cauhoi": "Truy cập Internet bằng đường truyền ADSL là truy cập bất đối xứng. Anh/ chị hãy cho biết truy cập bất đối xứng trong ADSL có nghĩa là gì?",
+    "dapan": [
+      "Tốc độ truyền lên (upload) là không cần thiết",
+      "Tốc độ truyền xuống (download) bằng tốc độ truyền lên (upload)",
+      "Tốc độ truyền xuống (download) nhỏ hơn tốt độ truyền lên (upload)",
+      "Tốc độ truyền xuống (download) lớn hơn tốc độ truyền lên (upload)"
+    ],
+    "dapandung": "Tốc độ truyền xuống (download) lớn hơn tốc độ truyền lên (upload)"
+  },
+  {
+    "cauhoi": "Địa chỉ IP là gi?",
+    "dapan": [
+      "Là địa chỉ máy tính trên mạng",
+      "Là địa chỉ quản lý tên miền",
+      "Là một địa chỉ email",
+      "Là địa chỉ người dùng phải nhớ nếu muốn truy cập web."
+    ],
+    "dapandung": "Là địa chỉ máy tính trên mạng"
+  },
+  {
+    "cauhoi": "Tính đến năm 6/2016 tại Việt Nam có bao nhiêu ISP (Internet Service Provider) đăng ký cung cấp dịch vụ?",
+    "dapan": ["18", "20", "15", "12"],
+    "dapandung": "18"
+  },
+  {
+    "cauhoi": "Tên miền rdi.tvu.edu.vn là tên miền con của tên miền nào sau đây?",
+    "dapan": ["rdi.edu.vn", "tvu.edu.vn", "tvu.rdi.vn", "rdi.vn"],
+    "dapandung": "tvu.edu.vn"
+  },
+  {
+    "cauhoi": "Tập tin HTML được lưu lại với phần mở rộng là gì?",
+    "dapan": [".htlm", ".hmtl", ".html", ".hpml"],
+    "dapandung": ".html"
+  },
+  {
+    "cauhoi": "Đâu là đặc điểm của việc sử dụng đường truyền cáp quang để kết nối Internet?",
+    "dapan": [
+      "Lưu lượng truy cập bị hạn chế",
+      "Dùng ánh sáng truyền dữ liệu thông qua vệ tinh",
+      "Dễ bị nhiễu do dùng ánh sáng để truyền dữ liệu",
+      "Không bị nhiễu do thời tiết"
+    ],
+    "dapandung": "Không bị nhiễu do thời tiết"
+  },
+  {
+    "cauhoi": "Máy chủ chứa dịch vụ web còn được gọi là?",
+    "dapan": ["Work Station", "Mail Server", "Server", "Web Server"],
+    "dapandung": "Web Server"
+  },
+  {
+    "cauhoi": "Tên miền rdi.edu.vn là tên miền thuộc về cơ quan, tổ chức, doanh nghiệp hoạt động liên quan đến lĩnh vực nào?",
+    "dapan": [
+      "Hoạt động nghiên cứu",
+      "Hoạt động giáo dục",
+      "Hoạt động quân sự",
+      "Hoạt động thương mại"
+    ],
+    "dapandung": "Hoạt động giáo dục"
+  },
+  {
+    "cauhoi": "Địa chỉ IPv4 nào sao đây là địa chỉ IP của lớp A?",
+    "dapan": ["172.30.0.253", "192.168.0.25", "172.16.0.253", "10.5.0.200"],
+    "dapandung": "10.5.0.200"
+  }
+]
