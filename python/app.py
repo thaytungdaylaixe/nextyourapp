@@ -209,7 +209,7 @@ def Main(ma_mon, so_lan, lan_lam_thu):
     driver.switch_to.window(whandle)
 
     print(' ')
-    print(style.GREEN + 'So cau : ' + str(so_cau) + ' - Da lam ' + str(lan_lam_thu)+' lan' + style.RESET) 
+    print(style.GREEN + 'So cau : ' + str(so_cau) + ' - Da lam ' + str(lan_lam_thu)+'/'+str(so_lan) +' lan' + style.RESET) 
     print(' ')
 
     if(int(so_lan)<= int(lan_lam_thu)):    

@@ -66,7 +66,7 @@ export default function Sidebar() {
     setStateDrawer({ ...stateDrawer, [anchor]: open });
   };
 
-  const { infoMon } = lmsData;
+  let { infoMon } = lmsData;
   infoMon = infoMon.reverse();
   // const obj_mon = infoMon.find((obj) => {
   //   return obj.ma_mon === ma_mon;
