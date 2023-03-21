@@ -51,6 +51,7 @@ def getInfoMon(ma_mon, ten_mon):
 
 def solanLambai():
     print(' ')
+    so_lan = input(style.GREEN + 'Mời bạn chọn bài tập    ' + style.RESET)   
     so_lan = input(style.GREEN + 'Ban muon lam bao nhieu lan?    ' + style.RESET)   
     print(' ')
 
@@ -93,9 +94,11 @@ def checkKey(database, ma_mon):
         database.update(data)
         saveData(database)
 
-        with open(path_data, encoding='utf-8') as outfile:
-            database = json.load(outfile)
-            return database
+        return database
+
+        # with open(path_data, encoding='utf-8') as outfile:
+        #     database = json.load(outfile)
+           
 
 
 def getDataMon(ma_mon):

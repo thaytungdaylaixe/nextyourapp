@@ -2884,6 +2884,601 @@
         "Có tri giác và có cả cảm giác"
       ],
       "dapandung": "Có tri giác và có cả cảm giác"
+    },
+    {
+      "cauhoi": "Tri giác xuất hiện từ loài nào?",
+      "dapan": [
+        "Động vật có hệ thần kinh trung ương",
+        "Động vật có hệ thần kinh ống",
+        "Động vật có hệ thần kinh mấu",
+        "Động vật có hệ thần kinh lưới"
+      ],
+      "dapandung": "Động vật có hệ thần kinh ống"
+    },
+    {
+      "cauhoi": "Tư duy và tưởng tưởng khác nhau ở điểm nào?",
+      "dapan": [
+        "Cách sử dụng nguyên liệu từ trí nhớ",
+        "Có liên quan nhận thức cảm tính",
+        "Cấp độ nhận thức lý tính",
+        "Phản ánh một cách gián tiếp"
+      ],
+      "dapandung": "Cách sử dụng nguyên liệu từ trí nhớ"
+    },
+    {
+      "cauhoi": "“Khi cơ thể bị sốt, ta không nên chườm đá mà nên lau bằng khăn ấm.” Khuyến cáo này cũng cho thấy cảm giác bị chi phối bởi quy luật nào?",
+      "dapan": [
+        "Quy luật tác động qua lại nối tiếp giữa các cảm giác",
+        "Quy luật tác động qua lại đồng thời giữa các cảm giác",
+        "Quy luật thích ứng của cảm giác",
+        "Quy luật ngưỡng cảm giác"
+      ],
+      "dapandung": "Quy luật tác động qua lại đồng thời giữa các cảm giác"
+    },
+    {
+      "cauhoi": "Ngưỡng sai biệt của cảm giác tồn tại và hoạt động như thế nào?",
+      "dapan": [
+        "Phụ thuộc vào sức khỏe ta",
+        "Phụ thuộc vào luyện tập của ta",
+        "Phụ thuộc vào tâm trạng của ta",
+        "Là hằng số không thay đổi"
+      ],
+      "dapandung": "Là hằng số không thay đổi"
+    },
+    {
+      "cauhoi": "Độ nhạy cảm của cảm giác được phân biệt với ngưỡng cảm giác trên ở đặc điểm nào?",
+      "dapan": [
+        "Xuất hiện với cường độ kích thích tối đa",
+        "Xuất hiện với cường độ kích thích tối thiểu",
+        "Vị trí nguồn kích thích bên ngoài hay bên trong",
+        "Cơ quan nhận cảm cảm nhận được được kích thích"
+      ],
+      "dapandung": "Xuất hiện với cường độ kích thích tối thiểu"
+    },
+    {
+      "cauhoi": "Loại tư duy trực quan hành động được thể hiện ra sao?",
+      "dapan": [
+        "Hiểu vấn đề khi tự tưởng tượng",
+        "Hiểu vấn đề khi được cầm tay chỉ việc",
+        "Hiểu vấn đề khi được quan sát",
+        "Hiểu vấn đề khi được nghe nói"
+      ],
+      "dapandung": "Hiểu vấn đề khi được cầm tay chỉ việc"
+    },
+    {
+      "cauhoi": "“Ngày nay các đầu bếp hay cắt tỉa rau củ thành hoa, chim, cá…” Việc này cho thấy cách tưởng tượng sáng tạo nào ở họ được thể hiện?",
+      "dapan": [
+        "Nhấn mạnh – cường điệu",
+        "Chắp ghép – kết dính",
+        "Loại suy",
+        "Liên hợp"
+      ],
+      "dapandung": "Loại suy"
+    },
+    {
+      "cauhoi": "Tư duy và tưởng tượng giống nhau ở điểm nào?",
+      "dapan": [
+        "Phản ánh thuộc tính bên ngoài sự vật, hiện tượng",
+        "Phản ánh những sự vật, hiện tượng mà trước đó chưa từng tri giác",
+        "Phản ánh sự vật, hiện tượng một cách trực tiếp",
+        "Phản ánh sự vật, hiện tượng một cách gián tiếp"
+      ],
+      "dapandung": "Phản ánh sự vật, hiện tượng một cách gián tiếp"
+    },
+    {
+      "cauhoi": "Cảm giác xuất hiện từ loài nào?",
+      "dapan": [
+        "Động vật có hệ thần kinh lưới",
+        "Động vật có hệ thần kinh trung ương",
+        "Động vật có hệ thần kinh ống",
+        "Động vật có hệ thần kinh mấu"
+      ],
+      "dapandung": "Động vật có hệ thần kinh mấu"
+    },
+    {
+      "cauhoi": "“Khi đi từ trong nhà ra sân, nắng chói làm mắt ta khó chịu nhưng một lúc sau đứng ngoài sân ta lại thấy bình thường.” Trong suốt quá trình trên, độ nhạy cảm mắt của ta đã thay đổi ra sao?",
+      "dapan": [
+        "Lúc đầu giảm lúc sau tăng",
+        "Giảm",
+        "Không thay đổi",
+        "Lúc đầu tăng lúc sau giảm"
+      ],
+      "dapandung": "Lúc đầu tăng lúc sau giảm"
+    },
+    {
+      "cauhoi": "Khi nhìn từ máy bay xuống thành phố, ta thấy các phương tiện giao thông đang di chuyển rất chậm, nhưng ta biết chúng đang đi như bình thường. Quy luật nào của tri giác được thể hiện?",
+      "dapan": [
+        "Quy luật ổn định",
+        "Quy luật tổng giác",
+        "Quy luật về tính có ý nghĩa",
+        "Quy luật lựa chọn"
+      ],
+      "dapandung": "Quy luật ổn định"
+    },
+    {
+      "cauhoi": "“Tanh” là cảm giác của cơ quan thụ cảm nào nào?",
+      "dapan": ["Vị giác", "Thị giác", "Khứu giác", "Xúc giác (Mạc giác)"],
+      "dapandung": "Khứu giác"
+    },
+    {
+      "cauhoi": "Cảm giác nào là cảm giác bên trong?",
+      "dapan": [
+        "Cảm giác thăng bằng",
+        "Cảm giác về vị trí của vật",
+        "Cảm giác âm thanh",
+        "Cảm giác mùi vị"
+      ],
+      "dapandung": "Cảm giác thăng bằng"
+    },
+    {
+      "cauhoi": "Như thế nào là một trí nhớ tốt?",
+      "dapan": [
+        "Không thể quên và nhớ một cách có chủ định",
+        "Quên tất cả những gì đã trải nghiệm",
+        "Nhớ tất cả những gì đã trải nghiệm",
+        "Có thể quên và nhớ một cách có chủ định"
+      ],
+      "dapandung": "Có thể quên và nhớ một cách có chủ định"
+    },
+    {
+      "cauhoi": "“Trông mặt mà bắt hình dong,\nCon lợn có béo thì lòng mới ngon”\nHai câu thơ trên nói lên đặc điểm nào của tư duy?",
+      "dapan": [
+        "Có quan hệ mật thiết với nhận thức cảm tính",
+        "Có tính trừu tượng và khái quát",
+        "Có quan hệ chặt chẽ với ngôn ngữ",
+        "Có tính lý tính"
+      ],
+      "dapandung": "Có quan hệ mật thiết với nhận thức cảm tính"
+    },
+    {
+      "cauhoi": "Tính cảm ứng của sinh vật xuất hiện cùng với sự xuất hiện của loài nào?",
+      "dapan": [
+        "Động vật có hệ thần kinh mấu",
+        "Động vật có hệ thần kinh lưới",
+        "Động vật có hệ thần kinh ống",
+        "Động vật có hệ thần kinh trung ương"
+      ],
+      "dapandung": "Động vật có hệ thần kinh lưới"
+    },
+    {
+      "cauhoi": "Cảm giác và tri giác khác nhau ở điểm nào?",
+      "dapan": [
+        "Phản ánh sự vật, hiện tượng một cách gián tiếp",
+        "Phản ánh các thuộc tính bản chất của sự vật",
+        "Phản ánh sự vật, hiện tượng một cách trực tiếp",
+        "Phản ánh trọn vẹn các thuộc tính bên ngoài của sự vật"
+      ],
+      "dapandung": "Phản ánh trọn vẹn các thuộc tính bên ngoài của sự vật"
+    },
+    {
+      "cauhoi": "Đều sử dụng trí nhớ như cầu nối để giải quyết vấn đề, nhưng tưởng tượng khác tư duy ở chỗ nào?",
+      "dapan": [
+        "Dùng hiểu biết để suy nghĩ",
+        "Dùng nhận thức cảm tính làm nguyên liệu.",
+        "Dùng các thao tác theo trình tự",
+        "Dùng biểu tượng để suy nghĩ"
+      ],
+      "dapandung": "Dùng biểu tượng để suy nghĩ"
+    },
+    {
+      "cauhoi": "Câu tục ngữ “Cả giận mất khôn” miêu tả mức độ nào của xúc cảm, tình cảm?",
+      "dapan": [
+        "Xúc cảm - Tâm trạng",
+        "Xúc cảm – Xúc động",
+        "Màu sắc xúc cảm của cảm giác",
+        "Tình cảm – Đam mê"
+      ],
+      "dapandung": "Xúc cảm – Xúc động"
+    },
+    {
+      "cauhoi": "Câu ca dao sau muốn nói đến quy luật nào của tình cảm?\n“Năng mưa thì giếng năng đầy;\nAnh năng đi lại mẹ thầy năng thương”",
+      "dapan": [
+        "Quy luật hình thành",
+        "Quy luật cảm ứng",
+        "Quy luật thích ứng",
+        "Quy luật pha trộn"
+      ],
+      "dapandung": "Quy luật hình thành"
+    },
+    {
+      "cauhoi": "Câu thành ngữ “Điếc không sợ súng” muốn đề cập tới đặc trưng nào của xúc cảm, tình cảm?",
+      "dapan": [
+        "Đặc trưng nhận thức",
+        "Đặc trưng đối cực",
+        "Đặc trưng xã hội",
+        "Đặc trưng chân thật"
+      ],
+      "dapandung": "Đặc trưng nhận thức"
+    },
+    {
+      "cauhoi": "So với người chưa từng tập đánh cầu trước đây, thì người đã đánh cầu theo kiểu tự phát khi được học bài bản lại chậm tiến bộ hơn. Vì sự ảnh hưởng của quy luật hình thành kỹ xảo nào?",
+      "dapan": [
+        "Quy luật tiến bộ không đồng đều",
+        "Quy luật đỉnh của phương pháp luyện tập",
+        "Quy luật tác động qua lại giữa kỹ xảo cũ và mới",
+        "Quy luật dập tắt kỹ xảo"
+      ],
+      "dapandung": "Quy luật tác động qua lại giữa kỹ xảo cũ và mới"
+    },
+    {
+      "cauhoi": "Hiện tượng “Đồng cảm” thể hiện quy luật nào trong đời sống tình cảm của con người?",
+      "dapan": [
+        "Quy luật pha trộn",
+        "Quy luật lây lan",
+        "Quy luật cảm ứng",
+        "Quy luật hình thành"
+      ],
+      "dapandung": "Quy luật lây lan"
+    },
+    {
+      "cauhoi": "Câu “Yêu nhau lắm, cắn nhau đau” đề cập quy luật nào của tình cảm?",
+      "dapan": [
+        "Quy luật hình thành",
+        "Quy luật pha trộn",
+        "Quy luật cảm ứng",
+        "Quy luật di chuyển"
+      ],
+      "dapandung": "Quy luật pha trộn"
+    },
+    {
+      "cauhoi": "Dân gian có câu:\n“Lỗ mũi mười tám gánh lông;\nChồng yêu chồng bảo râu rồng trời cho”.\nCâu trên cho thấy tình cảm con người có đặc trưng gì?",
+      "dapan": [
+        "Đặc trưng xã hội",
+        "Đặc trưng đối cực",
+        "Đặc trưng chân thật",
+        "Đặc trưng nhận thức"
+      ],
+      "dapandung": "Đặc trưng nhận thức"
+    },
+    {
+      "cauhoi": "Xác định đâu là nhu cầu cấp cao?",
+      "dapan": [
+        "Trẻ em cần được sống",
+        "Trẻ em cần được tiêm chủng",
+        "Trẻ em cần được giáo dục",
+        "Trẻ em cần được ăn uống"
+      ],
+      "dapandung": "Trẻ em cần được giáo dục"
+    },
+    {
+      "cauhoi": "“Ta chỉ giận những người ta thương;\nTa buồn những người ta yêu quý;\nHơi đâu mà giận người dưng”\n-Thanh Nhàn-\nĐoạn thơ trên muốn đề cập tới quy luật nào trong đời sống tình cảm con người",
+      "dapan": [
+        "Quy luật hình thành",
+        "Quy luật cảm ứng",
+        "Quy luật di chuyển",
+        "Quy luật pha trộn"
+      ],
+      "dapandung": "Quy luật pha trộn"
+    },
+    {
+      "cauhoi": "Cùng một môn thể thao nhưng khi tập với những cách khác nhau ta lại đạt được những thành quả khác nhau. Quy luật nào của việc hình thành kỹ xảo thể hiện ở đây?",
+      "dapan": [
+        "Quy luật đỉnh của phương pháp luyện tập",
+        "Quy luật tiến bộ không đồng đều",
+        "Quy luật dập tắt kỹ xảo",
+        "Quy luật tác động qua lại giữa kỹ xảo cũ và mới"
+      ],
+      "dapandung": "Quy luật đỉnh của phương pháp luyện tập"
+    },
+    {
+      "cauhoi": "Hiện tượng “Lì đòn” ở trẻ em cho thấy xúc cảm, tình cảm thể hiện quy luật nào?",
+      "dapan": [
+        "Quy luật cảm ứng",
+        "Quy luật pha trộn",
+        "Quy luật hình thành",
+        "Quy luật thích ứng"
+      ],
+      "dapandung": "Quy luật thích ứng"
+    },
+    {
+      "cauhoi": "Hành vi và lời nói, tự nhận thức và sự đánh giá của người khác về một cá nhân luôn có sự trùng khớp nhất định. Đó là do nhân cách có đặc tính gì?",
+      "dapan": [
+        "Tính giao tiếp của nhân cách",
+        "Tính tích cực của nhân cách",
+        "Tính ổn định của nhân cách",
+        "Tính thống nhất của nhân cách"
+      ],
+      "dapandung": "Tính thống nhất của nhân cách"
+    },
+    {
+      "cauhoi": "Trong các yếu tố sau, yếu tố nào giữ vai trò chủ đạo trong sự phát triển nhân cách của mỗi cá nhân?",
+      "dapan": ["Giao tiếp", "Giáo dục", "Tập thể", "Hoạt động"],
+      "dapandung": "Giáo dục"
+    },
+    {
+      "cauhoi": "Nhìn từ gốc độ Tâm lý học, cấu trúc của nhân cách bao gồm những bộ phận nào?",
+      "dapan": [
+        "Văn và võ",
+        "Phẩm chất và năng lực",
+        "Tính cách, xu hướng, khí chất và năng lực",
+        "Đức và tài"
+      ],
+      "dapandung": "Tính cách, xu hướng, khí chất và năng lực"
+    },
+    {
+      "cauhoi": "Trong cấu trúc của nhân cách, thuộc tính tâm lý nào thể hiện thái độ của cá nhân?",
+      "dapan": ["Tính cách", "Xu hướng", "Khí chất", "Năng lực"],
+      "dapandung": "Tính cách"
+    },
+    {
+      "cauhoi": "Trong cấu trúc của nhân cách, thuộc tính tâm lý nào thể hiện khả năng của mỗi người?",
+      "dapan": ["Tính cách", "Xu hướng", "Năng lực", "Khí chất"],
+      "dapandung": "Năng lực"
+    },
+    {
+      "cauhoi": "Trong cấu trúc của nhân cách, thuộc tính tâm lý nào thể hiện sự lựa chọn của cá nhân?",
+      "dapan": ["Năng lực", "Tính cách", "Xu hướng", "Khí chất"],
+      "dapandung": "Xu hướng"
+    },
+    {
+      "cauhoi": "Biểu hiện nào sau đây thể hiện khí chất của cá nhân?",
+      "dapan": [
+        "Nổi tiếng nghiêm túc khi biểu diễn",
+        "Rất điềm tĩnh khi xử lý sự cố",
+        "Rất thích biểu diễn ở vùng quê",
+        "Hát rất hay"
+      ],
+      "dapandung": "Rất điềm tĩnh khi xử lý sự cố"
+    },
+    {
+      "cauhoi": "Trong cấu trúc của nhân cách, thuộc tính tâm lý nào thể hiện cường độ, tốc độ, nhịp độ của hành vi?",
+      "dapan": ["Tính cách", "Xu hướng", "Năng lực", "Khí chất"],
+      "dapandung": "Khí chất"
+    },
+    {
+      "cauhoi": "Yếu tố nào sau đây KHÔNG thuộc về xu hướng?",
+      "dapan": ["Lý tưởng", "Thế giới quan", "Tư chất", "Nhu cầu"],
+      "dapandung": "Tư chất"
+    },
+    {
+      "cauhoi": "Xác định đặc điểm nào không thuộc về nhân cách?",
+      "dapan": [
+        "Thô lỗ",
+        "Không nhạy cảm trong ứng xử",
+        "Hay bướng bỉnh",
+        "Phản ứng vận động nhanh"
+      ],
+      "dapandung": "Phản ứng vận động nhanh"
+    },
+    {
+      "cauhoi": "Trong các yếu tố sau, yếu tố nào giữ vai trò quyết định sự phát triển nhân cách của mỗi cá nhân?",
+      "dapan": ["Tập thể", "Hoạt động", "Giáo dục", "Văn hóa"],
+      "dapandung": "Hoạt động"
+    },
+    {
+      "cauhoi": "C thì cẩn thận, D thì cẩu thả. Ta nói C, D đang thể hiện thuộc tính tâm lý nào?",
+      "dapan": ["Xu hướng", "Tính cách", "Khí chất", "Năng lực"],
+      "dapandung": "Tính cách"
+    },
+    {
+      "cauhoi": "“Khéo tay” được xếp vào nhóm thuộc tính tâm lý nào của cá nhân?",
+      "dapan": ["Khí chất", "Xu hướng", "Tính cách", "Năng lực"],
+      "dapandung": "Năng lực"
+    },
+    {
+      "cauhoi": "Điền từ thích hợp vào khoảng trống: “Nhân cách là tổ hợp những đặc điểm, những ……....của cá nhân biểu hiện bản sắc và giá trị xã hội của cá nhân”",
+      "dapan": [
+        "Thuộc tính tâm lý",
+        "Thuộc tính sinh lý",
+        "Thuộc tính di truyền",
+        "Thuộc tính bản năng"
+      ],
+      "dapandung": "Thuộc tính tâm lý"
+    },
+    {
+      "cauhoi": "Biểu hiện nào trong các nét tính cách dưới đây cho thấy thái độ của cá nhân với lao động?",
+      "dapan": ["Tinh thần hợp tác", "Tự tin", "Chăm chỉ", "Công bằng"],
+      "dapandung": "Chăm chỉ"
+    },
+    {
+      "cauhoi": "Hành vi do cá nhân ý thức rõ mục đích của mình có được gọi là lệch chuẩn không?",
+      "dapan": [
+        "Không, nếu hành vi đó nói lên một chân lý, sự thật mà đa số các thành viên trong cộng đồng chưa biết tới; các văn bản pháp quy nghiêm cấm vì lợi ích nhóm (Ví dụ: Nhà Vật lý học Gan-li-lêo tuyên bố Trái đất quay xung quanh mặt trời)",
+        "Không, nếu hành vi đó giống với đa số thành viên cộng đồng",
+        "Có, nếu hành vi đó không giống với đa số thành viên trong cộng đồng",
+        "Có, nếu hành vi đó không được các văn bản pháp quy cho phép"
+      ],
+      "dapandung": "Không, nếu hành vi đó nói lên một chân lý, sự thật mà đa số các thành viên trong cộng đồng chưa biết tới; các văn bản pháp quy nghiêm cấm vì lợi ích nhóm (Ví dụ: Nhà Vật lý học Gan-li-lêo tuyên bố Trái đất quay xung quanh mặt trời)"
+    },
+    {
+      "cauhoi": "Dễ bị kích động là dấu hiệu nhận diện loại khí chất nào?",
+      "dapan": ["Hăng hái", "Ưu tư", "Bình thản", "Nóng nảy"],
+      "dapandung": "Nóng nảy"
+    },
+    {
+      "cauhoi": "Trẻ em sẽ không phát triển tốt nếu không được chơi cùng người lớn và các trẻ em khác. Điều đó chứng tỏ đặc tính gì của nhân cách?",
+      "dapan": [
+        "Tính thống nhất của nhân cách",
+        "Tính giao tiếp của nhân cách",
+        "Tính tích cực của nhân cách",
+        "Tính ổn định của nhân cách"
+      ],
+      "dapandung": "Tính giao tiếp của nhân cách"
+    },
+    {
+      "cauhoi": "Biểu hiện nào sau đây thể hiện tính cách của cá nhân?",
+      "dapan": [
+        "Rất điềm tĩnh khi xử lý sự cố",
+        "Hát rất hay",
+        "Rất thích biểu diễn ở vùng quê",
+        "Nổi tiếng nghiêm túc khi biểu diễn"
+      ],
+      "dapandung": "Nổi tiếng nghiêm túc khi biểu diễn"
+    },
+    {
+      "cauhoi": "Tư duy xuất hiện từ loài nào?",
+      "dapan": [
+        "Động vật có hệ thần kinh mấu",
+        "Động vật có hệ thần kinh lưới",
+        "Động vật có hệ thần kinh ống",
+        "Động vật có hệ thần kinh trung ương"
+      ],
+      "dapandung": "Động vật có hệ thần kinh trung ương"
+    },
+    {
+      "cauhoi": "Sức bền của chú ý cần được hiểu chính xác như thế nào?",
+      "dapan": [
+        "Tập trung ý thức vào phạm vi hẹp của đối tượng không bị sao nhãng bởi bất kỳ điều gì.",
+        "Tập trung chú ý theo thời gian của nhiệm vụ nhận thức",
+        "Tập trung ý thức từ 2 giờ đồng hồ trở lên",
+        "Tập trung ý thức được nhiều đối tượng nhận thức cùng lúc"
+      ],
+      "dapandung": "Tập trung chú ý theo thời gian của nhiệm vụ nhận thức"
+    },
+    {
+      "cauhoi": "Hiện tượng nào dưới đây là hiện tượng tâm lí?",
+      "dapan": [
+        "Bụng đói cồn cào",
+        "Lo lắng trước kì thi",
+        "Khóc mắt đỏ hoe",
+        "Tim đập nhanh"
+      ],
+      "dapandung": "Lo lắng trước kì thi"
+    },
+    {
+      "cauhoi": "A thích học Toán, còn B thích học Văn. Ta nói A, B đang thể hiện thuộc tính tâm lý nào?",
+      "dapan": ["Năng lực", "Tính cách", "Khí chất", "Xu hướng"],
+      "dapandung": "Xu hướng"
+    },
+    {
+      "cauhoi": "“Người ta có thể giấu mọi thứ, trừ hai điều này: Say rượu và đang yêu”\n- Antiphane-\nCâu châm ngôn trên muốn nói đến đặc trưng nào của tình cảm?",
+      "dapan": [
+        "Đặc trưng xã hội",
+        "Đặc trưng nhận thức",
+        "Đặc trưng chân thật",
+        "Đặc trưng đối cực"
+      ],
+      "dapandung": "Đặc trưng chân thật"
+    },
+    {
+      "cauhoi": "Cơ sở sinh lý của hiện tượng tâm lý là phản xạ có điệu kiện, vậy cơ sở sinh lý thần kinh của phản xạ có điều kiện là gì?",
+      "dapan": [
+        "Hệ thần kinh phó giao cảm",
+        "Một bộ não hoạt động bình thường",
+        "Đường liên hệ tạm thời tương ứng hình thành trên võ não",
+        "Hệ thần kinh giao cảm"
+      ],
+      "dapandung": "Đường liên hệ tạm thời tương ứng hình thành trên võ não"
+    },
+    {
+      "cauhoi": "Vì sao nói phản xạ có điều kiện là cơ sở sinh lý của hiện tượng tâm lý?",
+      "dapan": [
+        "Vì tâm lý được sinh ra và phát triển theo sự tăng trưởng kích thước và trọng lượng não bộ",
+        "Vì từ lúc sinh ra con người đã có sẵn hiện tượng tâm lý",
+        "Vì tâm lý người không tự sinh ra trên não mà phải được hình thành dần bằng cơ chế của phản xạ có điều kiện",
+        "Vì phản xạ không điều kiện có thể mất đi thay thế vào là phản xạ có điều kiện"
+      ],
+      "dapandung": "Vì tâm lý người không tự sinh ra trên não mà phải được hình thành dần bằng cơ chế của phản xạ có điều kiện"
+    },
+    {
+      "cauhoi": "Hoạt động chủ đạo là gì?",
+      "dapan": [
+        "Hoạt động chiếm nhiều thời gian nhất, trong một giai đoạn nhất định",
+        "Hoạt động mà cá nhân yêu thích nhất trong một thời gian nhất định",
+        "Hoạt động giúp con người phát triển tốt nhất trong một giai đoạn nhất định",
+        "Hoạt động có nhiều người tham gia nhất trong một thời gian xác định"
+      ],
+      "dapandung": "Hoạt động giúp con người phát triển tốt nhất trong một giai đoạn nhất định"
+    },
+    {
+      "cauhoi": "Giá trị đích thực của ý chí nằm ở ___________.",
+      "dapan": [
+        "Cường độ ý chí mạnh mẽ",
+        "Nội dung đạo đức của ý chí",
+        "Cường độ ý chí yếu",
+        "Cường độ ý chí vừa phải"
+      ],
+      "dapandung": "Nội dung đạo đức của ý chí"
+    },
+    {
+      "cauhoi": "Nhờ có đặc tính này mà chất lượng các thuộc tính tâm lý cá nhân được phân biệt, đó là gì?",
+      "dapan": [
+        "Tính tích cực của nhân cách",
+        "Tính ổn định của nhân cách",
+        "Tính thống nhất của nhân cách",
+        "Tính giao tiếp của nhân cách"
+      ],
+      "dapandung": "Tính tích cực của nhân cách"
+    },
+    {
+      "cauhoi": "Cùng nghe một bài hát, mỗi người liên tưởng đến một viễn cảnh lãng mạn khác nhau. Hiện tượng này chứng tỏ gì?",
+      "dapan": [
+        "Tâm lý người không liên quan tới hiện thực của nó",
+        "Tâm lý người có tính chủ thể.",
+        "Tâm lý người là một cấu trúc sẵn có",
+        "Do di truyền nên tâm lý có nội dung khác nhau"
+      ],
+      "dapandung": "Tâm lý người có tính chủ thể."
+    },
+    {
+      "cauhoi": "Tình huống có vấn đề làm nảy sinh tư duy là tình huống khiến cá nhân thấy như thế nào?",
+      "dapan": [
+        "Dễ dàng, quen thuộc",
+        "Khó nhưng hy vọng sẽ làm được",
+        "Rất khó khăn, lạ lẵm, vô vọng",
+        "Khó, không phải việc của mình"
+      ],
+      "dapandung": "Khó nhưng hy vọng sẽ làm được"
+    },
+    {
+      "cauhoi": "Chú ý là một trạng thái tâm lý đi kèm một quá trình nhận thức. Điều này có nghĩa gì?",
+      "dapan": [
+        "Chú ý là hiện tượng tâm lý không thể nghiên cứu",
+        "Chú ý không có đối tượng riêng của mình",
+        "Chú ý luôn có đối tượng riêng của mình",
+        "Chú ý chỉ là một hiện tượng sinh lý bản năng"
+      ],
+      "dapandung": "Chú ý không có đối tượng riêng của mình"
+    },
+    {
+      "cauhoi": "Hiện tượng nào dưới đây chứng tỏ tâm lý ảnh hưởng đến sinh lý?",
+      "dapan": [
+        "Lạnh làm run người",
+        "Lo lắng đến mất ngủ",
+        "Khóc sưng mắt",
+        "Tuyến nội tiết làm thay đổi tâm trạng"
+      ],
+      "dapandung": "Lo lắng đến mất ngủ"
+    },
+    {
+      "cauhoi": "Biểu hiện nào sau đây thể hiện năng lực của cá nhân?",
+      "dapan": [
+        "Nổi tiếng nghiêm túc khi biểu diễn",
+        "Rất thích biểu diễn ở vùng quê",
+        "Rất điềm tĩnh khi xử lý sự cố",
+        "Hát rất hay"
+      ],
+      "dapandung": "Hát rất hay"
+    },
+    {
+      "cauhoi": "Một ngoại ngữ cho dù đã được thuần thục, nhưng nếu không dùng tới một thời gian ta sẽ trở nên dỡ đi, thậm chí không thể dùng được. Quy luật nào của kỹ xảo được thể hiện ở đây?",
+      "dapan": [
+        "Quy luật dập tắt kỹ xảo",
+        "Quy luật tiến bộ không đồng đều",
+        "Quy luật đỉnh của phương pháp luyện tập",
+        "Quy luật tác động qua lại giữa kỹ xảo cũ và mới"
+      ],
+      "dapandung": "Quy luật dập tắt kỹ xảo"
+    },
+    {
+      "cauhoi": "Quy luật hoạt động thần kinh cấp cao nào phụ trách việc để lại dấu vết tâm lý trên vỏ não của ta?",
+      "dapan": [
+        "Quy luật phụ thuộc cường độ kích thích",
+        "Quy luật hoạt động theo hệ thống",
+        "Quy luật cảm ứng dương tính",
+        "Quy luật lan tỏa - tập trung"
+      ],
+      "dapandung": "Quy luật lan tỏa - tập trung"
+    },
+    {
+      "cauhoi": "Câu thơ “Người buồn cảnh có vui đâu bao giờ” thể hiện quy luật nào của tri giác?",
+      "dapan": [
+        "Quy luật tổng giác",
+        "Quy luật lựa chọn",
+        "Quy luật ổn định",
+        "Quy luật về tính có ý nghĩa"
+      ],
+      "dapandung": "Quy luật tổng giác"
     }
   ],
   "DX22L80161_D_TVTTH": [

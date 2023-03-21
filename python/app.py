@@ -99,28 +99,33 @@ def Btvn(data_mon):
     print('----------------------------------------------------------------')
 
     try:
-        driver.find_element(By.XPATH, '//*[@value="Trang tiếp"]').click()
-        time.sleep(2)
-        Btvn(data_mon)
-    except NoSuchElementException:        
-        time.sleep(2)
         try:
+            driver.find_element(By.XPATH, '//*[@value="Trang tiếp"]').click()
+            time.sleep(2)
+            Btvn(data_mon)
+        except NoSuchElementException:        
+            time.sleep(2)            
             driver.find_element(By.XPATH,'//*[@value="Làm xong ..."]').click()
-        except NoSuchElementException:  
-            input(style.GREEN + 'Co loi xay ra' + style.RESET)
+            
 
 
-    # input(style.GREEN + 'Press Enter to continue' + style.RESET)
-        
-    time.sleep(2)
-    driver.find_element(By.XPATH, "//*[contains(text(), 'Nộp bài và kết thúc')]").click()
-    time.sleep(2)
-    driver.find_element(By.XPATH, "//*[@value='Nộp bài và kết thúc']").click()
+        # input(style.GREEN + 'Press Enter to continue' + style.RESET)
+            
+        time.sleep(2)
+        driver.find_element(By.XPATH, "//*[contains(text(), 'Nộp bài và kết thúc')]").click()
+        time.sleep(2)
+        driver.find_element(By.XPATH, "//*[@value='Nộp bài và kết thúc']").click()
 
+    except NoSuchElementException:  
+        pass
+            
+            
+            # input(style.RED + 'Co loi xay ra' + style.RESET)
     
 
 
-def Save(database, so_cau):
+def Save(database,ma_mon, so_cau):
+
     data_mon = database[ma_mon] 
     so_cauhoi = driver.find_elements(By.XPATH, '//*[@class="qtext"]')
     so_cauchuacodapan = 0
@@ -176,13 +181,12 @@ def Save(database, so_cau):
 
 
 def Main(ma_mon, so_lan, lan_lam_thu):
-    print(style.GREEN + ma_mon + style.RESET) 
-
-
     lan_lam_thu += 1
     database = db.getDataMon(ma_mon)
     data_mon = database[ma_mon]   
 
+    print(style.GREEN + ma_mon + style.RESET) 
+    
     so_cau = len(data_mon)     
 
     time.sleep(2)
@@ -201,7 +205,7 @@ def Main(ma_mon, so_lan, lan_lam_thu):
     time.sleep(3)
     Btvn(data_mon)
 
-    so_cau = Save(database, so_cau )
+    so_cau = Save(database,ma_mon, so_cau)
     # End Luu ----------------------------------------------------------------
 
     whandle = driver.window_handles[0]
@@ -214,10 +218,10 @@ def Main(ma_mon, so_lan, lan_lam_thu):
     if(int(so_lan)<= int(lan_lam_thu)):  
      
         # input(style.GREEN + 'Moi ban chon mon    ' + style.RESET)  
-        so_lan = db.solanLambai()
-           
+        so_lan = db.solanLambai()           
         ma_mon = driver.find_element(By.XPATH, '//header/div/div/div/div[2]/div[1]/nav/ol/li[3]/a').text
         ten_mon = driver.find_element(By.XPATH, '/html/body/div[2]/div[3]/header/div/div/div/div[1]/div[1]/div/div/h1').text
+        time.sleep(2)
         db.getInfoMon(ma_mon, ten_mon)
         lan_lam_thu = 0
         Main(ma_mon, so_lan, lan_lam_thu)
@@ -230,6 +234,7 @@ so_lan = db.solanLambai()
 ma_mon = driver.find_element(By.XPATH, '//header/div/div/div/div[2]/div[1]/nav/ol/li[3]/a').text
 ten_mon = driver.find_element(By.XPATH, '/html/body/div[2]/div[3]/header/div/div/div/div[1]/div[1]/div/div/h1').text
 db.getInfoMon(ma_mon, ten_mon)
+time.sleep(2)
 lan_lam_thu = 0
 Main(ma_mon, so_lan, lan_lam_thu)
 
