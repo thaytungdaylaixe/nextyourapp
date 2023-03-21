@@ -3304,6 +3304,61 @@
         "Nổi tiếng nghiêm túc khi biểu diễn"
       ],
       "dapandung": "Nổi tiếng nghiêm túc khi biểu diễn"
+    },
+    {
+      "cauhoi": "Tư duy xuất hiện từ loài nào?",
+      "dapan": [
+        "Động vật có hệ thần kinh mấu",
+        "Động vật có hệ thần kinh lưới",
+        "Động vật có hệ thần kinh ống",
+        "Động vật có hệ thần kinh trung ương"
+      ],
+      "dapandung": "Động vật có hệ thần kinh trung ương"
+    },
+    {
+      "cauhoi": "Sức bền của chú ý cần được hiểu chính xác như thế nào?",
+      "dapan": [
+        "Tập trung ý thức vào phạm vi hẹp của đối tượng không bị sao nhãng bởi bất kỳ điều gì.",
+        "Tập trung chú ý theo thời gian của nhiệm vụ nhận thức",
+        "Tập trung ý thức từ 2 giờ đồng hồ trở lên",
+        "Tập trung ý thức được nhiều đối tượng nhận thức cùng lúc"
+      ],
+      "dapandung": "Tập trung chú ý theo thời gian của nhiệm vụ nhận thức"
+    },
+    {
+      "cauhoi": "Hiện tượng nào dưới đây là hiện tượng tâm lí?",
+      "dapan": [
+        "Bụng đói cồn cào",
+        "Lo lắng trước kì thi",
+        "Khóc mắt đỏ hoe",
+        "Tim đập nhanh"
+      ],
+      "dapandung": "Lo lắng trước kì thi"
+    },
+    {
+      "cauhoi": "A thích học Toán, còn B thích học Văn. Ta nói A, B đang thể hiện thuộc tính tâm lý nào?",
+      "dapan": ["Năng lực", "Tính cách", "Khí chất", "Xu hướng"],
+      "dapandung": "Xu hướng"
+    },
+    {
+      "cauhoi": "“Người ta có thể giấu mọi thứ, trừ hai điều này: Say rượu và đang yêu”\n- Antiphane-\nCâu châm ngôn trên muốn nói đến đặc trưng nào của tình cảm?",
+      "dapan": [
+        "Đặc trưng xã hội",
+        "Đặc trưng nhận thức",
+        "Đặc trưng chân thật",
+        "Đặc trưng đối cực"
+      ],
+      "dapandung": "Đặc trưng chân thật"
+    },
+    {
+      "cauhoi": "Cơ sở sinh lý của hiện tượng tâm lý là phản xạ có điệu kiện, vậy cơ sở sinh lý thần kinh của phản xạ có điều kiện là gì?",
+      "dapan": [
+        "Hệ thần kinh phó giao cảm",
+        "Một bộ não hoạt động bình thường",
+        "Đường liên hệ tạm thời tương ứng hình thành trên võ não",
+        "Hệ thần kinh giao cảm"
+      ],
+      "dapandung": "Đường liên hệ tạm thời tương ứng hình thành trên võ não"
     }
   ],
   "DX22L80161_D_TVTTH": [

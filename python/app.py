@@ -104,7 +104,11 @@ def Btvn(data_mon):
         Btvn(data_mon)
     except NoSuchElementException:        
         time.sleep(2)
-        driver.find_element(By.XPATH,'//*[@value="Làm xong ..."]').click()
+        try:
+            driver.find_element(By.XPATH,'//*[@value="Làm xong ..."]').click()
+        except NoSuchElementException:  
+            input(style.GREEN + 'Co loi xay ra' + style.RESET)
+
 
     # input(style.GREEN + 'Press Enter to continue' + style.RESET)
         
