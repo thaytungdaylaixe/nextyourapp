@@ -96,7 +96,7 @@ def Btvn(data_mon):
 
     time.sleep(2)   
 
-    print('----------------------------------------------------------------')
+   
 
     try:
         try:
@@ -166,6 +166,7 @@ def Save(database,ma_mon, so_cau):
             data_mon.append(data)
 
     db.saveData(database)    
+    print('----------------------------------------------------------------')
 
 
     try:
