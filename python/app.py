@@ -166,8 +166,7 @@ def Save(database,ma_mon, so_cau):
             data_mon.append(data)
 
     db.saveData(database)    
-    print('----------------------------------------------------------------')
-
+    
 
     try:
         driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[2]/div/section[1]/div/div/input').click()
@@ -214,6 +213,8 @@ def Main(ma_mon, so_lan, lan_lam_thu):
 
     print(' ')
     print(style.GREEN + 'So cau : ' + str(so_cau) + ' - Da lam ' + str(lan_lam_thu)+'/'+str(so_lan) +' lan' + style.RESET) 
+    print('----------------------------------------------------------------')
+
     print(' ')
 
     if(int(so_lan)<= int(lan_lam_thu)):  

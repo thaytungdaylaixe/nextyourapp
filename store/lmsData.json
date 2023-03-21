@@ -3656,6 +3656,746 @@
       "cauhoi": "Chọn từ thích hợp điền vào chỗ trống: Những chàng trai Tây Tiến “xây hồn thơ” với những điệu khèn, điệu múa, và ánh lửa cháy _________.",
       "dapan": ["bập bềnh", "bập bùng", "bập bều", "bập bênh"],
       "dapandung": "bập bùng"
+    },
+    {
+      "cauhoi": "Chọn từ đúng với gợi ý: “Cơ quan quản lý tiền bạc của nhà nước, đồng nghĩa với ngân khố”",
+      "dapan": ["ngân hàng", "kho bạc", "thủ kho", "ngân sách"],
+      "dapandung": "kho bạc"
+    },
+    {
+      "cauhoi": "Chọn từ đúng với gợi ý: “Tổ chức quần chúng của nông dân lao động”",
+      "dapan": ["nông học", "nông phu", "nông hội", "nông trại"],
+      "dapandung": "nông hội"
+    },
+    {
+      "cauhoi": "Chọn từ thích hợp điền vào chỗ trống: Vùng này còn khá nhiều _________ như: ma chay, cưới xin đều tổ chức tiệc tùng linh đình; ốm không đi bệnh viện mà ở nhà cúng bái,...",
+      "dapan": ["tập tục", "hủ tục", "phong tục", "kế tục"],
+      "dapandung": "hủ tục"
+    },
+    {
+      "cauhoi": "Chọn từ thích hợp điền vào chỗ trống: Ngày nay, chúng ta cần giữ gìn, _________, và phát triển những công trình vĩ đại được dựng lên bằng công sức lớn lao và đầy tâm huyết của ông cha ngày xưa.",
+      "dapan": ["tu dưỡng", "tu bổ", "sửa chữa", "cách tân"],
+      "dapandung": "tu bổ"
+    },
+    {
+      "cauhoi": "Chọn từ thích hợp điền vào chỗ trống: Bình Ngô đại cáo, đây là một tác phẩm _________ được sáng tác bởi nhà văn, nhà thơ, nhà chính trị lỗi lạc, nhà quân sự tài ba Nguyễn Trãi.",
+      "dapan": ["bất hủ", "bất minh", "bất tử", "bất hảo"],
+      "dapandung": "bất hủ"
+    },
+    {
+      "cauhoi": "Chọn từ đúng với gợi ý: “Những thao tác vạch sẵn để xử lý và điều trị bệnh của bác sĩ”",
+      "dapan": ["phác đồ", "phác thảo", "phác họa", "phác thực"],
+      "dapandung": "phác đồ"
+    },
+    {
+      "cauhoi": "Chọn từ đúng với gợi ý: “Đóng kín và đánh dấu để đồ vật được giữ nguyên hiện trạng ban đầu”",
+      "dapan": ["niêm phong", "niêm cất", "niêm yết", "niêm luật"],
+      "dapandung": "niêm phong"
+    },
+    {
+      "cauhoi": "Chọn từ thích hợp điền vào chỗ trống: Không thể hình dung cái đói đã hoành hành những con người ở làng xóm này, khi phá được kho thóc Nhật, họ sung sướng, reo hò với những hạt gạo _________ trên đôi tay gầy guộc.",
+      "dapan": ["trắng ngần", "trắng trẻo", "trắng tinh", "trắng nõn"],
+      "dapandung": "trắng ngần"
+    },
+    {
+      "cauhoi": "Chọn từ thích hợp điền vào chỗ trống: Hồ Xuân Hương, một _________ tài ba trong làng thơ trung đại Việt Nam, đã sáng tác nên những tác phẩm chữ Nôm đặc sắc.",
+      "dapan": ["nữ nhi", "nữ lưu", "nữ sĩ", "nữ sinh"],
+      "dapandung": "nữ sĩ"
+    },
+    {
+      "cauhoi": "Chọn từ thích hợp điền vào chỗ trống: Trong giấc ngủ _________,bà Năm lại nhớ về những kí ức xa xưa, kí ức khi bà làm giao liên cho ấp.",
+      "dapan": ["chập chờn", "chập choạng", "chập chùng", "chập chững"],
+      "dapandung": "chập chờn"
+    },
+    {
+      "cauhoi": "Chọn từ đúng với gợi ý: “Bạo động vũ trang, chống lại chính quyền”",
+      "dapan": ["phiến diện", "phiến thạch", "phiến loạn", "phiến động"],
+      "dapandung": "phiến loạn"
+    },
+    {
+      "cauhoi": "Chọn từ đúng với gợi ý: “Danh vị cấp cho người có trình độ cao hơn đại học”",
+      "dapan": ["học văn", "học vị", "học hàm", "học cao"],
+      "dapandung": "học vị"
+    },
+    {
+      "cauhoi": "Chọn từ thích hợp điền vào chỗ trống: Nơi _________, các chiến sĩ đang thực hiện nhiệm vụ canh gác, bảo vệ tổ quốc.",
+      "dapan": ["tiền trạm", "tiền tiến", "tiền tiêu", "tiền phong"],
+      "dapandung": "tiền tiêu"
+    },
+    {
+      "cauhoi": "Chọn từ thích hợp điền vào chỗ trống: Lịch sử chiến đấu của dân tộc ta đã _________ nên lòng yêu nước và ý chí chiến đấu kiên cường.",
+      "dapan": ["hun đúc", "rèn đúc", "vung đúc", "chung đúc"],
+      "dapandung": "hun đúc"
+    },
+    {
+      "cauhoi": "Chọn từ thích hợp điền vào chỗ trống: Những câu ngạn ngữ luôn có giá trị _________ con người nên tỉnh táo trước mọi thứ vật chất.",
+      "dapan": ["cảnh giác", "cảnh tỉnh", "cảnh báo", "cảnh cáo"],
+      "dapandung": "cảnh tỉnh"
+    },
+    {
+      "cauhoi": "Chọn từ đúng với gợi ý: “Trình bày sáng tác dân gian bằng động tác, lời lẽ, âm thanh”",
+      "dapan": ["diễn xướng", "diễn tấu", "diễn xuất", "diễn ca"],
+      "dapandung": "diễn xướng"
+    },
+    {
+      "cauhoi": "Chọn từ đúng với gợi ý: “Quá trình, diễn biến nhất định của một hiện tượng mà khi kết thúc nó lại trở về trạng thái ban đầu”",
+      "dapan": ["chu chuyển", "chu trình", "chu niên", "chu kỳ"],
+      "dapandung": "chu trình"
+    },
+    {
+      "cauhoi": "Chọn từ thích hợp điền vào chỗ trống: Đối với tôi, học là cách để có được một tương lai _________.",
+      "dapan": ["tươi trẻ", "tươi tốt", "tươi sáng", "tươi thắm"],
+      "dapandung": "tươi sáng"
+    },
+    {
+      "cauhoi": "Chọn từ thích hợp điền vào chỗ trống: Dưới sự lãnh đạo _________ của Đảng, nhân dân ta đã giành được thắng lợi từ hai cuộc cách mạng giải phóng dân tộc.",
+      "dapan": ["tài năng", "sáng suốt", "khí thế", "nhiệt tình"],
+      "dapandung": "sáng suốt"
+    },
+    {
+      "cauhoi": "Chọn từ thích hợp điền vào chỗ trống: Trong cuộc đấu tranh phòng chống tệ nạn tham nhũng, giới lập pháp Đài Loan phải _________ tài sản của mình.",
+      "dapan": ["công minh", "công khai", "công bố", "công tâm"],
+      "dapandung": "công khai"
+    },
+    {
+      "cauhoi": "Chọn từ đúng với gợi ý: “Người lái máy bay”",
+      "dapan": ["phi đoàn", "phi hành gia", "phi cơ", "phi công"],
+      "dapandung": "phi công"
+    },
+    {
+      "cauhoi": "Chọn từ đúng với gợi ý: “Cuộc họp trao đổi ý kiến về một vấn đề khoa học quan trọng”",
+      "dapan": ["hội thao", "hội thẩm", "hội thảo", "hội thi"],
+      "dapandung": "hội thảo"
+    },
+    {
+      "cauhoi": "Chọn từ đúng với gợi ý: “Người diễn thuyết về một vấn đề nào đó trước công chúng”",
+      "dapan": ["diễn giả", "diễn dịch", "diễn giảng", "diễn giải"],
+      "dapandung": "diễn giả"
+    },
+    {
+      "cauhoi": "Chọn từ đúng với gợi ý: “Phần của địa cầu nằm giữa cận nhiệt đới và hàn đới”",
+      "dapan": ["ôn đới", "ôn tồn", "ôn độ", "ôn hòa"],
+      "dapandung": "ôn đới"
+    },
+    {
+      "cauhoi": "Chọn từ đúng với gợi ý: “Vay bằng sự tín nhiệm, không thế chấp tài sản”",
+      "dapan": ["tín nhiệm", "tín hữu", "tín dụng", "tín chấp"],
+      "dapandung": "tín chấp"
+    },
+    {
+      "cauhoi": "Hiếu động, kiên cường, quả cảm là thói thường của những kẻ mới lớn và sung sức. Đây là câu gì?",
+      "dapan": [
+        "Câu ghép chính phụ",
+        "Câu ghép đẳng lập",
+        "Câu đơn dạng phức",
+        "Câu đơn hai thành phần"
+      ],
+      "dapandung": "Câu đơn hai thành phần"
+    },
+    {
+      "cauhoi": "Trong trận đấu hôm qua, cầu thủ A không thể ra sân vì anh ấy bị chấn thương trong một trận đấu khác cách đây ba hôm. Đây là câu gì?",
+      "dapan": [
+        "Câu đơn hai thành phần",
+        "Câu ghép chính phụ",
+        "Câu ghép đẳng lập",
+        "Câu đơn dạng phức"
+      ],
+      "dapandung": "Câu ghép chính phụ"
+    },
+    {
+      "cauhoi": "Những người đã viết lên trang sử hào hùng trong cuộc kháng chiến chống Mỹ cứu nước. Dạng lỗi sai của câu này là:",
+      "dapan": ["Thiếu chủ ngữ", "Thiếu vị ngữ", "Sai logic", "Sai quy chiếu"],
+      "dapandung": "Thiếu vị ngữ"
+    },
+    {
+      "cauhoi": "Vì tiếng nói là thứ của cải vô cùng lâu đời và vô cùng quý báu của dân tộc. Dạng lỗi sai của câu này là:",
+      "dapan": [
+        "Thiếu chủ ngữ",
+        "Thiếu 1 vế câu ghép",
+        "Thiếu vị ngữ",
+        "Sai logic"
+      ],
+      "dapandung": "Thiếu 1 vế câu ghép"
+    },
+    {
+      "cauhoi": "Chúng tôi giận nhau đã hơn một tuần, Hoa không muốn nói chuyện với tôi nữa nhưng cuối cùng bạn ấy cũng làm ngơ khi gặp tôi. Dạng lỗi sai của câu này là",
+      "dapan": [
+        "Sai logic",
+        "Sai phong cách",
+        "Thiếu cụm chủ-vị",
+        "Thiếu vị ngữ"
+      ],
+      "dapandung": "Sai logic"
+    },
+    {
+      "cauhoi": "Tiệc khai trương cửa hàng điện thoại di động của thầy Hòa đã kéo dài đến cuối buổi chiều cùng ngày. Đây là câu gì?",
+      "dapan": [
+        "Câu ghép đẳng lập",
+        "Câu đơn dạng phức",
+        "Câu ghép chính phụ",
+        "Câu đơn hai thành phần"
+      ],
+      "dapandung": "Câu đơn hai thành phần"
+    },
+    {
+      "cauhoi": "Cách mạng tháng Tám thành công đem lại độc lập, tự do cho dân tộc Việt Nam. Đây là câu gì?",
+      "dapan": [
+        "Câu đơn đặc biệt",
+        "Câu đơn dạng phức",
+        "Câu đơn hai thành phần",
+        "Câu ghép đẳng lập"
+      ],
+      "dapandung": "Câu đơn dạng phức"
+    },
+    {
+      "cauhoi": "Tất cả những người còn sống sót trong trận động đất kinh hoàng ấy. Dạng lỗi sai của câu này là:",
+      "dapan": ["Sai logic", "Thiếu vị ngữ", "Thiếu chủ ngữ", "Sai quy chiếu"],
+      "dapandung": "Thiếu vị ngữ"
+    },
+    {
+      "cauhoi": "Không ai nhìn thấy vật lạ nào xuất hiện, chỉ riêng anh Nam đã kịp thời ghi lại hình ảnh vật lạ ấy. Dạng lỗi sai của câu này là:",
+      "dapan": ["Sai quy chiếu", "Sai logic", "Thiếu chủ ngữ", "Thừa chủ ngữ"],
+      "dapandung": "Sai logic"
+    },
+    {
+      "cauhoi": "Cầm bó hoa hồng trên tay, An đi dọc bờ sông, không may rơi xuống nước. Dạng lỗi sai của câu này là:",
+      "dapan": ["Thừa chủ ngữ", "Thiếu chủ ngữ", "Sai quy chiếu", "Sai logic"],
+      "dapandung": "Sai quy chiếu"
+    },
+    {
+      "cauhoi": "Một hôm nọ, bác sĩ Ngân – một người nổi tiếng nhân từ – đến khám bệnh cho ông chủ quán. Đây là câu gì?",
+      "dapan": [
+        "Câu đơn hai thành phần",
+        "Câu đơn dạng phức",
+        "Câu ghép đẳng lập",
+        "Câu ghép chính phụ"
+      ],
+      "dapandung": "Câu đơn hai thành phần"
+    },
+    {
+      "cauhoi": "Trời càng nắng, hoa giấy càng bồng lên rực rỡ. Đây là câu gì?",
+      "dapan": [
+        "Câu ghép chính phụ",
+        "Câu đơn dạng phức",
+        "Câu đơn hai thành phần",
+        "Câu ghép đẳng lập"
+      ],
+      "dapandung": "Câu ghép chính phụ"
+    },
+    {
+      "cauhoi": "Với những nỗ lực của bản thân đã trở thành một trong những gương mặt tiêu biểu nhất của đội văn nghệ Thành phố. Dạng lỗi sai của câu này là:",
+      "dapan": ["Thiếu vị ngữ", "Thiếu chủ ngữ", "Thừa chủ ngữ", "Sai logic"],
+      "dapandung": "Thiếu chủ ngữ"
+    },
+    {
+      "cauhoi": "Căn cứ vào kết quả kiểm tra, khảo sát và những chứng cứ thu thập ban đầu từ các đơn vị nghiệp vụ nhận thấy đây là một vụ án đặc biệt nghiêm trọng. Dạng lỗi sai của câu này là:",
+      "dapan": ["Thiếu chủ ngữ", "Thừa chủ ngữ", "Sai logic", "Sai quy chiếu"],
+      "dapandung": "Thiếu chủ ngữ"
+    },
+    {
+      "cauhoi": "Hôm nay, lớp chúng tôi tổ chức chuyến thăm các thương binh, liệt sĩ. Dạng lỗi sai của câu này là:",
+      "dapan": ["Sai quy chiếu", "Thiếu chủ ngữ", "Thiếu vị ngữ", "Sai logic"],
+      "dapandung": "Sai logic"
+    },
+    {
+      "cauhoi": "Tiếng ve sầu râm ran báo hiệu mùa hè đã đến. Đây là câu gì?",
+      "dapan": [
+        "Câu đơn hai thành phần",
+        "Câu ghép đẳng lập",
+        "Câu ghép chính phụ",
+        "Câu đơn dạng phức"
+      ],
+      "dapandung": "Câu đơn dạng phức"
+    },
+    {
+      "cauhoi": "Tuy Nam gặp nhiều khó khăn trong cuộc sống nhưng bạn ấy không bao giờ nản lòng. Đây là câu gì?",
+      "dapan": [
+        "Câu ghép đẳng lập",
+        "Câu đơn dạng phức",
+        "Câu đơn hai thành phần",
+        "Câu ghép chính phụ"
+      ],
+      "dapandung": "Câu ghép chính phụ"
+    },
+    {
+      "cauhoi": "Trong tác phẩm dân gian, bằng sự hóm hỉnh, bằng trí tuệ thông minh, sắc sảo, bằng nghệ thuật gây cười độc đáo và đả kích sâu cay của mình với bọn thầy bói, thầy cúng tham ăn, tham uống. Dạng lỗi sai của câu này là:",
+      "dapan": [
+        "Thiếu cụm chủ-vị",
+        "Sai logic",
+        "Thiếu 01 vế câu ghép",
+        "Thiếu vị ngữ"
+      ],
+      "dapandung": "Thiếu cụm chủ-vị"
+    },
+    {
+      "cauhoi": "Qua công trình nghiên cứu khoa học của ông Nguyễn Văn A cho thấy những bất cập về thực trạng giáo dục ở nước ta hiện nay. Dạng lỗi sai của câu này là:",
+      "dapan": ["Sai logic", "Thiếu chủ ngữ", "Thiếu vị ngữ", "Sai quy chiếu"],
+      "dapandung": "Thiếu chủ ngữ"
+    },
+    {
+      "cauhoi": "Mọi nghi vấn của vụ án đã được công an làm sáng tỏ chỉ còn đợi kết quả giải phẫu bên pháp y. Dạng lỗi sai của câu này là:",
+      "dapan": ["Thừa chủ ngữ", "Sai logic", "Thiếu chủ ngữ", "Sai quy chiếu"],
+      "dapandung": "Sai logic"
+    },
+    {
+      "cauhoi": "Thứ bảy tuần trước, khi đến tìm hiểu lý do thôi học của Lan, bạn ấy kể tôi nghe về hoàn cảnh khó khăn của gia đình mình, tôi thấy thương bạn vô cùng. Đây là câu gì?",
+      "dapan": [
+        "Câu đơn hai thành phần",
+        "Câu đơn dạng phức",
+        "Câu ghép chính phụ",
+        "Câu ghép đẳng lập"
+      ],
+      "dapandung": "Câu ghép đẳng lập"
+    },
+    {
+      "cauhoi": "Cuộc thi được tổ chức thành công đã mang lại niềm vui cho chúng tôi. Đây là câu gì?",
+      "dapan": [
+        "Câu ghép chính phụ",
+        "Câu đơn hai thành phần",
+        "Câu ghép đẳng lập",
+        "Câu đơn dạng phức"
+      ],
+      "dapandung": "Câu đơn dạng phức"
+    },
+    {
+      "cauhoi": "Vừa về đến nhà, An vội vàng kêu cửa và mời tôi đến dự buổi tiệc khai trương cửa hàng điện thoại di động. Dạng lỗi sai của câu này là:",
+      "dapan": ["Sai quy chiếu", "Thiếu chủ ngữ", "Thừa chủ ngữ", "Sai logic"],
+      "dapandung": "Sai quy chiếu"
+    },
+    {
+      "cauhoi": "Việt Nam, đất nước của những người anh hùng, những bài ca bất diệt, những câu hát, điệu hò thắm đượm tình quê. Dạng lỗi sai của câu này là:",
+      "dapan": ["Thiếu chủ ngữ", "Sai quy chiếu", "Sai logic", "Thiếu vị ngữ"],
+      "dapandung": "Thiếu vị ngữ"
+    },
+    {
+      "cauhoi": "Hơn ba năm nay, hắn chưa bao giờ bệnh tật, thỉnh thoảng khi hắn bị ốm thì chỉ dùng thuốc từ lá cây chứ chưa bao giờ dùng thuốc kháng sinh hay thuốc tiêm. Dạng lỗi sai của câu này là:",
+      "dapan": ["Thiếu chủ ngữ", "Sai logic", "Thừa chủ ngữ", "Sai quy chiếu"],
+      "dapandung": "Sai logic"
+    },
+    {
+      "cauhoi": "Chuông reo làm tất cả mọi người giật mình khi họ đang chuẩn bị mọi thứ cho cuộc họp. Đây là câu gì?",
+      "dapan": [
+        "Câu đơn dạng phức",
+        "Câu đơn hai thành phần",
+        "Câu ghép chính phụ",
+        "Câu đơn đặc biệt"
+      ],
+      "dapandung": "Câu đơn dạng phức"
+    },
+    {
+      "cauhoi": "Mỗi khi đi ngang qua ngôi trường này, tôi đều dừng lại ít phút, như một thói quen, để hồi tưởng về những kỷ niệm đẹp của thời cắp sách đến trường. Đây là câu gì?",
+      "dapan": [
+        "Câu ghép chính phụ",
+        "Câu đơn dạng phức",
+        "Câu đơn hai thành phần",
+        "Câu ghép đẳng lập"
+      ],
+      "dapandung": "Câu đơn hai thành phần"
+    },
+    {
+      "cauhoi": "Vua cha liền tổ chức hội cướp cầu để chọn phò mã, song bà không ưng thuận lấy người thắng cuộc mà xin với vua cha cho đi chu du khắp nơi trong nước. Đây là câu gì?",
+      "dapan": [
+        "Câu ghép đẳng lập",
+        "Câu ghép chính phụ",
+        "Câu đơn hai thành phần",
+        "Câu đơn dạng phức"
+      ],
+      "dapandung": "Câu ghép đẳng lập"
+    },
+    {
+      "cauhoi": "Tư tưởng của hai nhà bác học dũng cảm Ga-li-lê và Cô-pec-nich đã trở thành chân lí giản dị trong đời sống ngày nay. Đây là câu gì?",
+      "dapan": [
+        "Câu đơn đặc biệt",
+        "Câu ghép chính phụ",
+        "Câu đơn hai thành phần",
+        "Câu đơn dạng phức"
+      ],
+      "dapandung": "Câu đơn hai thành phần"
+    },
+    {
+      "cauhoi": "Tiếng chân người đạp trên sàn nhà ưng ào ào. Đây là câu gì?",
+      "dapan": [
+        "Câu ghép đẳng lập",
+        "Câu đơn hai thành phần",
+        "Câu đơn dạng phức",
+        "Câu ghép chính phụ"
+      ],
+      "dapandung": "Câu đơn dạng phức"
+    },
+    {
+      "cauhoi": "Khi gặp thất bại trong cuộc sống, bạn vốn đã đoán trước về chúng nhưng cũng biết rằng mình không thể thay đổi sự thật. Khi gặp khó khăn trong công việc, bạn luôn nghĩ rằng mình có thể xử lý nó nhưng lại chưa tìm ra được cách thích hợp để giải quyết. Phương thức liên kết giữa hai câu này là:",
+      "dapan": [
+        "Lặp cấu trúc, lặp từ ngữ",
+        "Liên tưởng tổng thể",
+        "Liên tưởng đồng loại",
+        "Thế đại từ"
+      ],
+      "dapandung": "Lặp cấu trúc, lặp từ ngữ"
+    },
+    {
+      "cauhoi": "Folklore là một kiểu bách khoa toàn thư của hệ thống tín ngưỡng. Nó là sự bổ sung tương hỗ của văn học truyền miệng và văn học viết. Phương thức liên kết giữa hai câu này là:",
+      "dapan": [
+        "Liên tưởng tổng thể",
+        "Nối kết từ",
+        "Thế đại từ",
+        "Thế đồng nghĩa"
+      ],
+      "dapandung": "Thế đại từ"
+    },
+    {
+      "cauhoi": "Viết sai dấu hỏi và dấu ngã là lỗi chính tả phổ biến nhất. Đa số người Việt không phân biệt được tiếng có dấu hỏi và tiếng có dấu ngã trong khi phát âm. Quan hệ ý nghĩa giữa hai câu là:",
+      "dapan": ["Nguyên nhân", "Khai triển", "Kết quả", "Suy luận"],
+      "dapandung": "Nguyên nhân"
+    },
+    {
+      "cauhoi": "Hà Nội với ba mươi sáu phố phường đã ăn sâu trong tâm trí người yêu Hà Nội, đặc biệt những người đi xa. Đó là lý do ra đời của rất nhiều tác phẩm nghệ thuật viết về Hà Nội. Phương thức liên kết giữa hai câu này là:",
+      "dapan": ["Kết quả", "Dẫn chứng", "Suy luận", "Khái quát"],
+      "dapandung": "Kết quả"
+    },
+    {
+      "cauhoi": "Ở dạng viết, ngôn ngữ khoa học thường dùng các kí hiệu, công thức để minh họa. Ở dạng nói, ngôn ngữ này thường dựa trên cách phát âm, cách diễn đạt để giải thích. Quan hệ ý nghĩa giữa hai câu là:",
+      "dapan": ["Bằng chứng", "Song hành", "Suy luận", "Tương phản"],
+      "dapandung": "Song hành"
+    },
+    {
+      "cauhoi": "Vô thức bao giờ cũng có trước, vì đó là tiềm năng bẩm sinh mà ai cũng có. Vô thức là khái niệm chỉ các hiện tượng tâm lý, hành vi, cảm nghĩ tồn tại ở một cá nhân nào đó mà cá nhân đó không nhận thức được. Phương thức liên kết giữa hai câu này là:",
+      "dapan": ["Lặp từ ngữ", "Thế đại từ", "Nối kết từ", "Liên tưởng bộ phận"],
+      "dapandung": "Lặp từ ngữ"
+    },
+    {
+      "cauhoi": "Chúng con bắt tên Dậu nộp thay. Vì tên này là thân nhân của hắn. Phương thức liên kết giữa hai câu này là:",
+      "dapan": [
+        "Thế đồng nghĩa",
+        "Thế đại từ",
+        "Liên tưởng tổng thể",
+        "Nối kết từ, thế đại từ"
+      ],
+      "dapandung": "Nối kết từ, thế đại từ"
+    },
+    {
+      "cauhoi": "Rèn luyện ý chí, nghị lực chính là tích lũy bí quyết dẫn đến thành công trong cuộc sống. Bởi mọi thứ quanh ta luôn muôn màu, muôn vẻ và đường đời còn nhiều lắm những chông gai cần phải vượt qua. Quan hệ ý nghĩa giữa hai câu là:",
+      "dapan": ["Nguyên nhân", "Bằng chứng", "Kết quả", "Định nghĩa"],
+      "dapandung": "Nguyên nhân"
+    },
+    {
+      "cauhoi": "Tại văn phòng, Bộ trưởng đã gặp gỡ bà con nông dân để trao đổi ý kiến. Mỗi lúc bà con kéo đến hội trường ngày một đông. Quan hệ ý nghĩa giữa hai câu là:",
+      "dapan": ["Khai triển", "Bằng chứng", "Tương đồng", "Khái quát"],
+      "dapandung": "Khai triển"
+    },
+    {
+      "cauhoi": "Khi gặp thất bại trong cuộc sống, bạn vốn đã đoán trước về chúng nhưng cũng biết rằng mình không thể thay đổi sự thật. Khi gặp khó khăn trong công việc, bạn luôn nghĩ rằng mình có thể xử lý nó nhưng lại chưa tìm ra được cách thích hợp để giải quyết. Quan hệ ý nghĩa giữa hai câu là:",
+      "dapan": ["Suy luận", "Song hành", "Tương đồng", "Khai triển"],
+      "dapandung": "Song hành"
+    },
+    {
+      "cauhoi": "Các nhà tạo mẫu bao bì luôn được coi là những nhà thuyết khách bằng công việc dẫn dụ người tiêu thụ mua sản phẩm. Thiết kế là một công đoạn quan trọng tạo nên sự thành bại cho một nhãn hiệu hàng hoá. Phương thức liên kết giữa hai câu này là:",
+      "dapan": [
+        "Thế đại từ",
+        "Lặp từ ngữ",
+        "Liên tưởng bộ phận",
+        "Thế đồng nghĩa"
+      ],
+      "dapandung": "Liên tưởng bộ phận"
+    },
+    {
+      "cauhoi": "Sinh viên Việt Nam, dù theo học ngành nghề gì, đều phải dành thì giờ học tập, rèn luyện để nói, viết thành thạo tiếng Việt và Việt văn. Bởi lẽ, đối với những người dân nặng tình yêu nước, Tổ quốc không chỉ là lãnh thổ và chủ quyền mà Tổ quốc còn là tiếng nói và chữ viết. Phương thức liên kết giữa hai câu này là:",
+      "dapan": [
+        "Nối kết từ",
+        "Liên tưởng bộ phận",
+        "Nối kết ngữ",
+        "Thế đại từ"
+      ],
+      "dapandung": "Nối kết từ"
+    },
+    {
+      "cauhoi": "Một trò chơi học tập sẽ được sử dụng nhiều lần ở những môi trường và điều kiện khác nhau. Người sử dụng trò chơi lại thường không phải sáng tạo ra nó. Quan hệ ý nghĩa giữa hai câu là:",
+      "dapan": ["Ví dụ", "Khai triển", "Nguyên nhân", "Định nghĩa"],
+      "dapandung": "Khai triển"
+    },
+    {
+      "cauhoi": "Chiến tranh đã đi qua hơn ba mươi năm. Thế nhưng, những ký ức về cuộc kháng chiến chống Mỹ cứu nước thần thánh của dân tộc, ký ức về những con người anh hùng trong một thời đại anh hùng vẫn còn tươi mới. Quan hệ ý nghĩa giữa hai câu là:",
+      "dapan": ["Tương phản", "Dẫn chứng", "Tương đồng", "Khai triển"],
+      "dapandung": "Tương phản"
+    },
+    {
+      "cauhoi": "Bao giờ cũng thế, dường như đã thành lệ, cứ đến cuối năm, nỗi lòng người xa quê lại lâng lâng khó tả. Người quê gần đã thế, có lẽ người quê xa lại càng xốn xang hơn. Quan hệ ý nghĩa giữa hai câu là:",
+      "dapan": ["Khai triển", "Định nghĩa", "Tương phản", "Suy luận"],
+      "dapandung": "Suy luận"
+    },
+    {
+      "cauhoi": "Trong cuộc sống, chúng ta có rất nhiều cơ sở để đánh giá đạo đức, phẩm chất của con người. Một trong số được nhắc đến nhiều nhất đó là sự biết ơn, ghi nhớ công lao mà người khác đã giúp đỡ mình. Phương thức liên kết giữa hai câu này là:",
+      "dapan": [
+        "Liên tưởng bộ phận",
+        "Nối kết ngữ",
+        "Lặp từ ngữ",
+        "Lặp cấu trúc, lặp từ ngữ"
+      ],
+      "dapandung": "Liên tưởng bộ phận"
+    },
+    {
+      "cauhoi": "Người ta sinh ra tự do và bình đẳng về quyền lợi; và phải luôn luôn được tự do và bình đẳng về quyền lợi. Đó là những lẽ phải không ai chối cãi được. Phương thức liên kết giữa hai câu này là:",
+      "dapan": ["Nối kết từ", "Đối trái nghĩa", "Thế đại từ", "Lặp từ ngữ"],
+      "dapandung": "Thế đại từ"
+    },
+    {
+      "cauhoi": "Chỉ vì vài đồng bạc sưu mà anh Dậu bị đánh chết đi sống lại nhiều lần, cũng chỉ vì vài đồng bạc sưu mà chị Dậu phải bán con, bán chó. Dưới chế độ thực dân phong kiến, sinh mạng con người chẳng khác mạng sống của một con vật. Quan hệ ý nghĩa giữa hai câu là:",
+      "dapan": ["Kết quả", "Tương đồng", "Khái quát", "Suy luận"],
+      "dapandung": "Khái quát"
+    },
+    {
+      "cauhoi": "Tất cả như đang chìm dần xuống, thu hẹp lại và những hoạt động cũng nặng nề, ốm yếu. Chính vì vậy, tâm trí Liên thường hướng về những ánh sáng xa vời nhằm tìm kiếm một thế giới khác trước mặt chị. (Hai đứa trẻ - Thạch Lam). Quan hệ ý nghĩa giữa hai câu là:",
+      "dapan": ["Dẫn chứng", "Kết quả", "Khai triển", "Suy luận"],
+      "dapandung": "Kết quả"
+    },
+    {
+      "cauhoi": "Đã là bạn thân thì thường dễ dàng xuê xoa, bỏ qua những thói hư tật xấu của nhau. Đó là sai lầm nên tránh. Quan hệ ý nghĩa giữa hai câu là:",
+      "dapan": ["Khái quát", "Suy luận", "Dẫn chứng", "Kết quả"],
+      "dapandung": "Khái quát"
+    },
+    {
+      "cauhoi": "Dường như do nhịp sống quá hối hả, gấp gáp nên ngày nay phần lớn thanh niên chưa xác định mục đích, lý tưởng sống rõ ràng. Đây là một thực trạng đáng buồn. Phương thức liên kết giữa hai câu này là:",
+      "dapan": [
+        "Thế đại từ",
+        "Liên tưởng tổng thể",
+        "Liên tưởng đồng loại",
+        "Đối phủ định"
+      ],
+      "dapandung": "Thế đại từ"
+    },
+    {
+      "cauhoi": "Mỗi mùa trong năm đều có đặc điểm riêng, không giống nhau. Nhưng có lẽ mùa đông là đặc biệt nhất vì cái lạnh buốt, gió bấc và mưa phùn cứ như mời gọi mọi người gần nhau hơn để thắp lên ngọn lửa ấm áp của tình yêu thương gia đình. Phương thức liên kết giữa hai câu này là:",
+      "dapan": [
+        "Nối kết từ, liên tưởng tổng thể",
+        "Nối kết từ, liên tưởng bộ phận",
+        "Nối kết từ, liên tưởng đồng loại",
+        "Nối kết từ, lặp từ ngữ"
+      ],
+      "dapandung": "Nối kết từ, liên tưởng bộ phận"
+    },
+    {
+      "cauhoi": "Bữa cơm ngày đói trông thật thảm hại. Giữa cái mẹt rách có độc một lùm rau chuối thái rối và một đĩa muối ăn với cháo, nhưng cả nhà đều ăn rất ngon lành. (Vợ Nhặt – Kim Lân). Quan hệ ý nghĩa giữa hai câu là:",
+      "dapan": ["Nguyên nhân", "Kết quả", "Khai triển", "Định nghĩa"],
+      "dapandung": "Khai triển"
+    },
+    {
+      "cauhoi": "Người quân tử Pháp chỉ yêu những chiến tích...suýt lập. Kịch bản đẹp nhất cho Mondial 1998 đã bày sẵn: đội Pháp sẽ vào chung kết, nhưng sẽ thua Braxin (0-1) vì một lỗi lầm của trọng tài. Quan hệ ý nghĩa giữa hai câu là:",
+      "dapan": ["Khai triển", "Tương đồng", "Dẫn chứng", "Kết quả"],
+      "dapandung": "Dẫn chứng"
+    },
+    {
+      "cauhoi": "Chiến tranh đi qua để lại nhiều hậu quả cho một đất nước vốn nghèo nàn. Tài chính cạn kiệt, kinh tế suy thoái làm cho đời sống người dân vô cùng khó khăn. Quan hệ ý nghĩa giữa hai câu là:",
+      "dapan": ["Dẫn chứng", "Suy luận", "Khai triển", "Kết quả"],
+      "dapandung": "Khai triển"
+    },
+    {
+      "cauhoi": "Đối với mình, những tư tưởng và hành động có lợi cho Tổ quốc, cho đồng bào là bạn. Những tư tưởng và hành động có hại cho Tổ quốc và đồng bào là kẻ thù. Phương thức liên kết giữa hai câu này là:",
+      "dapan": [
+        "Liên tưởng đồng loại, lặp cấu trúc",
+        "Thế đồng nghĩa",
+        "Lặp cấu trúc",
+        "Lặp từ ngữ, lặp cấu trúc"
+      ],
+      "dapandung": "Lặp từ ngữ, lặp cấu trúc"
+    },
+    {
+      "cauhoi": "Từ tiếng Việt đơn âm mà đa thanh. Vì vậy, nghe người Việt nói, người ngoại quốc có cảm tưởng như đang nghe chúng ta hát. Phương thức liên kết giữa hai câu này là:",
+      "dapan": [
+        "Đối trái nghĩa",
+        "Lặp từ ngữ",
+        "Nối kết ngữ",
+        "Thế đồng nghĩa"
+      ],
+      "dapandung": "Nối kết ngữ"
+    },
+    {
+      "cauhoi": "Nguyễn Đình Chiểu làm thơ không nhiều và không thuộc loại tài hoa như nhiều thi nhân Việt Nam xưa nhưng ông cũng có những bài đáng được gọi là kiệt tác, mang bản sắc riêng. Chạy Tây là một trong những bài thơ như thế. Phương thức liên kết giữa hai câu này là:",
+      "dapan": [
+        "Thế đại từ, lặp từ ngữ",
+        "Thế đại từ, liên tưởng tổng thể",
+        "Thế đại từ, liên tưởng bộ phận",
+        "Thế đại từ, lặp cấu trúc"
+      ],
+      "dapandung": "Thế đại từ, liên tưởng bộ phận"
+    },
+    {
+      "cauhoi": "Cuộc sống luôn tồn tại sự đấu tranh giữa thiện – ác. Kết quả là, cái thiện bao giờ cũng chiến thắng cái ác. Phương thức liên kết giữa hai câu này là:",
+      "dapan": [
+        "Thế đồng nghĩa",
+        "Nối kết ngữ, thế đại từ",
+        "Lặp từ ngữ",
+        "Nối kết ngữ, lặp từ ngữ"
+      ],
+      "dapandung": "Nối kết ngữ, lặp từ ngữ"
+    },
+    {
+      "cauhoi": "Để ghi tiếng Việt, chữ Nôm ra đời và thơ văn “quốc âm”, “quốc ngữ” bắt đầu xuất hiện trong thời gian từ thế kỉ thứ XIII đến thế kỉ XV. Đáng chú ý hơn cả là Quốc âm thi tập của Nguyễn Trãi, một thành công lớn đầu tiên trong nền văn học viết bằng tiếng Việt. Phương thức liên kết giữa hai câu này là:",
+      "dapan": [
+        "Lặp từ ngữ, liên tưởng tổng thể",
+        "Nối kết ngữ, lặp từ ngữ",
+        "Nối kết từ, lặp từ ngữ",
+        "Lặp từ ngữ, liên tưởng bộ phận"
+      ],
+      "dapandung": "Lặp từ ngữ, liên tưởng bộ phận"
+    },
+    {
+      "cauhoi": "(a). Kiệm là tiết kiệm, không xa xỉ, không hoang phí, không bừa bãi và tiết kiệm không phải là bủn xỉn.\n(b). Ăn sang mặc đẹp trong lúc đồng bào đang thiếu cơm, thiếu áo là xa xỉ, vì vậy xa xỉ là có tội với tổ quốc, với đồng bào.\n(c). Khi không nên tiêu xài thì một đồng xu cũng không nên tiêu.\n(d). Khi có việc đáng làm, việc gì có lợi cho đồng bào, cho tổ quốc, thì dù bao nhiêu công, tốn bao nhiêu của cũng vui lòng.\n(e). Tiết kiệm phải kiên quyết không xa xỉ.\n(f). Việc đáng làm một giờ, mà kéo dài 2, 3 giờ là xa xỉ.\n(g). Hao phí vật liệu, là xa xỉ.\n. Như thế mới đúng là tiết kiệm.\nĐáp án đúng cho thứ tự sắp xếp các câu trong đoạn là:",
+      "dapan": [
+        "a – d – c – h – b – e – f – g",
+        "a – c – d – h – e – f – g – b",
+        "a – f – b – g – e – c – h – d",
+        "a – h – c – d – b – f – g – e"
+      ],
+      "dapandung": "a – c – d – h – e – f – g – b"
+    },
+    {
+      "cauhoi": "(a). Không nể nang, bao che nhưng đôi khi cần biết rộng lượng tha thứ cho lỗi lầm của bạn vì trong những tình huống như thế, bạn rất cần những lời khuyên đúng đắn, sáng suốt và đầy tình thân ái\n(b). Nể nang, bao che ... chỉ làm cho bạn dấn sâu hơn vào con đường tiêu cực mà thôi.\n(c). Đồng thời phải biết tha thứ cho lỗi lầm của bạn.\n(d). Đã là bạn thân thì thường dễ dàng xuê xoa, bỏ qua những thói hư tật xấu của nhau.\n(e). Vontaire cũng đã từng nói: “Nếu quy luật đầu tiên của tình bạn là phải vun đắp nó thì quy luật thứ hai là phải rộng lượng khi quy luật thứ nhất bị xao nhãng”\n(f). Giúp bạn sửa chữa sai lầm cũng chính là giúp mình, giữ cho mình đi trên đường ngay lối thẳng để tu dưỡng thành người hữu ích.\n(g). Đó là một sai lầm nên tránh.\nĐáp án đúng cho thứ tự sắp xếp các câu trong đoạn là:",
+      "dapan": [
+        "d – g – b – c – e – a – f",
+        "a – g – b – f – e – c - d",
+        "a – b – c – d – e – f – g",
+        "a – f – b – g – e – c – d"
+      ],
+      "dapandung": "d – g – b – c – e – a – f"
+    },
+    {
+      "cauhoi": "“Trăng đã đi vào thơ Bác ở nhiều bài thơ thuộc những giai đoạn khác nhau . Trăng là ánh sáng, là thanh bình, là hạnh phúc, là ước mơ, là niềm an ủi, là người bạn tâm tình của Bác. Ánh trăng làm cho cái đẹp của cảnh vật trở nên êm đềm, sâu sắc làm cho cảm nghĩ của con người trở nên thâm trầm, trong trẻo. Trong thơ Bác ánh trăng luôn tràn đầy.”\nMô hình liên kết của đoạn văn là:",
+      "dapan": [
+        "MĐ – KT – SH – KH.Q",
+        "MĐ – DC – SH – KH.Q",
+        "MĐ – KT – SH – KQ",
+        "MĐ – BC – SH – KH.Q"
+      ],
+      "dapandung": "MĐ – KT – SH – KH.Q"
+    },
+    {
+      "cauhoi": "“Ai đã từng đến với biển hẳn không thể không suy ngẫm về trạng thái ngược kì lạ của nó. Biển trong giông bão, những con sóng gầm gừ, sủi tung bọt trắng nổi bật trên nền trời và mặt nước xám xịt. Còn biển lúc đẹp trời, sóng nhấp nhô xanh, dịu dàng êm ả. Hai đối cực ấy khiến cho ai đứng trước biển cũng phải ngỡ ngàng và băn khoăn liên tưởng tới tâm trạng con người, tới chính mình. Xuân Quỳnh chắc đã từng có những phút giây như vậy.”\nMô hình liên kết của đoạn văn là:",
+      "dapan": [
+        "MĐ – KT – TP – KH.Q – SL",
+        "MĐ – KT – SH – KH.Q – SL",
+        "MĐ – KT – TP – KH.Q – KT",
+        "MĐ – KT – SL – KH.Q – SL"
+      ],
+      "dapandung": "MĐ – KT – TP – KH.Q – SL"
+    },
+    {
+      "cauhoi": "“Nam Cao viết nhiều về người ở nông thôn. Lão Hạc ăn bã chó để tự tử và tránh đói. Anh Phúc chết lặng lẽ trong xó nhà ẩm ướt trước những đôi mắt “dại đi vì đói” của hai đứa con. Bà của cái Tí chết vì “một bữa no”, tức là một kiểu chết vì quá đói, lại có cả cảnh đám cưới nhưng cưới để chạy tang.”\nMô hình liên kết của đoạn văn là:",
+      "dapan": [
+        "MĐ – DC – SH – KHQ",
+        "MĐ – VD – SH – SH",
+        "MĐ – KT – DC – SH",
+        "MĐ – DC – SH – SH"
+      ],
+      "dapandung": "MĐ – DC – SH – SH"
+    },
+    {
+      "cauhoi": "(a). Tập các môn võ thuật, ta sẽ rèn luyện tinh thần sảng khoái.\n(b). Nếu luyện tập thể dục thể thao thường xuyên, những tính cách, thói quen tốt, cần thiết cho cuộc sống sẽ được hình thành trong mỗi người.\n(c). Ví dụ như bóng đá, cầu lông, bóng rổ,... có luyện tập kiên trì ta mới biết các kĩ thuật điêu luyện để trở thành một vận động viên giỏi.\n(d). Rõ ràng là, luyện tập thể dục thể thao giúp con người có được những phẩm chất tốt đẹp.\n(e). Thể thao cũng rèn luyện con người thói quen đúng giờ.\n(f). Thể thao giúp ta rèn luyện tính kiên trì, làm việc không ngại khó.\n(g). Muốn chạy bộ vào buổi sáng, chúng ta phải dậy sớm mới thu xếp được thời gian hợp lí cho việc luyện tập và làm việc.\n. Bởi thiếu đức tính đó, một vận động viên võ thuật khó có thể thi đấu thành công.\nĐáp án đúng cho thứ tự sắp xếp các câu trong đoạn là:",
+      "dapan": [
+        "c – d – f – b – h – e – a – g",
+        "d – b – c – a – e – g – f – h",
+        "c – h – b – a – d – g – e – f",
+        "b – f – c – e – g – a – h – d"
+      ],
+      "dapandung": "b – f – c – e – g – a – h – d"
+    },
+    {
+      "cauhoi": "(a). Nói như Hellen Keller là mọi niềm vui và sự thú vị trong cuộc sống không thấy được cũng không nghe được mà chúng chỉ được cảm nhận.\n(b). Bạn chỉ thực sự sợ hãi khi bạn để cho trí óc bạn tạo ra nỗi sợ và để cho cơ thể cảm nhận được nó.\n(c). Bạn giảm giá trị của hiện tại và lên án tương lai khi cứ nghĩ đến những thất bại trong quá khứ.\n(d). Tập trung vào hiện tại giúp bạn tránh không đào xới những chuyện quá khứ và tưởng tượng là nó sẽ lặp lại trong tương lai.\n(e). Chìa khoá của thành công và hạnh phúc là hưởng thụ tối đa những cảm xúc tốt đẹp, kết quả của những gì bạn đã cố gắng.\n(f). Trong rất nhiều trường hợp không có lý do gì phải sợ cả.\n(g). Muốn loại bỏ những nỗi sợ hãi không cần thiết, bạn hãy tạo ra và luôn giữ trong đầu ý tưởng tích cực ở thời hiện tại.\nĐáp án đúng cho thứ tự sắp xếp các câu trong đoạn là:",
+      "dapan": [
+        "c – b – a – d – g – e – f",
+        "b – d – c – a – e – g – f",
+        "f – d – c – b – e – a – g",
+        "e – a – g – d – f – b – c"
+      ],
+      "dapandung": "e – a – g – d – f – b – c"
+    },
+    {
+      "cauhoi": "“Ngày nay, đất nước đã hoàn toàn độc lập, nhân dân ta hoàn toàn tự do nên lí tưởng sống của thanh niên cũng có nhiều thay đổi. Thanh niên ngày nay giỏi, thông minh, nhanh nhẹn và có sức sáng tạo. Nhiều thanh niên có những lí tưởng sống theo chiều hướng tích cực rất đáng khen. Nhưng cũng có khá nhiều thanh niên chưa xác định được lí tưởng sống cho bản thân. Dường như do nhịp sống quá hối hả, gấp gáp,… nên nhìn chung thanh niên chưa có mục đích sống rõ ràng. Đó là thực trạng đáng buồn.”\nMô hình liên kết của đoạn văn là:",
+      "dapan": [
+        "MĐ – DC – SH – TP – SL – KQ",
+        "MĐ – KT – DC – TP – SL – KQ",
+        "MĐ – DC – SH – TP – SL – KH.Q",
+        "MĐ – KT – DC – TP – SL – KH.Q"
+      ],
+      "dapandung": "MĐ – KT – DC – TP – SL – KH.Q"
+    },
+    {
+      "cauhoi": "“Mức thu nhập bình quân đầu người của Philippin tăng 2,9% năm từ năm 1970 đến năm 1982, và từ đó giảm 1,5% năm trong thập niên kế tiếp. Nigeria, một nước rất giàu nhờ dầu trong những năm 1970, đã trở nên nghèo vì đã lãng phí nguồn tài nguyên trời cho vào những công trình “thế kỉ”. Braxin của những năm 1960 là một kì diệu kinh tế với mức thu nhập tăng 6,4% liên tục trong 10 năm 1982 Braxin bị khủng hoảng về nợ nước ngoài. Cả ba nền kinh tế nói trên đều tương tự như Việt Nam ngày nay về quy mô và tài nguyên, nhưng cuối cùng giấc mơ thịnh vượng gần kề bỗng dưng tan vỡ, vì đã có những quyết định sai lầm trong quá trình cải cách.”\nMô hình liên kết của đoạn văn là:",
+      "dapan": [
+        "MĐ – SH – SH – KH.Q",
+        "MĐ – SH – SH – KQ",
+        "MĐ – DC – SH – KH.Q",
+        "MĐ – KT – DC – KQ"
+      ],
+      "dapandung": "MĐ – SH – SH – KH.Q"
+    },
+    {
+      "cauhoi": "“Màu vàng trên lưng chuồn chuồn lấp lánh. Bốn cánh mỏng như giấy bóng, cái đầu trong và hai con mắt long lanh như thuỷ tinh. Thân chú nhỏ và thon vàng như màu vàng của nắng mùa thu. Chú chuồn chuồn nước mới đẹp làm sao!”\nMô hình liên kết của đoạn văn là:",
+      "dapan": [
+        "MĐ – SH – SH – SL",
+        "MĐ – SH – TP – KQ",
+        "MĐ – SH – SH – KH.Q",
+        "MĐ – KT – SH – KQ"
+      ],
+      "dapandung": "MĐ – SH – SH – KH.Q"
+    },
+    {
+      "cauhoi": "(a). Vì vậy, ngay từ thời tuổi trẻ, mỗi người hãy sớm có ý thức học tập, rèn luyện để trui rèn bản lĩnh.\n(b). Bản lĩnh sẽ giúp ta đứng vững trước mọi sóng gió cuộc đời.\n(c). Người ta chỉ được sống có một lần.\n(d). Thường thì khi trẻ, người ta hăm hở vào đời, rồi cũng thường vấp ngã.\n(e). Nếu không tỉnh táo tìm hiểu nguyên nhân thì những kẻ gục ngã rất dễ trở nên thù hận cuộc đời một cách mù quáng.\n(f). Nhiều người gượng lại được, nhưng cũng không ít người gục ngã.\n(g). Và chỉ có một lần nên sống sao cho cho “sống đẹp”.\n. Đến khi khôn lên thì đã già, hối hận không kịp nữa, thế là phí hoài một kiếp sống.\nĐáp án đúng cho thứ tự sắp xếp các câu trong đoạn là:",
+      "dapan": [
+        "b – d – c – a – e – g – f – h",
+        "c – h – b – a – d – g – e – f",
+        "a – d – c – b – e – h – f – g",
+        "c – g – d – f – e – h – a – b"
+      ],
+      "dapandung": "c – g – d – f – e – h – a – b"
+    },
+    {
+      "cauhoi": "(a). Thúy Kiều và Thúy Vân đều là con gái của ông bà Vương viên ngoại.\n(b). Hai chị em cùng có những nét xinh đẹp tuyệt vời.\n(c). Còn Vân có nét đẹp đoan trang, thùy mị.\n(d). Thế nhưng, nàng không được hưởng hạnh phúc.\n(e). Vẻ đẹp của nàng, hoa cũng phải ghen, liễu cũng phải hờn.\n(f). Họ sống êm ấm dưới một mái nhà, hòa thuận, hạnh phúc bên cha mẹ.\n(g). Thúy Kiều là một thiếu nữ tài sắc vẹn toàn.\n. Về tài thì Thúy Kiều hơn hẳn Thúy Vân.\nĐáp án đúng cho thứ tự sắp xếp các câu trong đoạn là:",
+      "dapan": [
+        "a – f – b – g – e – c – h – d",
+        "a – g – b – f – e – c – h – d",
+        "a – d – c – b – e – f – g – h",
+        "a – f – c – h – g – e – b – d"
+      ],
+      "dapandung": "a – f – b – g – e – c – h – d"
+    },
+    {
+      "cauhoi": "“Mạng xã hội ngày nay phát triển thật nhanh chóng. Tất cả những gì nổi bật diễn ra trong nước, trên thế giới chỉ cần chúng ta lên Facebook, Zalo, Internet sẽ hiển thị tất cả. Thế nhưng, mặt trái của nó cũng là sự đe dọa lớn đối với xã hội hiện nay. Nhiều người chỉ xem mà không hiểu biết đúng sai của sự việc; họ phản kháng, kích động, bình luận bừa bãi, thậm chí còn tạo liên kết với những hình ảnh phản cảm.”\nMô hình liên kết của đoạn văn là:",
+      "dapan": [
+        "MĐ – SL – TP – KT",
+        "MĐ – DC – TP – SH",
+        "MĐ – KT – TP – SL",
+        "MĐ – KT – TP – KT"
+      ],
+      "dapandung": "MĐ – KT – TP – KT"
+    },
+    {
+      "cauhoi": "“Theo xu hướng chung hiện nay, thiếu nhi phạm pháp không chỉ là phạm nhân mà còn được xem là nạn nhân của xã hội. Vì vậy, Công ước quốc tế về quyền trẻ em đã có những quy định cụ thể đối với người dưới 18 tuổi phạm pháp. Theo công ước này, người vị thành niên phạm pháp không phải chịu sự tra tấn, đối xử, trừng phạt độc ác, vô nhân đạo hay làm mất phẩm giá. Việc bắt bớ, giam giữ hay bỏ tù một đứa trẻ phải được tiến hành theo pháp luật và “chỉ được dùng đến như một biện pháp cuối cùng và trong thời hạn thích hợp nhất”. Tất cả những trẻ em bị tước quyền tự do sẽ được cách ly với những người đã ở tuổi trưởng thành và đứa trẻ có quyền duy trì sự tiếp xúc với gia đình qua thư từ và các cuộc thăm viếng.”\nMô hình liên kết của đoạn văn là:",
+      "dapan": [
+        "MĐ – SL – KT – SH – KH.Q",
+        "MĐ – KQ – KT – SH – SH",
+        "MĐ – KH.Q – KT – DC – SH",
+        "MĐ – KT – DC – SH – SH"
+      ],
+      "dapandung": "MĐ – KQ – KT – SH – SH"
+    },
+    {
+      "cauhoi": "(a). Chỉ để đi học thôi, nhiều người phải đi bộ trên những quãng đường dài; phải băng rừng, lội suối; phải đi trong mưa nắng, trong giá rét hay trong nóng bức; phải tranh thủ ngay cả những giờ nghỉ ngơi sau một ngày lao động vất vả.\n(b). Học tập là quá trình con người thu nhận kiến thức, kinh nghiệm, kỹ năng từ thầy cô, bạn bè, sách vở và chính từ cuộc sống, để biến tất cả thành cái của mình, làm hành trang hành xử trong cuộc sống.\n(c). Bao nhiêu vất vả khó nhọc kia chính là những chùm rễ đắng mà người học phải nếm trải.\n(d). Để việc học có hiệu quả, con người phải đầu tư nhiều thời giờ, sức lực, tiền của và nỗ lực hết mình.\n(e). Rồi còn có những khó khăn do không hiểu được bài, những lúc đau ốm, mỏi mệt gây ra bao lo âu, phiền muộn.\n(f). Thêm vào đó, người học còn phải đọc thêm sách tham khảo, tìm tòi, hỏi han thầy cô, bạn bè, làm bài, học bài và thi cử.\nĐáp án đúng cho thứ tự sắp xếp các câu trong đoạn là",
+      "dapan": [
+        "c – b – a – d – e – f",
+        "e – a – d – f – b – c",
+        "b – d – a – f – e – c",
+        "f – d – c – b – e – a"
+      ],
+      "dapandung": "b – d – a – f – e – c"
+    },
+    {
+      "cauhoi": "(a). Tôi biết, tôi đủ lớn để không phải khóc òa lên vì sợ hãi, vì cô độc, nhưng tôi chưa đủ trưởng thành để tự đối mặt với những thách thức trước cuộc sống tự lập, không có bố mẹ, bạn bè, người thân bên cạnh.\n(b). Một năm học mới bắt đầu.\n(c). Khác với những năm học trước, đây là năm cuối cấp và cũng là năm tôi xa bố mẹ, xa bạn bè, đến một nơi cách xa gia đình hơn tám trăm cây số.\n(d). Ngôi trường mới quá đỗi xa lạ với một con bé suốt ngày nhốt mình trong nhà như tôi.\n(e). Đến với một thành phố xa hoa, một ngôi trường lộng lẫy.\n(f). Ngày mai của tôi có vui vẻ, hạnh phúc hay trắc trở, đau khổ là tùy thuộc vào năm học này đây.\nĐáp án đúng cho thứ tự sắp xếp các câu trong đoạn là:",
+      "dapan": [
+        "b – a – c – e – f – d",
+        "b – c – e – d – a – f",
+        "d – b – c – f – e – a",
+        "a – f – b – e – c – d"
+      ],
+      "dapandung": "b – c – e – d – a – f"
     }
   ]
 }
