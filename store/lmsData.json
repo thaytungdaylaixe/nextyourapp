@@ -10,14 +10,14 @@
       "ngay": "18/3/2023"
     },
     {
-      "ma_mon": "DX22L80161_D_TLHDCC",
-      "ten_mon": "Tâm lý học đại cương_DX22L80161 (18.3-14.5.2023)",
-      "ngay": "18/3/2023"
-    },
-    {
       "ma_mon": "DX22L80161_D_TVTTH",
       "ten_mon": "Tiếng Việt thực hành_DX22L80161 (18.3-14.5.2023)",
       "ngay": "18/3/2023"
+    },
+    {
+      "ma_mon": "DX22L80161_D_TLHDCC",
+      "ten_mon": "Tâm lý học đại cương_DX22L80161 (18.3-14.5.2023)",
+      "ngay": "20/3/2023"
     }
   ],
   "D_Intro_I_DK22TT80161": [
@@ -1902,6 +1902,646 @@
         "Chính thể cộng hòa"
       ],
       "dapandung": "Chính thể quân chủ"
+    },
+    {
+      "cauhoi": "Tiền lệ pháp là hình thức pháp luật được áp dụng ở các nước tư sản nào?",
+      "dapan": [
+        "Thuộc địa của Anh và thuộc địa của Mỹ",
+        "Anh và thuộc địa của Anh",
+        "Anh, Mỹ và thuộc địa của Anh",
+        "Mỹ và thuộc địa của Mỹ"
+      ],
+      "dapandung": "Anh, Mỹ và thuộc địa của Anh"
+    },
+    {
+      "cauhoi": "Ở các nhà nước tư sản có chính thể cộng hòa đại nghị, ___________.",
+      "dapan": [
+        "Tổng thống đứng đầu nhà nước",
+        "Tổng thống vừa đứng đầu nhà nước vừa đứng đầu chính phủ",
+        "Tổng thống đứng đầu chính phủ",
+        "Tổng thống do dân bầu"
+      ],
+      "dapandung": "Tổng thống do dân bầu"
+    },
+    {
+      "cauhoi": "Ở các nhà nước tư sản, quyền tư pháp thuộc về __________.",
+      "dapan": [
+        "Nguyên thủ quốc gia",
+        "Tòa án",
+        "Nghị viện",
+        "Tòa án và viện kiểm sát"
+      ],
+      "dapandung": "Tòa án"
+    },
+    {
+      "cauhoi": "Chế định phát triển và hoàn thiện nhất của pháp luật tư sản là __________.",
+      "dapan": [
+        "Chế định về quyền sở hữu tư nhân",
+        "Chế định hợp đồng",
+        "Chế định về quyền tự do dân chủ của công dân",
+        "Chế định về thương mại"
+      ],
+      "dapandung": "Chế định về quyền sở hữu tư nhân"
+    },
+    {
+      "cauhoi": "Hiến pháp các nước tư sản __________.",
+      "dapan": [
+        "Ghi nhận quyền tự do, dân chủ của công dân",
+        "Chỉ ghi nhận quyền tự do, dân chủ của tầng lớp quý tộc",
+        "Ghi nhận quyền dân chủ",
+        "Không ghi nhận quyền tự do, dân chủ của nhân dân lao động"
+      ],
+      "dapandung": "Ghi nhận quyền tự do, dân chủ của công dân"
+    },
+    {
+      "cauhoi": "Văn bản luật có giá trị cao nhất ở các nhà nước tư sản là __________.",
+      "dapan": ["Sắc lệnh", "Luật", "Hiến pháp", "Nghị định"],
+      "dapandung": "Hiến pháp"
+    },
+    {
+      "cauhoi": "Hình thức phổ biến nhất của pháp luật tư sản là ___________.",
+      "dapan": [
+        "Tập quán pháp",
+        "Văn bản quy phạm pháp luật",
+        "Tiền lệ pháp",
+        "Tiền lệ pháp và văn bản quy phạm pháp luật"
+      ],
+      "dapandung": "Văn bản quy phạm pháp luật"
+    },
+    {
+      "cauhoi": "Để trấn áp nhân dân lao động về tư tưởng, nhà nước tư sản sử dụng __________.",
+      "dapan": ["Tôn giáo", "Cảnh sát", "Quân đội", "Nhà tù"],
+      "dapandung": "Tôn giáo"
+    },
+    {
+      "cauhoi": "Hệ thống pháp luật nào của nhà nước tư sản chịu ảnh hưởng lớn của luật dân sự La Mã cổ đại?",
+      "dapan": [
+        "Hệ thống pháp luật Bắc Âu",
+        "“Hệ thống pháp luật Continental”",
+        "Hệ thống pháp luật Ănglo-Xắcxông",
+        "Hệ thống pháp luật các nước hồi giáo"
+      ],
+      "dapandung": "“Hệ thống pháp luật Continental”"
+    },
+    {
+      "cauhoi": "Nhà nước tư sản thực hiện chức năng đối ngoại chủ yếu nhằm ___________.",
+      "dapan": [
+        "Phát triển quân sự",
+        "Bảo vệ chủ nghĩa tư bản trong nước",
+        "Nô dịch nhân dân các nước khác",
+        "Đàn áp nhân dân lao động trong nước"
+      ],
+      "dapandung": "Nô dịch nhân dân các nước khác"
+    },
+    {
+      "cauhoi": "Nhận định nào trong các nhận định sau đây phù hợp với nhà nước tư sản?",
+      "dapan": [
+        "Các cơ quan chuyên làm nhiện vụ cưỡng chế ít phát triển",
+        "Vai trò của các cơ quan đại diện lất át vai trò của chính phủ",
+        "Đội ngũ công chức gắn liền với giai cấp tư sản",
+        "Nhà nước có bộ máy đơn giản"
+      ],
+      "dapandung": "Đội ngũ công chức gắn liền với giai cấp tư sản"
+    },
+    {
+      "cauhoi": "Nhận định nào sau đây phù hợp với kiểu nhà nước tư sản?",
+      "dapan": [
+        "Trong chính thể cộng hòa đại nghị, Chính phủ không do nghị viện thành lập",
+        "Trong chính thể cộng hòa tổng thống, tổng thống vừa là nguyên thủ quốc gia, vừa đứng đầu cơ quan hành pháp",
+        "Các nhà nước tư sản chỉ tồn tại chính thể cộng hòa",
+        "Trong chính thể quân chủ đại nghị, quyền của vua chỉ bị hạn chế trong lĩnh vực lập pháp"
+      ],
+      "dapandung": "Trong chính thể cộng hòa tổng thống, tổng thống vừa là nguyên thủ quốc gia, vừa đứng đầu cơ quan hành pháp"
+    },
+    {
+      "cauhoi": "Dấu hiệu nào sau đây KHÔNG phải là dấu hiệu của chế độ chính trị dân chủ tư sản?",
+      "dapan": [
+        "Áp dụng sự thống trị độc quyền của một đảng",
+        "Tồn tại hệ thống cơ quan đại diện được bầu theo nguyên tắc phổ thông đầu phiếu",
+        "Thừa nhận sự bình đẳng của công dân trước pháp luật",
+        "Tuyên bố nhiều quyền tự do dân chủ cho nhân dân"
+      ],
+      "dapandung": "Áp dụng sự thống trị độc quyền của một đảng"
+    },
+    {
+      "cauhoi": "Hệ thống chính trị ở Việt Nam bao gồm __________.",
+      "dapan": [
+        "Đảng Cộng sản, Nhà nước",
+        "Nhà nước, các tổ chức chính trị - xã hội",
+        "Đảng Cộng sản, Nhà nước, các tổ chức chính trị - xã hội",
+        "Đảng Cộng sản, các tổ chức chính trị - xã hội"
+      ],
+      "dapandung": "Đảng Cộng sản, Nhà nước, các tổ chức chính trị - xã hội"
+    },
+    {
+      "cauhoi": "Nguyên tắc pháp chế xã hội chủ nghĩa trong tổ chức và hoạt động của bộ máy nhà nước được hiểu là __________.",
+      "dapan": [
+        "Có sự kết hợp giữa sự chỉ đạo tập trung thống nhất giữa cơ quan nhà nước cấp trên với cơ quan nhà nước cấp dưới.",
+        "Tất cả quyền lực nhà nước thuộc về nhân dân và nhân dân thực hiện quyền làm chủ thông qua các cơ quan đại diện do mình bầu ra.",
+        "Đảm bảo sự bình đẳng, đoàn kết giữa các dân tộc trong quá trình hoạt động của các cơ quan nhà nước.",
+        "Trong quá trình hoạt động tất cả các cơ quan nhà nước đều hoạt động và tuân theo quy định của pháp luật."
+      ],
+      "dapandung": "Trong quá trình hoạt động tất cả các cơ quan nhà nước đều hoạt động và tuân theo quy định của pháp luật."
+    },
+    {
+      "cauhoi": "Trường hợp nào sau đây KHÔNG đúng ở Việt Nam?",
+      "dapan": [
+        "Chính phủ là cơ quan đại diện cao nhất của nhân dân",
+        "Công dân có quyền tự do ngôn luận, tự do báo chí",
+        "Các tôn giáo đều bình đẳng trước pháp luật",
+        "Quốc hội là cơ quan duy nhất có quyền lập pháp và lập hiến"
+      ],
+      "dapandung": "Chính phủ là cơ quan đại diện cao nhất của nhân dân"
+    },
+    {
+      "cauhoi": "Ở Việt Nam, cơ quan nào là cơ quan hành chính nhà nước ở địa phương?",
+      "dapan": [
+        "Tòa án nhân dân",
+        "Hội đồng nhân dân",
+        "Ủy ban nhân dân",
+        "Viện kiểm sát nhân dân"
+      ],
+      "dapandung": "Ủy ban nhân dân"
+    },
+    {
+      "cauhoi": "Ở Việt Nam, văn bản quy phạm pháp luật ở địa phương bao gồm những văn bản nào?",
+      "dapan": [
+        "Nghị quyết của Ủy ban nhân dân; quyết định của Hội đồng nhân dân",
+        "Nghị quyết của Hội đồng nhân dân; quyết định của Ủy ban nhân dân",
+        "Nghị quyết của Hội đồng nhân dân; quyết định, chỉ thị của Ủy ban nhân dân",
+        "Quyết định của Hội đồng nhân dân; quyết định, chỉ thị của Ủy ban nhân dân"
+      ],
+      "dapandung": "Nghị quyết của Hội đồng nhân dân; quyết định của Ủy ban nhân dân"
+    },
+    {
+      "cauhoi": "Về hình thức cấu trúc ở các nhà nước xã hội chủ nghĩa ___________.",
+      "dapan": [
+        "Tồn tại hình thức cấu trúc đơn nhất và liên minh",
+        "Chỉ tồn tại hình thức cấu trúc đơn nhất",
+        "Tồn tại hình thức cấu trúc đơn nhất và liên bang",
+        "Chỉ tồn tại hình thức cấu liên bang"
+      ],
+      "dapandung": "Tồn tại hình thức cấu trúc đơn nhất và liên bang"
+    },
+    {
+      "cauhoi": "Chức danh nào sau đây KHÔNG do Quốc hội bầu, bãi, miễn nhiệm?",
+      "dapan": [
+        "Phó chủ tịch nước",
+        "Phó chủ tịch Quốc hội",
+        "Ủy viên Ủy ban thường vụ Quốc hội",
+        "Phó thủ tướng chính phủ"
+      ],
+      "dapandung": "Phó thủ tướng chính phủ"
+    },
+    {
+      "cauhoi": "Ở Việt Nam, văn bản luật có các hình thức __________.",
+      "dapan": [
+        "Hiến pháp, Luật, pháp lệnh",
+        "Hiến pháp, Luật, pháp lệnh, Nghị quyết",
+        "Hiến pháp, Luật, pháp lệnh, Nghị quyết, Nghị định, Quyết định, Chỉ thị, Thông tư",
+        "Hiến pháp, Luật, Nghị quyết của Quốc Hội"
+      ],
+      "dapandung": "Hiến pháp, Luật, Nghị quyết của Quốc Hội"
+    },
+    {
+      "cauhoi": "Nhận định nào sau đây là đúng?",
+      "dapan": [
+        "Thành phố Trà Vinh là đơn vị hành chính cấp huyện.",
+        "Thành phố Trà Vinh là đơn vị hành chính cấp tỉnh.",
+        "Thành phố Trà Vinh là đơn vị hành chính cấp xã.",
+        "Thành phố Trà Vinh là thành phố trực thuộc trung ương."
+      ],
+      "dapandung": "Thành phố Trà Vinh là đơn vị hành chính cấp huyện."
+    },
+    {
+      "cauhoi": "Ở Việt Nam, cơ quan nào không phải là cơ quan hành chính nhà nước?",
+      "dapan": ["UBND xã", "Quốc hội", "Bộ Ngoại giao", "Chính phủ"],
+      "dapandung": "Quốc hội"
+    },
+    {
+      "cauhoi": "Ở Việt Nam, Ủy ban thường vụ Quốc hội có thẩm quyền ban hành ___________.",
+      "dapan": [
+        "Pháp lệnh, nghị quyết, nghị định",
+        "Luật, pháp lệnh, nghị quyết",
+        "Hiến pháp, luật, pháp lệnh",
+        "Pháp lệnh, nghị quyết"
+      ],
+      "dapandung": "Pháp lệnh, nghị quyết"
+    },
+    {
+      "cauhoi": "“Các cơ quan nhà nước trung ương có quyền kiểm tra giám sát hoạt động của cơ quan ở địa phương” là biểu hiện của nguyên tắc nào trong tổ chức và hoạt động của bộ máy nhà nước xã hội chủ nghĩa?",
+      "dapan": [
+        "Nguyên tắc tập trung dân chủ",
+        "Nguyên tắc bảo đảm sự lãnh đạo của Đảng cộng sản đói với nhà nước",
+        "Nguyên tắc pháp chế",
+        "Nguyên tắc quyền lực nhà nước là thống nhất"
+      ],
+      "dapandung": "Nguyên tắc tập trung dân chủ"
+    },
+    {
+      "cauhoi": "Ở Việt Nam, pháp luật được thực hiện chủ yếu bởi cơ quan nào sau đây?",
+      "dapan": ["Chính phủ", "Quốc hội", "Tòa án", "Nguyên thủ quốc gia"],
+      "dapandung": "Chính phủ"
+    },
+    {
+      "cauhoi": "Ở Việt Nam, hoạt động nào KHÔNG thuộc thẩm quyền của Viện kiểm sát?",
+      "dapan": [
+        "Giám sát đối với toàn bộ hoạt động của nhà nước",
+        "Giám sát hoạt động của các cơ quan tư pháp",
+        "Giữ quyền công tố tại phiên tòa",
+        "Kiểm tra hoạt động của các cơ quan tư pháp"
+      ],
+      "dapandung": "Giám sát đối với toàn bộ hoạt động của nhà nước"
+    },
+    {
+      "cauhoi": "Theo Hiến pháp hiện hành, Chủ tịch nước Cộng hòa xã hội chủ nghĩa Việt Nam thay mặt nhà nước về __________.",
+      "dapan": [
+        "Đối nội và đối ngoại",
+        "Đối nội, ngoại giao",
+        "Văn hóa - xã hội",
+        "Văn hóa - xã hội, đối nội và đối ngoại"
+      ],
+      "dapandung": "Đối nội, ngoại giao"
+    },
+    {
+      "cauhoi": "Ở Việt Nam, Đảng lãnh đạo nhà nước bằng phương pháp nào?",
+      "dapan": [
+        "Giáo dục, thuyết phục",
+        "Giáo dục, thuyết phục kết hợp với cưỡng chế",
+        "Giáo dục và cưỡng chế",
+        "Giáo dục, thuyết phục kết hợp với noi gương"
+      ],
+      "dapandung": "Giáo dục, thuyết phục kết hợp với noi gương"
+    },
+    {
+      "cauhoi": "Hình thức Pháp luật chủ yếu của các nhà nước xã hội chủ nghĩa là __________.",
+      "dapan": [
+        "Tiền lệ pháp",
+        "Tập quán pháp, tiền lệ pháp, văn bản quy phạm pháp luật",
+        "Tập quán pháp",
+        "Văn bản quy phạm pháp luật"
+      ],
+      "dapandung": "Văn bản quy phạm pháp luật"
+    },
+    {
+      "cauhoi": "Ở Việt Nam, cơ quan nào giữ quyền công tố?",
+      "dapan": [
+        "Toà án nhân dân",
+        "Quốc hội",
+        "Viện kiểm sát nhân dân",
+        "Uỷ ban Thường vụ Quốc hội"
+      ],
+      "dapandung": "Viện kiểm sát nhân dân"
+    },
+    {
+      "cauhoi": "Ở Việt Nam, cơ quan quản lý nhà nước cấp Trung ương là __________.",
+      "dapan": [
+        "Uỷ ban Thường vụ Quốc hội",
+        "Bộ và cơ quan ngang bộ",
+        "Viện kiểm sát nhân dân tối cao",
+        "Toà án nhân dân tối cao"
+      ],
+      "dapandung": "Bộ và cơ quan ngang bộ"
+    },
+    {
+      "cauhoi": "Ở Việt Nam, luật bảo vệ môi trường do cơ quan nào sau đây ban hành?",
+      "dapan": [
+        "Quốc hội",
+        "Chính phủ",
+        "Bộ Tài nguyên môi trường",
+        "Ủy ban thường vụ Quốc hội"
+      ],
+      "dapandung": "Quốc hội"
+    },
+    {
+      "cauhoi": "Hệ thống tòa án ở Việt Nam hiện nay được tổ chức thành ___________.",
+      "dapan": [
+        "Tòa án nhân dân tối cao, tòa án nhân dân cấp cao, tòa án nhân dân cấp tỉnh, tòa án nhân dân cấp huyện, tòa án nhân dân cấp xã, các tòa án quân sự",
+        "Tòa án nhân dân tối cao, tòa án nhân dân cấp tỉnh, tòa án nhân dân cấp huyện, các tòa án quân sự",
+        "Tòa án nhân dân tối cao, Tòa án nhân dân cấp cao, tòa án nhân dân địa phương, các tòa án quân sự",
+        "Tòa án nhân dân tối cao, tòa án nhân dân cấp cao, tòa án nhân dân cấp tỉnh, tòa án nhân dân cấp huyện"
+      ],
+      "dapandung": "Tòa án nhân dân tối cao, tòa án nhân dân cấp tỉnh, tòa án nhân dân cấp huyện, các tòa án quân sự"
+    },
+    {
+      "cauhoi": "Nhận định nào sau đây là SAI?",
+      "dapan": [
+        "Nhà nước pháp quyền đề cao hiến pháp và pháp luật",
+        "Trong nhà nước pháp quyền, có sự phân công, phối hợp giữa các cơ qua nhà nước trong việc thực hiện quyền lực",
+        "Trong nhà nước pháp quyền, con người là giá trị cao quý nhất",
+        "Nhà nước pháp quyền là kiểu nhà nước tiến bộ nhất trong lịch sử"
+      ],
+      "dapandung": "Nhà nước pháp quyền là kiểu nhà nước tiến bộ nhất trong lịch sử"
+    },
+    {
+      "cauhoi": "Ở Việt Nam, không có hình thức văn bản quy phạm pháp luật dưới dạng thông tư liên tịch giữa __________.",
+      "dapan": [
+        "Chánh án Tòa án nhân tối cao với Viện trưởng Viện kiểm sát nhân dân tối cao",
+        "Các Bộ trưởng",
+        "Bộ trưởng với Chánh án Tòa án nhân tối cao",
+        "Thủ trưởng cơ quan ngang bộ với Viện trưởng Viện kiểm sát nhân dân tối cao"
+      ],
+      "dapandung": "Các Bộ trưởng"
+    },
+    {
+      "cauhoi": "Về hình thức chính thể ở các nhà nước xã hội chủ nghĩa ___________.",
+      "dapan": [
+        "Có cả chính thể cộng hòa quý tộc và cộng hòa dân chủ",
+        "Chỉ có chính thể cộng hòa dân chủ",
+        "Chỉ có chính thể quân chủ",
+        "Có cả chính thể quân chủ và chính thể cộng hòa"
+      ],
+      "dapandung": "Chỉ có chính thể cộng hòa dân chủ"
+    },
+    {
+      "cauhoi": "Tổ chức chính trị ở Việt Nam là __________.",
+      "dapan": [
+        "Mặt trận tổ quốc",
+        "Đảng cộng sản",
+        "Nhà nước",
+        "Đảng cộng sản, Nhà nước, Mặt trận tổ quốc"
+      ],
+      "dapandung": "Đảng cộng sản"
+    },
+    {
+      "cauhoi": "Trong bộ máy nhà nước Việt Nam, chức năng xét xử thuộc ___________.",
+      "dapan": ["Bộ Công an", "Tòa án", "Viện kiểm sát", "Cơ quan điều tra"],
+      "dapandung": "Tòa án"
+    },
+    {
+      "cauhoi": "Chức năng nào sau đây của nhà nước xã hội chủ nghĩa thuộc chức năng đối nội?",
+      "dapan": [
+        "Tương trợ tư pháp giữa các quốc gia.",
+        "Ủng hộ phong trào đấu tranh của nhân dân thế giới vì hòa bình",
+        "Tăng cường các mặt hàng xuất khẩu công nghệ cao.",
+        "Tiếp thu tinh hoa văn hoá nhân loại."
+      ],
+      "dapandung": "Tăng cường các mặt hàng xuất khẩu công nghệ cao."
+    },
+    {
+      "cauhoi": "Sắp xếp các loại văn bản quy phạm pháp luật sau theo hiệu lực pháp lý từ cao đến thấp:",
+      "dapan": [
+        "Luật, nghị định, lệnh, pháp lệnh, thông tư",
+        "Luật, pháp lệnh, lệnh, nghị định, thông tư",
+        "Lệnh, luật, pháp lệnh, nghị định, thông tư",
+        "Pháp lệnh, luật, nghị định, lệnh, thông tư"
+      ],
+      "dapandung": "Luật, pháp lệnh, lệnh, nghị định, thông tư"
+    },
+    {
+      "cauhoi": "Giai đoạn đầu trong quá trình phát triển của nhà nước tư bản gọi là __________.",
+      "dapan": [
+        "Giai đoạn đế quốc chủ nghĩa",
+        "Giai đoạn chủ nghĩa tư bản lũng đoạn nhà nước",
+        "Giai đoạn tư bản tự do cạnh tranh",
+        "Giai đoạn tư bản độc quyền"
+      ],
+      "dapandung": "Giai đoạn tư bản tự do cạnh tranh"
+    },
+    {
+      "cauhoi": "Theo Hiến pháp Việt Nam hiện hành, Quốc hội muốn bãi nhiệm đại biểu quốc hội thì phải được sự biểu quyết tán thành của __________.",
+      "dapan": [
+        "Ít nhất 2/3 tổng số đại biểu quốc hội",
+        "Quá 1/3 tổng số đại biểu quốc hội",
+        "Quá 1/2 tổng số đại biểu quốc hội",
+        "Quá 2/3 tổng số đại biểu quốc hội"
+      ],
+      "dapandung": "Ít nhất 2/3 tổng số đại biểu quốc hội"
+    },
+    {
+      "cauhoi": "Hình thức nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam dưới góc độ chính thể là __________.",
+      "dapan": [
+        "Quân chủ lập hiến",
+        "Cộng hoà dân chủ tư sản",
+        "Quân chủ chuyên chế",
+        "Cộng hoà dân chủ nhân dân"
+      ],
+      "dapandung": "Cộng hoà dân chủ nhân dân"
+    },
+    {
+      "cauhoi": "Ở các nhà nước tư sản có chính thể cộng hòa tổng thống, __________.",
+      "dapan": [
+        "Chính phủ do nghị viện thành lập",
+        "Tổng thống đứng đầu nghị viện",
+        "Tổng thống đứng đầu chính phủ",
+        "Quốc hội được bỏ phiếu bất tín nhiệm chính phủ"
+      ],
+      "dapandung": "Tổng thống đứng đầu chính phủ"
+    },
+    {
+      "cauhoi": "Pháp luật xã hội chủ nghĩa được thể hiện qua hình thức nào?",
+      "dapan": [
+        "Tiền lệ pháp",
+        "Tập quán pháp, tiền lệ pháp, văn bản quy phạm pháp luật",
+        "Văn bản quy phạm pháp luật",
+        "Tập quán pháp"
+      ],
+      "dapandung": "Tập quán pháp, tiền lệ pháp, văn bản quy phạm pháp luật"
+    },
+    {
+      "cauhoi": "Chế độ chính trị là __________.",
+      "dapan": [
+        "Sự phân chia nhà nước thành các đơn vị hành chính lãnh thổ và xác lập mối quan hệ cơ bản giữa các cơ quan nhà nước trung ương với địa phương",
+        "Cách tổ chức bộ máy quyền lực nhà nước và phương pháp thực hiện quyền lực nhà nước",
+        "Cách tổ chức và trình tự để lập ra các cơ quan tối cao của nhà nước (ở trung ương) và xác lập mối quan hệ cơ bản giữa các cơ quan đó",
+        "Tổng thể các phương pháp, những thủ đoạn mà các cơ quan nhà nước sử dụng để thực hiện quyền lực nhà nước"
+      ],
+      "dapandung": "Tổng thể các phương pháp, những thủ đoạn mà các cơ quan nhà nước sử dụng để thực hiện quyền lực nhà nước"
+    },
+    {
+      "cauhoi": "\"Quyền tham gia bầu cử để lập ra cơ quan quyền lực nhà nước được quy định đối với các tầng lớp quý tộc\". Đây là đặc điểm của nhà nước có hình thức chính thể __________.",
+      "dapan": [
+        "Cộng hòa dân chủ",
+        "Quân chủ hạn chế",
+        "Cộng hòa quý tộc",
+        "Quân chủ chuyên chế"
+      ],
+      "dapandung": "Cộng hòa quý tộc"
+    },
+    {
+      "cauhoi": "Hình thức pháp luật của nhà nước chủ nô là ___________.",
+      "dapan": [
+        "Tập quán pháp",
+        "Văn bản quy phạm pháp luật",
+        "Tập quán pháp, Tiền lệ pháp và văn bản quy phạm pháp luật",
+        "Tiền lệ pháp"
+      ],
+      "dapandung": "Tập quán pháp, Tiền lệ pháp và văn bản quy phạm pháp luật"
+    },
+    {
+      "cauhoi": "Sự phân chia đẳng cấp trong xã hội phong kiến chủ yếu phụ thuộc vào __________.",
+      "dapan": [
+        "Địa vị pháp lý của mỗi đẳng cấp",
+        "Địa vị chính trị - xã hội",
+        "Tính chất và số lượng các quyền mà đại diện đẳng cấp có được",
+        "Sự khác nhau về đất đai giữa các cá nhân"
+      ],
+      "dapandung": "Sự khác nhau về đất đai giữa các cá nhân"
+    },
+    {
+      "cauhoi": "Ở Việt Nam, lệnh do cơ quan nào ban hành?",
+      "dapan": [
+        "Chủ tịch nước",
+        "Ủy ban thường vụ quốc hội",
+        "Chính phủ",
+        "Quốc hội"
+      ],
+      "dapandung": "Chủ tịch nước"
+    },
+    {
+      "cauhoi": "Pháp luật nhiều nước tư sản tuyên bố quyền lực nhà nước thuộc về __________.",
+      "dapan": [
+        "Giai cấp tư sản",
+        "Nhân dân",
+        "Giai cấp vô sản",
+        "Giai cấp tư sản và nhân dân"
+      ],
+      "dapandung": "Nhân dân"
+    },
+    {
+      "cauhoi": "Bộ luật Hammurabi là của __________.",
+      "dapan": [
+        "Nhà nước chủ nô Hy Lạp",
+        "Nhà nước chủ nô Ấn Độ",
+        "Nhà nước chủ nô La Mã",
+        "Nhà nước chủ nô Babilon"
+      ],
+      "dapandung": "Nhà nước chủ nô Babilon"
+    },
+    {
+      "cauhoi": "Văn bản quy phạm pháp luật nào sao đây có giá trị pháp lý cao nhất?",
+      "dapan": ["Bộ luật", "Pháp lệnh", "Lệnh của Chủ tịch nước", "Hiến pháp"],
+      "dapandung": "Hiến pháp"
+    },
+    {
+      "cauhoi": "Cơ quan nào trong bộ máy nhà nước đóng vai trò quan trọng nhất trong việc bảo vệ pháp luật?",
+      "dapan": ["Quốc hội", "Chính phủ", "Tòa án", "Việm kiểm sát"],
+      "dapandung": "Tòa án"
+    },
+    {
+      "cauhoi": "Các cơ quan nhà nước được chia thành các cơ quan có thẩm quyền chung và các cơ quan có thẩm quyền riêng là căn cứ vào ___________.",
+      "dapan": [
+        "Chức năng thực hiện quyền lực nhà nước",
+        "Tính chất, chức năng, trình tự thành lập",
+        "Tính chất thẩm quyền",
+        "Trình tự thành lập"
+      ],
+      "dapandung": "Tính chất thẩm quyền"
+    },
+    {
+      "cauhoi": "Nhận định nào sau đây là SAI?",
+      "dapan": [
+        "Hình thức bóc lột chủ yếu của địa chủ đối với nông dân là địa tô",
+        "Dưới chế độ phong kiến, đất đai là tư liệu sản xuất chủ yếu",
+        "Xã hội phong kiến có kết cấu đơn giản",
+        "Về nguyên tắc, địa chủ không có quyền sở hữu đối với nông dân"
+      ],
+      "dapandung": "Xã hội phong kiến có kết cấu đơn giản"
+    },
+    {
+      "cauhoi": "Ở Việt Nam, cơ quan thường trực của Quốc hội là __________.",
+      "dapan": [
+        "Ủy ban Quốc hội",
+        "Ủy ban thường vụ Quốc hội",
+        "Chính phủ",
+        "Hội đồng dân tộc"
+      ],
+      "dapandung": "Ủy ban thường vụ Quốc hội"
+    },
+    {
+      "cauhoi": "Về hình thức chính thể của nhà nước tư sản __________.",
+      "dapan": [
+        "Tồn tại chính thể quân chủ tuyệt đối",
+        "Chỉ tồn tại chính thể cộng hòa",
+        "Gồm chính thể quân chủ lập hiến và cộng hòa dân chủ tư sản",
+        "Chỉ tồn tại chính thể quân chủ"
+      ],
+      "dapandung": "Gồm chính thể quân chủ lập hiến và cộng hòa dân chủ tư sản"
+    },
+    {
+      "cauhoi": "Tìm nhận định đúng trong các nhận định sau:",
+      "dapan": [
+        "Pháp luật là công cụ mà nhà nước sử dụng để thực hiện quyền lực của mình",
+        "Pháp luật không chỉ do nhà nước ban hành",
+        "Nhà nước ban hành ra pháp luật nên nhà nước đứng trên pháp luật",
+        "Pháp luật là phương tiện duy nhất mà nhà nước sử dụng để thực hiện quyền lực của mình"
+      ],
+      "dapandung": "Pháp luật là công cụ mà nhà nước sử dụng để thực hiện quyền lực của mình"
+    },
+    {
+      "cauhoi": "Nhà nước tư sản trấn áp nhân dân lao động ở phương diện chính nào?",
+      "dapan": ["Chính trị và tư tưởng", "Kinh tế", "Chính trị", "Tư tưởng"],
+      "dapandung": "Chính trị và tư tưởng"
+    },
+    {
+      "cauhoi": "Nhận định nào sau đây là SAI?",
+      "dapan": [
+        "Pháp luật xã hội chủ nghĩa mang tính giai cấp",
+        "Pháp luật xã hội chủ nghĩa là nhân tố duy nhất điều chỉnh các quan hệ xã hội",
+        "Pháp luật xã hội chủ nghĩa thể hiện ý chí của nhà nước xã hội chủ nghĩa",
+        "Pháp luật xã hội chủ nghĩa mang tính xã hội rộng rãi"
+      ],
+      "dapandung": "Pháp luật xã hội chủ nghĩa thể hiện ý chí của nhà nước xã hội chủ nghĩa"
+    },
+    {
+      "cauhoi": "Các loại văn bản quy phạm pháp luật điển hình của nhà nước tư sản là __________.",
+      "dapan": [
+        "Hiến pháp, Luật",
+        "Hiến pháp, Luật, sắc lệnh, nghị định",
+        "Hiến pháp, Luật, sắc lệnh",
+        "Luật, sắc lệnh"
+      ],
+      "dapandung": "Hiến pháp, Luật, sắc lệnh, nghị định"
+    },
+    {
+      "cauhoi": "Ở Việt Nam, cơ quan chấp hành của Quốc hội là __________.",
+      "dapan": [
+        "Chính phủ, Bộ và các cơ quan ngang bộ",
+        "Chính phủ",
+        "Bộ và các cơ quan ngang bộ",
+        "Ủy ban thường vụ quốc hội"
+      ],
+      "dapandung": "Chính phủ"
+    },
+    {
+      "cauhoi": "Bản chất của nhà nước phong kiến được quyết định bởi __________.",
+      "dapan": [
+        "Cơ sở kinh tế và kết cấu giai cấp của xã hội",
+        "Kết cấu giai cấp",
+        "Quyền lực của các tầng lớp, giai cấp trong xã hội",
+        "Cơ sở kinh tế"
+      ],
+      "dapandung": "Cơ sở kinh tế và kết cấu giai cấp của xã hội"
+    },
+    {
+      "cauhoi": "“Nhân dân có quyền tham gia vào việc tổ chức lập ra bộ máy nhà nước” là biểu hiện của nguyên tắc nào trong tổ chức và hoạt động của bộ máy nhà nước xã hội chủ nghĩa?",
+      "dapan": [
+        "Nguyên tắc tập trung dân chủ",
+        "Nguyên tắc bình đẳng, đoàn kết giữa các dân tộc",
+        "Nguyên tắc quyền lực nhà nước là thống nhất",
+        "Nguyên tắc bảo đảm quyền lực của nhân dân trong tổ chức và hoạt động của bộ máy nhà nước"
+      ],
+      "dapandung": "Nguyên tắc bảo đảm quyền lực của nhân dân trong tổ chức và hoạt động của bộ máy nhà nước"
+    },
+    {
+      "cauhoi": "Trong xã hội chiếm hữu nô lệ tồn tại các giai cấp __________.",
+      "dapan": [
+        "Chủ nô và nô lệ, dân tự do",
+        "Chủ nô, nô lệ, thợ thủ công",
+        "Chủ nô và nô lệ",
+        "Chủ nô và nô lệ, dân tự do, thợ thủ công..."
+      ],
+      "dapandung": "Chủ nô và nô lệ, dân tự do, thợ thủ công..."
+    },
+    {
+      "cauhoi": "Hình thức chính thể mà quyền lực nhà nước tập trung toàn bộ vào trong tay người đứng đầu nhà nước được gọi là hình thức chính thể __________.",
+      "dapan": [
+        "Quân chủ tương đối",
+        "Quân chủ tuyệt đối",
+        "Cộng hòa dân chủ",
+        "Cộng hòa quý tộc"
+      ],
+      "dapandung": "Quân chủ tuyệt đối"
     }
   ],
   "DX22L80161_D_TLHDCC": [
@@ -2084,6 +2724,586 @@
         "Nghiệm thể phải ở ngoài trời"
       ],
       "dapandung": "Nghiệm thể không biết mình bị quan sát"
+    },
+    {
+      "cauhoi": "Trong những phản xạ sau, phản xạ nào là phản xạ không điều kiện?",
+      "dapan": [
+        "Trẻ mẫu giáo ăn vạ khi bị đòn",
+        "Trẻ sơ sinh khóc la khi đói",
+        "Trẻ con đứa nào cũng thích nuôi mèo",
+        "Trẻ em thường vòi tiền khi có khách"
+      ],
+      "dapandung": "Trẻ sơ sinh khóc la khi đói"
+    },
+    {
+      "cauhoi": "Cơ sở xã hội quyết định chất lượng hiện tượng tâm lý cá nhân là gì?",
+      "dapan": [
+        "Sự tích cực hoạt động và giao tiếp của cá nhân.",
+        "Thể chế chính trị và kinh tế khu vực",
+        "Gia đình và xã hội",
+        "Nhà trường và hệ thống giáo dục"
+      ],
+      "dapandung": "Sự tích cực hoạt động và giao tiếp của cá nhân."
+    },
+    {
+      "cauhoi": "Trong các trường hợp sau đây, đâu là giao tiếp?",
+      "dapan": [
+        "Hai máy bay không người lái đang phát tín hiệu cho nhau",
+        "Hai đội quân robot đang đua nhau",
+        "Hai đứa trẻ đang chơi đùa với nhau",
+        "Hai chú khỉ đang bắt chí cho nhau"
+      ],
+      "dapandung": "Hai đứa trẻ đang chơi đùa với nhau"
+    },
+    {
+      "cauhoi": "“Sản phẩm kép” thu được sau một hoạt động cụ thể của con người được hiểu là gì?",
+      "dapan": [
+        "Sản phẩm làm ra rồi kích thích sản phẩm khác ra đời",
+        "Sản phẩm phải qua hai công đoạn xuất tâm và nhập tâm",
+        "Sản phẩm là sự hợp nhất của hai yếu tố chủ thể và khách thể",
+        "Sản phẩm thu được là cả về vật chất lẫn tinh thần."
+      ],
+      "dapandung": "Sản phẩm thu được là cả về vật chất lẫn tinh thần."
+    },
+    {
+      "cauhoi": "Vừa nghe tiếng trống báo hết giờ, học sinh đã đứng hết dậy và chạy ra khỏi lớp cho dù cô giáo vẫn chưa kết thúc bài giảng. Hiện tượng đó gọi là gì?",
+      "dapan": [
+        "Phản xạ tự vệ của cơ thể",
+        "Phản ứng tự nhiên – bản năng",
+        "Phản xạ có điều kiện",
+        "Phản xạ không điều kiện"
+      ],
+      "dapandung": "Phản xạ có điều kiện"
+    },
+    {
+      "cauhoi": "Trong các đặc điểm sau đây, đặc điểm nào KHÔNG PHẢI là đặc trưng của “hoạt động”?",
+      "dapan": [
+        "Bao giờ cũng có mục đích",
+        "Bao giờ cũng có chủ thể",
+        "Bao giờ cũng có đối tượng",
+        "Bao giờ cũng được tiến hành một cách trực tiếp"
+      ],
+      "dapandung": "Bao giờ cũng được tiến hành một cách trực tiếp"
+    },
+    {
+      "cauhoi": "Hệ thống tín hiệu thứ hai ở người là tín hiệu gì?",
+      "dapan": [
+        "Tiếng nói-chữ viết",
+        "Âm thanh-tiếng động",
+        "Cơ thể- bản thể",
+        "Thao tác-cử chỉ-điệu bộ"
+      ],
+      "dapandung": "Tiếng nói-chữ viết"
+    },
+    {
+      "cauhoi": "Theo Sơ đồ vĩ mô của hoạt động, vì sao động cơ còn được gọi là đối tượng của hoạt động?",
+      "dapan": [
+        "Động cơ không thể tách ra khỏi đối tượng, nên gọi động cơ hay đối tượng đều đúng",
+        "Đối tượng nằm trong khách thể, động cơ cũng nằm trong khách thể nên đó chỉ là sự đại diện",
+        "Mỗi hoạt động có một động cơ duy nhất và cái hoạt động muốn hướng tới là Đối tượng nên chúng là một",
+        "Mỗi hoạt động có thể có nhiều động cơ, nhưng đối tượng là do chính hoạt động đó tạo ra."
+      ],
+      "dapandung": "Mỗi hoạt động có thể có nhiều động cơ, nhưng đối tượng là do chính hoạt động đó tạo ra."
+    },
+    {
+      "cauhoi": "Tâm lý người được hình thành, tồn tại và vận hành là nhờ gì?",
+      "dapan": [
+        "Quy luật hoạt động hệ thống thần kinh dưới vỏ não",
+        "Quy luật hoạt động hệ thống thần kinh trên vỏ não",
+        "Quy luật hoạt động của hệ thống thần kinh thực vật",
+        "Quy luật của sự di truyền các đặc điểm từ cha mẹ"
+      ],
+      "dapandung": "Quy luật hoạt động hệ thống thần kinh trên vỏ não"
+    },
+    {
+      "cauhoi": "Sức tập trung chú ý cần được hiểu chính xác như thế nào?",
+      "dapan": [
+        "Tập trung ý thức được nhiều đối tượng nhận thức cùng lúc",
+        "Tập trung ý thức từ 2 giờ đồng hồ trở lên",
+        "Tập trung ý thức vào phạm vi hẹp của đối tượng không bị sao nhãng bởi bất kỳ điều gì.",
+        "Chú ý được lâu theo thời gian đã xác định trước đó"
+      ],
+      "dapandung": "Tập trung ý thức vào phạm vi hẹp của đối tượng không bị sao nhãng bởi bất kỳ điều gì."
+    },
+    {
+      "cauhoi": "Động vật lớp thú có biểu hiện tâm lý cao nhất là gì?",
+      "dapan": [
+        "Tư duy sơ đồ",
+        "Tư duy trực quan hình ảnh",
+        "Tư duy trực quan hành động",
+        "Tư duy từ ngữ - logic"
+      ],
+      "dapandung": "Tư duy trực quan hành động"
+    },
+    {
+      "cauhoi": "Xác định cách hiểu nào là đúng khi nói về chú ý?",
+      "dapan": [
+        "Chú ý có thể diễn ra mọi lúc mọi nơi",
+        "Chú ý luôn xác định đối tượng riêng của mình",
+        "Chú ý không có đối tượng riêng của mình",
+        "Chú ý không thể diễn ra nếu không tìm thấy đối tượng của mình"
+      ],
+      "dapandung": "Chú ý không có đối tượng riêng của mình"
+    },
+    {
+      "cauhoi": "Miêu tả nào là đúng với hoạt động “giao tiếp xúc cảm trực tiếp”?",
+      "dapan": [
+        "Bằng cách gặp gỡ nhiều bạn bè để tăng vốn hiểu biết",
+        "Bằng cách thỏa mãn nhu cầu dinh dưỡng như ăn, uống, ngủ...",
+        "Bằng cách trao đổi ngôn ngữ, cử chỉ, điệu bộ, nét mặt",
+        "Bằng cách tác động trực tiếp lên các giác quan như da, mũi, lưỡi, tai, mắt ...đánh thức khả năng cảm thụ của các giác quan"
+      ],
+      "dapandung": "Bằng cách tác động trực tiếp lên các giác quan như da, mũi, lưỡi, tai, mắt ...đánh thức khả năng cảm thụ của các giác quan"
+    },
+    {
+      "cauhoi": "Tiến trình phát triển tâm lý nào là đúng nhất?",
+      "dapan": [
+        "Thời kỳ cảm giác =&gt; Thời kỳ tư duy =&gt; Thời kỳ tri giác",
+        "Thời kỳ cảm giác =&gt; Thời kỳ tri giá=&gt; Thời kỳ tư duy",
+        "Thời kỳ tri giác=&gt; Thời kỳ cảm giác=&gt; Thời kỳ tư duy",
+        "Thời kỳ tư duy =&gt; Thời kỳ tri giác=&gt; Thời kỳ cảm giác"
+      ],
+      "dapandung": "Thời kỳ cảm giác =&gt; Thời kỳ tri giá=&gt; Thời kỳ tư duy"
+    },
+    {
+      "cauhoi": "Giữa các tiết học thường có nghỉ năm phút giải lao, mục đích chính của việc này là để làm gì?",
+      "dapan": [
+        "Tăng sức phân phối chú ý",
+        "Tăng sức di chuyển chú ý",
+        "Tăng sức tập trung chú ý",
+        "Tăng sức bền chú ý"
+      ],
+      "dapandung": "Tăng sức di chuyển chú ý"
+    },
+    {
+      "cauhoi": "Động vật ở thời kỳ tri giác thì biểu hiện tâm lý của chúng như thế nào?",
+      "dapan": [
+        "Có tri giác mà không có cảm giác",
+        "Có tư duy mà không có tưởng tượng",
+        "Có cảm giác mà không có tri giác",
+        "Có tri giác và có cả cảm giác"
+      ],
+      "dapandung": "Có tri giác và có cả cảm giác"
+    },
+    {
+      "cauhoi": "Tri giác xuất hiện từ loài nào?",
+      "dapan": [
+        "Động vật có hệ thần kinh trung ương",
+        "Động vật có hệ thần kinh ống",
+        "Động vật có hệ thần kinh mấu",
+        "Động vật có hệ thần kinh lưới"
+      ],
+      "dapandung": "Động vật có hệ thần kinh ống"
+    },
+    {
+      "cauhoi": "Tư duy và tưởng tưởng khác nhau ở điểm nào?",
+      "dapan": [
+        "Cách sử dụng nguyên liệu từ trí nhớ",
+        "Có liên quan nhận thức cảm tính",
+        "Cấp độ nhận thức lý tính",
+        "Phản ánh một cách gián tiếp"
+      ],
+      "dapandung": "Cách sử dụng nguyên liệu từ trí nhớ"
+    },
+    {
+      "cauhoi": "“Khi cơ thể bị sốt, ta không nên chườm đá mà nên lau bằng khăn ấm.” Khuyến cáo này cũng cho thấy cảm giác bị chi phối bởi quy luật nào?",
+      "dapan": [
+        "Quy luật tác động qua lại nối tiếp giữa các cảm giác",
+        "Quy luật tác động qua lại đồng thời giữa các cảm giác",
+        "Quy luật thích ứng của cảm giác",
+        "Quy luật ngưỡng cảm giác"
+      ],
+      "dapandung": "Quy luật tác động qua lại đồng thời giữa các cảm giác"
+    },
+    {
+      "cauhoi": "Ngưỡng sai biệt của cảm giác tồn tại và hoạt động như thế nào?",
+      "dapan": [
+        "Phụ thuộc vào sức khỏe ta",
+        "Phụ thuộc vào luyện tập của ta",
+        "Phụ thuộc vào tâm trạng của ta",
+        "Là hằng số không thay đổi"
+      ],
+      "dapandung": "Là hằng số không thay đổi"
+    },
+    {
+      "cauhoi": "Độ nhạy cảm của cảm giác được phân biệt với ngưỡng cảm giác trên ở đặc điểm nào?",
+      "dapan": [
+        "Xuất hiện với cường độ kích thích tối đa",
+        "Xuất hiện với cường độ kích thích tối thiểu",
+        "Vị trí nguồn kích thích bên ngoài hay bên trong",
+        "Cơ quan nhận cảm cảm nhận được được kích thích"
+      ],
+      "dapandung": "Xuất hiện với cường độ kích thích tối thiểu"
+    },
+    {
+      "cauhoi": "Loại tư duy trực quan hành động được thể hiện ra sao?",
+      "dapan": [
+        "Hiểu vấn đề khi tự tưởng tượng",
+        "Hiểu vấn đề khi được cầm tay chỉ việc",
+        "Hiểu vấn đề khi được quan sát",
+        "Hiểu vấn đề khi được nghe nói"
+      ],
+      "dapandung": "Hiểu vấn đề khi được cầm tay chỉ việc"
+    },
+    {
+      "cauhoi": "“Ngày nay các đầu bếp hay cắt tỉa rau củ thành hoa, chim, cá…” Việc này cho thấy cách tưởng tượng sáng tạo nào ở họ được thể hiện?",
+      "dapan": [
+        "Nhấn mạnh – cường điệu",
+        "Chắp ghép – kết dính",
+        "Loại suy",
+        "Liên hợp"
+      ],
+      "dapandung": "Loại suy"
+    },
+    {
+      "cauhoi": "Tư duy và tưởng tượng giống nhau ở điểm nào?",
+      "dapan": [
+        "Phản ánh thuộc tính bên ngoài sự vật, hiện tượng",
+        "Phản ánh những sự vật, hiện tượng mà trước đó chưa từng tri giác",
+        "Phản ánh sự vật, hiện tượng một cách trực tiếp",
+        "Phản ánh sự vật, hiện tượng một cách gián tiếp"
+      ],
+      "dapandung": "Phản ánh sự vật, hiện tượng một cách gián tiếp"
+    },
+    {
+      "cauhoi": "Cảm giác xuất hiện từ loài nào?",
+      "dapan": [
+        "Động vật có hệ thần kinh lưới",
+        "Động vật có hệ thần kinh trung ương",
+        "Động vật có hệ thần kinh ống",
+        "Động vật có hệ thần kinh mấu"
+      ],
+      "dapandung": "Động vật có hệ thần kinh mấu"
+    },
+    {
+      "cauhoi": "“Khi đi từ trong nhà ra sân, nắng chói làm mắt ta khó chịu nhưng một lúc sau đứng ngoài sân ta lại thấy bình thường.” Trong suốt quá trình trên, độ nhạy cảm mắt của ta đã thay đổi ra sao?",
+      "dapan": [
+        "Lúc đầu giảm lúc sau tăng",
+        "Giảm",
+        "Không thay đổi",
+        "Lúc đầu tăng lúc sau giảm"
+      ],
+      "dapandung": "Lúc đầu tăng lúc sau giảm"
+    },
+    {
+      "cauhoi": "Khi nhìn từ máy bay xuống thành phố, ta thấy các phương tiện giao thông đang di chuyển rất chậm, nhưng ta biết chúng đang đi như bình thường. Quy luật nào của tri giác được thể hiện?",
+      "dapan": [
+        "Quy luật ổn định",
+        "Quy luật tổng giác",
+        "Quy luật về tính có ý nghĩa",
+        "Quy luật lựa chọn"
+      ],
+      "dapandung": "Quy luật ổn định"
+    },
+    {
+      "cauhoi": "“Tanh” là cảm giác của cơ quan thụ cảm nào nào?",
+      "dapan": ["Vị giác", "Thị giác", "Khứu giác", "Xúc giác (Mạc giác)"],
+      "dapandung": "Khứu giác"
+    },
+    {
+      "cauhoi": "Cảm giác nào là cảm giác bên trong?",
+      "dapan": [
+        "Cảm giác thăng bằng",
+        "Cảm giác về vị trí của vật",
+        "Cảm giác âm thanh",
+        "Cảm giác mùi vị"
+      ],
+      "dapandung": "Cảm giác thăng bằng"
+    },
+    {
+      "cauhoi": "Như thế nào là một trí nhớ tốt?",
+      "dapan": [
+        "Không thể quên và nhớ một cách có chủ định",
+        "Quên tất cả những gì đã trải nghiệm",
+        "Nhớ tất cả những gì đã trải nghiệm",
+        "Có thể quên và nhớ một cách có chủ định"
+      ],
+      "dapandung": "Có thể quên và nhớ một cách có chủ định"
+    },
+    {
+      "cauhoi": "“Trông mặt mà bắt hình dong,\nCon lợn có béo thì lòng mới ngon”\nHai câu thơ trên nói lên đặc điểm nào của tư duy?",
+      "dapan": [
+        "Có quan hệ mật thiết với nhận thức cảm tính",
+        "Có tính trừu tượng và khái quát",
+        "Có quan hệ chặt chẽ với ngôn ngữ",
+        "Có tính lý tính"
+      ],
+      "dapandung": "Có quan hệ mật thiết với nhận thức cảm tính"
+    },
+    {
+      "cauhoi": "Tính cảm ứng của sinh vật xuất hiện cùng với sự xuất hiện của loài nào?",
+      "dapan": [
+        "Động vật có hệ thần kinh mấu",
+        "Động vật có hệ thần kinh lưới",
+        "Động vật có hệ thần kinh ống",
+        "Động vật có hệ thần kinh trung ương"
+      ],
+      "dapandung": "Động vật có hệ thần kinh lưới"
+    },
+    {
+      "cauhoi": "Cảm giác và tri giác khác nhau ở điểm nào?",
+      "dapan": [
+        "Phản ánh sự vật, hiện tượng một cách gián tiếp",
+        "Phản ánh các thuộc tính bản chất của sự vật",
+        "Phản ánh sự vật, hiện tượng một cách trực tiếp",
+        "Phản ánh trọn vẹn các thuộc tính bên ngoài của sự vật"
+      ],
+      "dapandung": "Phản ánh trọn vẹn các thuộc tính bên ngoài của sự vật"
+    },
+    {
+      "cauhoi": "Đều sử dụng trí nhớ như cầu nối để giải quyết vấn đề, nhưng tưởng tượng khác tư duy ở chỗ nào?",
+      "dapan": [
+        "Dùng hiểu biết để suy nghĩ",
+        "Dùng nhận thức cảm tính làm nguyên liệu.",
+        "Dùng các thao tác theo trình tự",
+        "Dùng biểu tượng để suy nghĩ"
+      ],
+      "dapandung": "Dùng biểu tượng để suy nghĩ"
+    },
+    {
+      "cauhoi": "Câu tục ngữ “Cả giận mất khôn” miêu tả mức độ nào của xúc cảm, tình cảm?",
+      "dapan": [
+        "Xúc cảm - Tâm trạng",
+        "Xúc cảm – Xúc động",
+        "Màu sắc xúc cảm của cảm giác",
+        "Tình cảm – Đam mê"
+      ],
+      "dapandung": "Xúc cảm – Xúc động"
+    },
+    {
+      "cauhoi": "Câu ca dao sau muốn nói đến quy luật nào của tình cảm?\n“Năng mưa thì giếng năng đầy;\nAnh năng đi lại mẹ thầy năng thương”",
+      "dapan": [
+        "Quy luật hình thành",
+        "Quy luật cảm ứng",
+        "Quy luật thích ứng",
+        "Quy luật pha trộn"
+      ],
+      "dapandung": "Quy luật hình thành"
+    },
+    {
+      "cauhoi": "Câu thành ngữ “Điếc không sợ súng” muốn đề cập tới đặc trưng nào của xúc cảm, tình cảm?",
+      "dapan": [
+        "Đặc trưng nhận thức",
+        "Đặc trưng đối cực",
+        "Đặc trưng xã hội",
+        "Đặc trưng chân thật"
+      ],
+      "dapandung": "Đặc trưng nhận thức"
+    },
+    {
+      "cauhoi": "So với người chưa từng tập đánh cầu trước đây, thì người đã đánh cầu theo kiểu tự phát khi được học bài bản lại chậm tiến bộ hơn. Vì sự ảnh hưởng của quy luật hình thành kỹ xảo nào?",
+      "dapan": [
+        "Quy luật tiến bộ không đồng đều",
+        "Quy luật đỉnh của phương pháp luyện tập",
+        "Quy luật tác động qua lại giữa kỹ xảo cũ và mới",
+        "Quy luật dập tắt kỹ xảo"
+      ],
+      "dapandung": "Quy luật tác động qua lại giữa kỹ xảo cũ và mới"
+    },
+    {
+      "cauhoi": "Hiện tượng “Đồng cảm” thể hiện quy luật nào trong đời sống tình cảm của con người?",
+      "dapan": [
+        "Quy luật pha trộn",
+        "Quy luật lây lan",
+        "Quy luật cảm ứng",
+        "Quy luật hình thành"
+      ],
+      "dapandung": "Quy luật lây lan"
+    },
+    {
+      "cauhoi": "Câu “Yêu nhau lắm, cắn nhau đau” đề cập quy luật nào của tình cảm?",
+      "dapan": [
+        "Quy luật hình thành",
+        "Quy luật pha trộn",
+        "Quy luật cảm ứng",
+        "Quy luật di chuyển"
+      ],
+      "dapandung": "Quy luật pha trộn"
+    },
+    {
+      "cauhoi": "Dân gian có câu:\n“Lỗ mũi mười tám gánh lông;\nChồng yêu chồng bảo râu rồng trời cho”.\nCâu trên cho thấy tình cảm con người có đặc trưng gì?",
+      "dapan": [
+        "Đặc trưng xã hội",
+        "Đặc trưng đối cực",
+        "Đặc trưng chân thật",
+        "Đặc trưng nhận thức"
+      ],
+      "dapandung": "Đặc trưng nhận thức"
+    },
+    {
+      "cauhoi": "Xác định đâu là nhu cầu cấp cao?",
+      "dapan": [
+        "Trẻ em cần được sống",
+        "Trẻ em cần được tiêm chủng",
+        "Trẻ em cần được giáo dục",
+        "Trẻ em cần được ăn uống"
+      ],
+      "dapandung": "Trẻ em cần được giáo dục"
+    },
+    {
+      "cauhoi": "“Ta chỉ giận những người ta thương;\nTa buồn những người ta yêu quý;\nHơi đâu mà giận người dưng”\n-Thanh Nhàn-\nĐoạn thơ trên muốn đề cập tới quy luật nào trong đời sống tình cảm con người",
+      "dapan": [
+        "Quy luật hình thành",
+        "Quy luật cảm ứng",
+        "Quy luật di chuyển",
+        "Quy luật pha trộn"
+      ],
+      "dapandung": "Quy luật pha trộn"
+    },
+    {
+      "cauhoi": "Cùng một môn thể thao nhưng khi tập với những cách khác nhau ta lại đạt được những thành quả khác nhau. Quy luật nào của việc hình thành kỹ xảo thể hiện ở đây?",
+      "dapan": [
+        "Quy luật đỉnh của phương pháp luyện tập",
+        "Quy luật tiến bộ không đồng đều",
+        "Quy luật dập tắt kỹ xảo",
+        "Quy luật tác động qua lại giữa kỹ xảo cũ và mới"
+      ],
+      "dapandung": "Quy luật đỉnh của phương pháp luyện tập"
+    },
+    {
+      "cauhoi": "Hiện tượng “Lì đòn” ở trẻ em cho thấy xúc cảm, tình cảm thể hiện quy luật nào?",
+      "dapan": [
+        "Quy luật cảm ứng",
+        "Quy luật pha trộn",
+        "Quy luật hình thành",
+        "Quy luật thích ứng"
+      ],
+      "dapandung": "Quy luật thích ứng"
+    },
+    {
+      "cauhoi": "Hành vi và lời nói, tự nhận thức và sự đánh giá của người khác về một cá nhân luôn có sự trùng khớp nhất định. Đó là do nhân cách có đặc tính gì?",
+      "dapan": [
+        "Tính giao tiếp của nhân cách",
+        "Tính tích cực của nhân cách",
+        "Tính ổn định của nhân cách",
+        "Tính thống nhất của nhân cách"
+      ],
+      "dapandung": "Tính thống nhất của nhân cách"
+    },
+    {
+      "cauhoi": "Trong các yếu tố sau, yếu tố nào giữ vai trò chủ đạo trong sự phát triển nhân cách của mỗi cá nhân?",
+      "dapan": ["Giao tiếp", "Giáo dục", "Tập thể", "Hoạt động"],
+      "dapandung": "Giáo dục"
+    },
+    {
+      "cauhoi": "Nhìn từ gốc độ Tâm lý học, cấu trúc của nhân cách bao gồm những bộ phận nào?",
+      "dapan": [
+        "Văn và võ",
+        "Phẩm chất và năng lực",
+        "Tính cách, xu hướng, khí chất và năng lực",
+        "Đức và tài"
+      ],
+      "dapandung": "Tính cách, xu hướng, khí chất và năng lực"
+    },
+    {
+      "cauhoi": "Trong cấu trúc của nhân cách, thuộc tính tâm lý nào thể hiện thái độ của cá nhân?",
+      "dapan": ["Tính cách", "Xu hướng", "Khí chất", "Năng lực"],
+      "dapandung": "Tính cách"
+    },
+    {
+      "cauhoi": "Trong cấu trúc của nhân cách, thuộc tính tâm lý nào thể hiện khả năng của mỗi người?",
+      "dapan": ["Tính cách", "Xu hướng", "Năng lực", "Khí chất"],
+      "dapandung": "Năng lực"
+    },
+    {
+      "cauhoi": "Trong cấu trúc của nhân cách, thuộc tính tâm lý nào thể hiện sự lựa chọn của cá nhân?",
+      "dapan": ["Năng lực", "Tính cách", "Xu hướng", "Khí chất"],
+      "dapandung": "Xu hướng"
+    },
+    {
+      "cauhoi": "Biểu hiện nào sau đây thể hiện khí chất của cá nhân?",
+      "dapan": [
+        "Nổi tiếng nghiêm túc khi biểu diễn",
+        "Rất điềm tĩnh khi xử lý sự cố",
+        "Rất thích biểu diễn ở vùng quê",
+        "Hát rất hay"
+      ],
+      "dapandung": "Rất điềm tĩnh khi xử lý sự cố"
+    },
+    {
+      "cauhoi": "Trong cấu trúc của nhân cách, thuộc tính tâm lý nào thể hiện cường độ, tốc độ, nhịp độ của hành vi?",
+      "dapan": ["Tính cách", "Xu hướng", "Năng lực", "Khí chất"],
+      "dapandung": "Khí chất"
+    },
+    {
+      "cauhoi": "Yếu tố nào sau đây KHÔNG thuộc về xu hướng?",
+      "dapan": ["Lý tưởng", "Thế giới quan", "Tư chất", "Nhu cầu"],
+      "dapandung": "Tư chất"
+    },
+    {
+      "cauhoi": "Xác định đặc điểm nào không thuộc về nhân cách?",
+      "dapan": [
+        "Thô lỗ",
+        "Không nhạy cảm trong ứng xử",
+        "Hay bướng bỉnh",
+        "Phản ứng vận động nhanh"
+      ],
+      "dapandung": "Phản ứng vận động nhanh"
+    },
+    {
+      "cauhoi": "Trong các yếu tố sau, yếu tố nào giữ vai trò quyết định sự phát triển nhân cách của mỗi cá nhân?",
+      "dapan": ["Tập thể", "Hoạt động", "Giáo dục", "Văn hóa"],
+      "dapandung": "Hoạt động"
+    },
+    {
+      "cauhoi": "C thì cẩn thận, D thì cẩu thả. Ta nói C, D đang thể hiện thuộc tính tâm lý nào?",
+      "dapan": ["Xu hướng", "Tính cách", "Khí chất", "Năng lực"],
+      "dapandung": "Tính cách"
+    },
+    {
+      "cauhoi": "“Khéo tay” được xếp vào nhóm thuộc tính tâm lý nào của cá nhân?",
+      "dapan": ["Khí chất", "Xu hướng", "Tính cách", "Năng lực"],
+      "dapandung": "Năng lực"
+    },
+    {
+      "cauhoi": "Điền từ thích hợp vào khoảng trống: “Nhân cách là tổ hợp những đặc điểm, những ……....của cá nhân biểu hiện bản sắc và giá trị xã hội của cá nhân”",
+      "dapan": [
+        "Thuộc tính tâm lý",
+        "Thuộc tính sinh lý",
+        "Thuộc tính di truyền",
+        "Thuộc tính bản năng"
+      ],
+      "dapandung": "Thuộc tính tâm lý"
+    },
+    {
+      "cauhoi": "Biểu hiện nào trong các nét tính cách dưới đây cho thấy thái độ của cá nhân với lao động?",
+      "dapan": ["Tinh thần hợp tác", "Tự tin", "Chăm chỉ", "Công bằng"],
+      "dapandung": "Chăm chỉ"
+    },
+    {
+      "cauhoi": "Hành vi do cá nhân ý thức rõ mục đích của mình có được gọi là lệch chuẩn không?",
+      "dapan": [
+        "Không, nếu hành vi đó nói lên một chân lý, sự thật mà đa số các thành viên trong cộng đồng chưa biết tới; các văn bản pháp quy nghiêm cấm vì lợi ích nhóm (Ví dụ: Nhà Vật lý học Gan-li-lêo tuyên bố Trái đất quay xung quanh mặt trời)",
+        "Không, nếu hành vi đó giống với đa số thành viên cộng đồng",
+        "Có, nếu hành vi đó không giống với đa số thành viên trong cộng đồng",
+        "Có, nếu hành vi đó không được các văn bản pháp quy cho phép"
+      ],
+      "dapandung": "Không, nếu hành vi đó nói lên một chân lý, sự thật mà đa số các thành viên trong cộng đồng chưa biết tới; các văn bản pháp quy nghiêm cấm vì lợi ích nhóm (Ví dụ: Nhà Vật lý học Gan-li-lêo tuyên bố Trái đất quay xung quanh mặt trời)"
+    },
+    {
+      "cauhoi": "Dễ bị kích động là dấu hiệu nhận diện loại khí chất nào?",
+      "dapan": ["Hăng hái", "Ưu tư", "Bình thản", "Nóng nảy"],
+      "dapandung": "Nóng nảy"
+    },
+    {
+      "cauhoi": "Trẻ em sẽ không phát triển tốt nếu không được chơi cùng người lớn và các trẻ em khác. Điều đó chứng tỏ đặc tính gì của nhân cách?",
+      "dapan": [
+        "Tính thống nhất của nhân cách",
+        "Tính giao tiếp của nhân cách",
+        "Tính tích cực của nhân cách",
+        "Tính ổn định của nhân cách"
+      ],
+      "dapandung": "Tính giao tiếp của nhân cách"
+    },
+    {
+      "cauhoi": "Biểu hiện nào sau đây thể hiện tính cách của cá nhân?",
+      "dapan": [
+        "Rất điềm tĩnh khi xử lý sự cố",
+        "Hát rất hay",
+        "Rất thích biểu diễn ở vùng quê",
+        "Nổi tiếng nghiêm túc khi biểu diễn"
+      ],
+      "dapandung": "Nổi tiếng nghiêm túc khi biểu diễn"
     }
   ],
   "DX22L80161_D_TVTTH": [

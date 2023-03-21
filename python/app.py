@@ -46,16 +46,7 @@ driver.find_element(By.XPATH, '//*[@id="username"]').send_keys(username)
 driver.find_element(By.XPATH, '//*[@id="password"]').send_keys(password)
 driver.find_element(By.XPATH, '//*[@class="signup-form"]/div[3]/button').click()
 
-db.create_list_mon()
 
-def checkFileMon():  
-    
-    ma_mon = driver.find_element(By.XPATH, '//header/div/div/div/div[2]/div[1]/nav/ol/li[3]/a').text
-    ten_mon = driver.find_element(By.XPATH, '/html/body/div[2]/div[3]/header/div/div/div/div[1]/div[1]/div/div/h1').text
-
-    db.get_list_mon(ma_mon, ten_mon)
-    db.create_file_mon(ma_mon)
-    return ma_mon
 
 def Btvn(data_mon):
 
@@ -125,8 +116,8 @@ def Btvn(data_mon):
     
 
 
-def Save(ma_mon, data_mon, so_cau):
-   
+def Save(database, so_cau):
+    data_mon = database[ma_mon] 
     so_cauhoi = driver.find_elements(By.XPATH, '//*[@class="qtext"]')
     so_cauchuacodapan = 0
 
@@ -165,7 +156,7 @@ def Save(ma_mon, data_mon, so_cau):
         
             data_mon.append(data)
 
-    db.saveData(ma_mon, data_mon)    
+    db.saveData(database)    
 
 
     try:
@@ -181,8 +172,12 @@ def Save(ma_mon, data_mon, so_cau):
 
 
 def Main(ma_mon, so_lan, lan_lam_thu):
+    print(style.GREEN + ma_mon + style.RESET) 
+
+
     lan_lam_thu += 1
-    data_mon = db.getDataMon(ma_mon)   
+    database = db.getDataMon(ma_mon)
+    data_mon = database[ma_mon]   
 
     so_cau = len(data_mon)     
 
@@ -202,7 +197,7 @@ def Main(ma_mon, so_lan, lan_lam_thu):
     time.sleep(3)
     Btvn(data_mon)
 
-    so_cau = Save(ma_mon, data_mon, so_cau)
+    so_cau = Save(database, so_cau )
     # End Luu ----------------------------------------------------------------
 
     whandle = driver.window_handles[0]
@@ -212,20 +207,25 @@ def Main(ma_mon, so_lan, lan_lam_thu):
     print(style.GREEN + 'So cau : ' + str(so_cau) + ' - Da lam ' + str(lan_lam_thu)+'/'+str(so_lan) +' lan' + style.RESET) 
     print(' ')
 
-    if(int(so_lan)<= int(lan_lam_thu)):    
+    if(int(so_lan)<= int(lan_lam_thu)):  
+     
+        # input(style.GREEN + 'Moi ban chon mon    ' + style.RESET)  
         so_lan = db.solanLambai()
-        ma_mon = checkFileMon()
-        time.sleep(2)
+           
+        ma_mon = driver.find_element(By.XPATH, '//header/div/div/div/div[2]/div[1]/nav/ol/li[3]/a').text
+        ten_mon = driver.find_element(By.XPATH, '/html/body/div[2]/div[3]/header/div/div/div/div[1]/div[1]/div/div/h1').text
+        db.getInfoMon(ma_mon, ten_mon)
         lan_lam_thu = 0
         Main(ma_mon, so_lan, lan_lam_thu)
 
     Main(ma_mon, so_lan, lan_lam_thu)
 
 
-
+# input(style.GREEN + 'Moi ban chon mon    ' + style.RESET)  
 so_lan = db.solanLambai()
-ma_mon = checkFileMon()
-time.sleep(2)
+ma_mon = driver.find_element(By.XPATH, '//header/div/div/div/div[2]/div[1]/nav/ol/li[3]/a').text
+ten_mon = driver.find_element(By.XPATH, '/html/body/div[2]/div[3]/header/div/div/div/div[1]/div[1]/div/div/h1').text
+db.getInfoMon(ma_mon, ten_mon)
 lan_lam_thu = 0
 Main(ma_mon, so_lan, lan_lam_thu)
 
