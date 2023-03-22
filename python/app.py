@@ -38,8 +38,8 @@ url = "https://lms.rdi.edu.vn/"
 
 driver.get(url)
 
-# username = "194122671"
-username = "194122679"
+username = "194122671"
+# username = "194122679"
 password = "@Mydung0209"
 
 driver.find_element(By.XPATH, '//*[@id="username"]').send_keys(username)
@@ -92,7 +92,18 @@ def Btvn(data_mon):
             so_cauchuacodapan +=1
             print(style.RED + str(so_cauchuacodapan) +' - '+cauhoi + style.RESET)
         
-        time.sleep(random.randint(5,10))
+        # Random time
+       
+        random_time = random.randint(5,15)    
+        time.sleep(random_time)   
+
+        # while random_time > 0:
+        #     random_time -= 1
+        #     print(random_time, end=" ")
+        #     time.sleep(1)
+        # print()
+        
+
 
     time.sleep(2)   
 
@@ -119,7 +130,7 @@ def Btvn(data_mon):
     except NoSuchElementException:  
         pass
             
-            
+    print('---------')        
             # input(style.RED + 'Co loi xay ra' + style.RESET)
     
 
