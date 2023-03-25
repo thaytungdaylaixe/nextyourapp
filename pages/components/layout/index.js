@@ -17,7 +17,6 @@ const Layout = ({ children }) => {
       <SnackbarMui />
 
       {access_token ? <AppBarSideBar /> : ""}
-
       {children}
     </>
   );
