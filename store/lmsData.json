@@ -18,6 +18,11 @@
       "ma_mon": "DX22L80161_D_TLHDCC",
       "ten_mon": "Tâm lý học đại cương_DX22L80161 (18.3-14.5.2023)",
       "ngay": "20/3/2023"
+    },
+    {
+      "ma_mon": "DX22L80161_D_LSNNVN",
+      "ten_mon": "DX22L80161, VX22L80161_Lịch sử Nhà nước & PL Việt Nam (25.6 - 20.8.2023)",
+      "ngay": "28/6/2023"
     }
   ],
   "D_Intro_I_DK22TT80161": [
@@ -4756,6 +4761,293 @@
       "cauhoi": "Chọn từ thích hợp điền vào chỗ trống: Chị tôi vốn tính vô tư, trong cuộc sống chị luôn hòa đồng với tất cả mọi người, không tính toán hơn thua dù đó là những chuyện _________",
       "dapan": ["nhỏ nhặt", "nhỏ nhắn", "nhỏ nhen", "nhỏ nhẹ"],
       "dapandung": "nhỏ nhặt"
+    }
+  ],
+  "DX22L80161_D_LSNNVN": [
+    {
+      "cauhoi": "Trong đấu tranh chống đồng hóa của phong kiến phương Bắc, nhiều cuộc đấu tranh của nhân dân ta liên tục bùng nổ, điển hình là cuộc khởi nghĩa của hai Bà Trưng, Bà Triệu… đặc biệt là cuộc khởi nghĩa của thành công của Lý Bí lập ra nhà nước Vạn Xuân. Anh (Chị) hãy cho biết nhà nước Vạn Xuân ra đời vào năm nào?",
+      "dapan": ["Năm 548", "Năm 454", "Năm 544", "Năm 558"],
+      "dapandung": "Năm 544"
+    },
+    {
+      "cauhoi": "Chế độ phong kiến ở Việt Nam chấm dứt vào thời gian nào?",
+      "dapan": ["19/8/1945", "25/8/1945", "30/8/1945", "01/01/1946"],
+      "dapandung": "30/8/1945"
+    },
+    {
+      "cauhoi": "Ông là một vị tướng tài giỏi thời nhà Trần. Cuộc đời ông gắn liền với những tác phẩm nổi tiếng cả về văn học và quân sự. Trong đó có quyển “Binh thư yếu lược” – tác phẩm quan trọng trong xây dựng và sử dụng quân đội. Anh (Chị) cho biết ông là ai?",
+      "dapan": ["Trần Cảnh", "Trần Thủ Độ", "Trần Quốc Toản", "Trần Quốc Tuấn"],
+      "dapandung": "Trần Quốc Tuấn"
+    },
+    {
+      "cauhoi": "Nhà nước Âu Lạc là nhà nước kế thừa nhà nước Văn Lang do Thục Phán cai quản, nhưng nhà nước Âu Lạc lại bị nước Nam Việt thôn tính và mở ra thời kỳ bị Bắc thuộC. Vậy nước Âu Lạc bị thôn tính vào năm nào?",
+      "dapan": ["217 TCN", "237 TCN", "179 TCN", "227 TCN"],
+      "dapandung": "179 TCN"
+    },
+    {
+      "cauhoi": "Căn cứ vào trạng thái kinh tế và xã hội; ở nước ta, sự ra đời nhà nước đầu tiên dựa trên yếu tố nào?",
+      "dapan": [
+        "Sự liên minh giữa các bộ lạc",
+        "Dùng ảo thuật thu phục các bộ lạc",
+        "Theo truyền thuyết",
+        "Vũ lực"
+      ],
+      "dapandung": "Sự liên minh giữa các bộ lạc"
+    },
+    {
+      "cauhoi": "Thời kỳ vua Lê Thánh Tông, trong cơ cấu tổ chức của mỗi bộ, cơ quan nào thực hiện chức năng tương tự như văn phòng ngày nay?",
+      "dapan": ["Thừa ty", "Thanh lại ty", "Tư vụ sảnh", "Tào hình"],
+      "dapandung": "Tư vụ sảnh"
+    },
+    {
+      "cauhoi": "Theo truyền thuyết Đế Minh mà Đại Việt sử ký toàn thư chép lại, vùng đất mà Kinh Dương Vương cai quản có tên (quốc hiệu) là gì?",
+      "dapan": ["Âu Lạc", "Xích Quỉ quốc", "Lạc Việt", "Văn Lang"],
+      "dapandung": "Xích Quỉ quốc"
+    },
+    {
+      "cauhoi": "Theo lịch sử nước Văn Lang phía bắc giáp Động Đình Hồ (Hồ Nam), phía nam giáp nước Hồ Tôn…. Anh chị cho biết nước Hồ Tôn là quốc gia nào?",
+      "dapan": ["Chân Lạp", "Lâm Ấp", "Nam Việt", "Ai Lao"],
+      "dapandung": "Lâm Ấp"
+    },
+    {
+      "cauhoi": "Chính quyền nào dưới đây là chính quyền độc lập tự chủ đầu tiên hơn hai thế kỷ bị phong kiến phương Bắc đô hộ",
+      "dapan": ["Khúc Hạo", "Lý Bí", "Trưng Vương", "Ngô Quyền"],
+      "dapandung": "Trưng Vương"
+    },
+    {
+      "cauhoi": "Thời Hán đô hộ, nhà Hán chia nước ta thành quận, huyện như nhà Tần. Nươc ta lúc này được chia thành mấy quận?",
+      "dapan": ["12 quận", "6 quận", "9 quận", "3 quận"],
+      "dapandung": "3 quận"
+    },
+    {
+      "cauhoi": "Theo thư tịch cổ đều ghi nhận Hùng Vương trị vì đất nước với một bộ máy giúp việc là Lạc hầu, Lạc tướng, Quan lang, Bồ chính… Vậy, Bồ chính là người đứng đầu cấp nào?",
+      "dapan": [
+        "Đứng đầu bộ máy hành chính",
+        "Đứng đầu bộ máy quân đội",
+        "Đứng đầu công xã nông thôn",
+        "Đứng đầu cấp bộ"
+      ],
+      "dapandung": "Đứng đầu công xã nông thôn"
+    },
+    {
+      "cauhoi": "Sắp xếp theo thứ tự các triều đại phong kiến Việt Nam từ thế kỷ X đến thế kỷ XV",
+      "dapan": [
+        "Lê – Trần – Lý – Hồ",
+        "Trần – Hồ – Lý – Lê",
+        "Lý – Trần – Lê – Hồ",
+        "Lý – Trần – Hồ – Lê"
+      ],
+      "dapandung": "Lý – Trần – Hồ – Lê"
+    },
+    {
+      "cauhoi": "Với phương châm \"Binh lính cốt tinh nhuệ không cốt nhiều\", một triểu đại của nước ta đã xây dựng lực lượng quân đội rất hùng mạnh. Anh chị hãy cho biết đó là phương châm của xây dựng quân đội của triều đại nào?",
+      "dapan": ["Nhà Nguyễn", "Nhà Lý", "Nhà Lê sơ", "Nhà Trần"],
+      "dapandung": "Nhà Trần"
+    },
+    {
+      "cauhoi": "Nhà nước ra đời là sản phẩm tất yếu của xã hội. Nhưng yếu tố nào dưới đây đã quyết định cho sự ra đời của nhà nước?",
+      "dapan": [
+        "Vũ lực",
+        "Mâu thuẫn của giai cấp không điều hòa được",
+        "Thượng đế",
+        "Tất cả các yếu tố"
+      ],
+      "dapandung": "Mâu thuẫn của giai cấp không điều hòa được"
+    },
+    {
+      "cauhoi": "Sự kiện nào chứng tỏ nước ta hoàn toàn thoát khỏi ách đô hộ hơn 1000 năm của phong kiến phương Bắc cả trên danh nghĩa lẫn thực tế?",
+      "dapan": [
+        "Ngô Quyền xưng Vương",
+        "Khúc Thừa Dụ xưng Tiết độ sứ",
+        "Hai bà Trưng xưng Vương",
+        "Lý Bí xây dựng nhà nước Vạn Xuân"
+      ],
+      "dapandung": "Ngô Quyền xưng Vương"
+    },
+    {
+      "cauhoi": "Thời Lê sơ, cơ quan nào thực hiện chức năng giống như Bộ Nội vụ của Việt Nam hiện nay",
+      "dapan": ["Bộ Lễ", "Bộ Công", "Bộ Lại", "Bộ Hộ"],
+      "dapandung": "Bộ Lại"
+    },
+    {
+      "cauhoi": "Để chăm lo và khuyến khích việc học hành trong cả nước, nhà Lý cho xây dựng Quốc tử giám. Anh (Chị) hãy cho biết Quốc tử giám được xây dựng vào năm nào?",
+      "dapan": ["1076", "1075", "1054", "1070"],
+      "dapandung": "1076"
+    },
+    {
+      "cauhoi": "Yếu tố nào sau đây chứng minh ách đô hộ của chính quyền phong kiến phương Bắc đối với lãnh thổ nước ta trong hơn 1000 năm Bắc thuộc là không liên tục?",
+      "dapan": [
+        "Trong hơn 1000 năm Bắc thuộc, các triều đại phong kiến phương Bắc luôn có sự lật đổ nhau để đô hộ đất nước ta",
+        "Trong hơn 1000 năm Bắc thuộc, trên lãnh thổ nước ta có sự tồn tại của một số chính quyền độc lập tự chủ",
+        "Trong hơn 1000 năm Bắc thuộc, chính quyền đô hộ vẫn không cai trị được các làng xã của người Việt",
+        "Trong hơn 1000 năm Bắc thuộc, trên lãnh thổ nước ta luôn nổ ra những cuộc đấu tranh chống lại các chính quyền đô hộ"
+      ],
+      "dapandung": "Trong hơn 1000 năm Bắc thuộc, trên lãnh thổ nước ta có sự tồn tại của một số chính quyền độc lập tự chủ"
+    },
+    {
+      "cauhoi": "Thời Lê sơ, Vua quyết định việc thăng, giáng chức đối với quan lại nào trong mỗi kỳ sát hạch?",
+      "dapan": [
+        "Quan lại có hàm từ tam phẩm trở lên",
+        "Quan lại có hàm từ nhị phẩm trở lên",
+        "Quan lại có hàm từ tứ phẩm trở lên",
+        "Quan lại có hàm từ ngũ phẩm trở lên"
+      ],
+      "dapandung": "Quan lại có hàm từ nhị phẩm trở lên"
+    },
+    {
+      "cauhoi": "Để tăng cường sự cố kết giữa triều đình và quý tộc, quan lại nhà Lê sơ thực hiện chính sách lộc điền. Anh (chị) hãy cho biết lộc điền được cấp cho những quan lại nào?",
+      "dapan": [
+        "Nhất phẩm trở lên",
+        "Tứ phẩm trở lên",
+        "Nhị phẩm trở lên",
+        "Tam phẩm trở lên"
+      ],
+      "dapandung": "Tứ phẩm trở lên"
+    },
+    {
+      "cauhoi": "Yếu tố nào sau đây không nằm trong tiêu chuẩn của chức xã trưởng trong tuyển chọn quan lại dưới thời vua Lê Thánh Tông?",
+      "dapan": [
+        "Xã trưởng phải được bầu chọn trong số những giám sinh, sinh đồ tuổi cao",
+        "Để được bầu làm xã trưởng, người đó phải có họ hàng làm quan",
+        "Xã trưởng phải được bầu chọn trong số những người già",
+        "Xã trưởng phải được bầu chọn trong số con em nhà hiền lành 30 tuổi trở lên, không vướng vào việc quân, biết chữ và có hạnh kiểm tốt"
+      ],
+      "dapandung": "Để được bầu làm xã trưởng, người đó phải có họ hàng làm quan"
+    },
+    {
+      "cauhoi": "Liên quan đến lĩnh vực tiền tệ, pháp luật điều chỉnh loại tiền giấy có tên “Thông bảo hội sao”. Anh (chị) cho biết loại tiền giấy này được sử dụng vào triều đại nào?",
+      "dapan": ["Triều Lý", "Triều Lê", "Triều Hồ", "Triều Ngô"],
+      "dapandung": "Triều Hồ"
+    },
+    {
+      "cauhoi": "Thời vua Lê Thánh Tông, nhà vua lập ra cơ quan nào để thực hiện chức năng giúp việc cho lục bộ?",
+      "dapan": ["Lục khoa", "Lục tự", "Lục phiên", "Lục công"],
+      "dapandung": "Lục tự"
+    },
+    {
+      "cauhoi": "Vào thời Lê (Sơ), để tập trung quyền lực vào triều đình mà đứng đầu là nhà vua, một nhà vua đã bỏ chức danh Tể tướng để trực tiếp điều hành bộ máy triều đình. Đó là vị vua nào?",
+      "dapan": [
+        "Vua Lê Túc Tông",
+        "Vua Lê Anh Tông",
+        "Vua Lê Thánh Tông",
+        "Vua Lê Nhân Tông"
+      ],
+      "dapandung": "Vua Lê Thánh Tông"
+    },
+    {
+      "cauhoi": "Năm 1010, nhà Lý quyết định dời đô từ Hoa Lư về Thăng Long, sau đó, triều đại này lại quyết định đổi quốc hiệu nước ta thành Đại Việt. Anh (chị) hãy cho biết quốc hiệu Đại Việt được sử dụng từ năm nào",
+      "dapan": ["1055", "1052", "1053", "1054"],
+      "dapandung": "1054"
+    },
+    {
+      "cauhoi": "Liên quan đến lĩnh vực tiền tệ, pháp luật điều chỉnh loại tiền giấy có tên “Thông bảo hội sao”. Anh (chị) cho biết loại tiền giấy này được in lần đầu tiên vào triều đại nào?",
+      "dapan": ["Triều Lý", "Triều Lê", "Triều Hồ", "Triều Trần"],
+      "dapandung": "Triều Trần"
+    },
+    {
+      "cauhoi": "Cũng như các triều đại trước, việc trọng dụng nhân tài luôn đặt lên hàng đầu. Vì vậy, nhà vua xuống Chiếu lập nhà học mục đích là: “nhã ý hậu đãi nhà nho, lưu tâm đến kẻ sĩ, muốn có người thực tài để dùng cho quốc gia”. Đó là tâm niệm của vị vua nào?",
+      "dapan": ["Nguyễn Huệ", "Nguyễn Nhạc", "Nguyễn Ánh", "Nguyễn Lữ"],
+      "dapandung": "Nguyễn Huệ"
+    },
+    {
+      "cauhoi": "Nước ta đổi quốc hiệu từ Việt Nam dân chủ cộng hòa thành Cộng hòa xã hội chủ nghĩa Việt Nam từ năm nào?",
+      "dapan": ["1986", "1975", "1945", "1976"],
+      "dapandung": "1976"
+    },
+    {
+      "cauhoi": "Thời kỳ đất nước ta bị đô hộ bởi các triều đại phong kiến phương Bắc kéo dài từ năm nào đến năm nào?",
+      "dapan": [
+        "179 TCN – 40",
+        "179 TCN – 43",
+        "179 TCN – 938",
+        "179 TCN – 905"
+      ],
+      "dapandung": "179 TCN – 938"
+    },
+    {
+      "cauhoi": "Thời Lê sơ, những đối tượng nào sau đây sẽ được miễn đi lính?",
+      "dapan": [
+        "Con của quan lại có hàm từ thất phẩm trở lên",
+        "Con của quan lại có hàm từ cửu phẩm trở lên",
+        "Con của quan lại có hàm từ bát phẩm trở lên",
+        "Con của quan lại có hàm từ lục phẩm trở lên"
+      ],
+      "dapandung": "Con của quan lại có hàm từ lục phẩm trở lên"
+    },
+    {
+      "cauhoi": "Xác định hiền tài là nguyên khí quốc gia. Vì vậy, nhà Lý cho mở khoa thi đầu tiên để chọn người tài đức làm quan. Khoa thi đó được tổ chức vào năm nào?",
+      "dapan": ["1057", "1247", "1274", "1075"],
+      "dapandung": "1075"
+    },
+    {
+      "cauhoi": "Để tăng cường sự cố kết giữa triều đình và quý tộc, quan lại nhà Lê sơ thực hiện chính sách lộc điền. Anh (Chị) hãy cho biết quan lại nào sau đây sẽ không được nhận lộc điền?",
+      "dapan": [
+        "Quan nhị phẩm",
+        "Quan ngũ phẩm",
+        "Quan tứ phẩm",
+        "Quan tam phẩm"
+      ],
+      "dapandung": "Quan ngũ phẩm"
+    },
+    {
+      "cauhoi": "Thời Lý – Trần – Hồ, để tuyển bổ quan lại, Nhà nước tổ chức các kỳ thi để tuyển chọn nhân tài cho đất nước. Anh (chị) hãy cho biết khoa thi đầu tiên mở đầu học vị tam khôi ở nước ta được tổ chức vào thời vua nào?",
+      "dapan": [
+        "Trần Thuận Tông",
+        "Trần Nhân Tông",
+        "Trần Phế Đế",
+        "Trần Thái Tông"
+      ],
+      "dapandung": "Trần Thái Tông"
+    },
+    {
+      "cauhoi": "Thời Lê sơ, tước phẩm là danh hiệu cao quý của các quan lại được vua ban tặng. Xét về phẩm hàm (phẩm trật), Nhà Lê sơ đặt ra bao nhiêu bậc?",
+      "dapan": ["07 bậc", "09 bậc", "03 bậc", "05 bậc"],
+      "dapandung": "09 bậc"
+    },
+    {
+      "cauhoi": "Thời Lê sơ, Nho giáo trở thành hệ tư tưởng chính trị - pháp lý chính thống. Anh (chị) hãy cho biết đường lối chính trị của nhà nước Lê sơ là ___________.",
+      "dapan": [
+        "Ngoại nho nội pháp",
+        "Nội nho ngoại pháp",
+        "Nội hình ngoại lễ",
+        "Nội lễ ngoại hình"
+      ],
+      "dapandung": "Ngoại nho nội pháp"
+    },
+    {
+      "cauhoi": "Thời kỳ Lê sơ, trong mỗi kỳ sát hạch quan lại, sau khi có ý kiến của quan chủ khảo, Bộ Lại được quyền quyết định việc thăng, giáng chức đối với những quan lại nào?",
+      "dapan": [
+        "Quan lại có hàm từ tam phẩm trở xuống",
+        "Quan lại có hàm từ tứ phẩm trở xuống",
+        "Quan lại có hàm từ ngũ phẩm trở xuống",
+        "Quan lại có hàm từ nhị phẩm trở xuống"
+      ],
+      "dapandung": "Quan lại có hàm từ tam phẩm trở xuống"
+    },
+    {
+      "cauhoi": "Xác định hiền tài là nguyên khí quốc gia, vị vua nhà Lý nào cho mở khoa thi đầu tiên để chọn người tài đức làm quan?",
+      "dapan": ["Lý Nhân Tông", "Lý Thái Tông", "Lý Thái Tổ", "Lý Thánh Tông"],
+      "dapandung": "Lý Nhân Tông"
+    },
+    {
+      "cauhoi": "Sau khi đánh chiếm Âu Lạc năm 179 TCN, nhà Triệu chia lãnh thổ Âu Lạc làm 02 quận. Anh, chị cho biết 02 quận đó có tên là gì?",
+      "dapan": [
+        "Hợp Phố, Uất Lâm",
+        "Đạm Nhĩ, Chu Nhai",
+        "Cửu Chân, Nhật Nam",
+        "Giao Chỉ, Cửu Chân"
+      ],
+      "dapandung": "Giao Chỉ, Cửu Chân"
+    },
+    {
+      "cauhoi": "Thời phong kiến, người đại diện nhà nước ở nơi khác cử đến để làm quan tại một địa phương được gọi là gì?",
+      "dapan": ["Địa quan", "Thông phán", "Thổ quan", "Lưu quan"],
+      "dapandung": "Lưu quan"
+    },
+    {
+      "cauhoi": "Liên quan đến lĩnh vực tiền tệ, pháp luật điều chỉnh loại tiền giấy có tên “Thông bảo hội sao”. Anh (chị) cho biết loại tiền giấy này được in lần đầu tiên vào năm nào?",
+      "dapan": ["1274", "1396", "1369", "1247"],
+      "dapandung": "1396"
     }
   ]
 }
