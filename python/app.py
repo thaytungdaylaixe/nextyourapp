@@ -38,8 +38,8 @@ url = "https://lms.rdi.edu.vn/"
 
 driver.get(url)
 
-username = "194122671"
-# username = "194122679"
+# username = "194122671"
+username = "194122679"
 password = "@Mydung0209"
 
 driver.find_element(By.XPATH, '//*[@id="username"]').send_keys(username)
