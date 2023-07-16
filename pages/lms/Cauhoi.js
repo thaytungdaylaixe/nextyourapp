@@ -11,6 +11,20 @@ import {
   FormLabel,
 } from "@mui/material";
 
+function createMarkup(str) {
+  str = str
+    .replace(/left right arrow/g, "&harr;")
+    .replace(/bottom enclose logical or/g, "&#8891;")
+    .replace(/q with bar on top/g, "q&#x0305;")
+    .replace(/p with bar on top/g, "p&#x0305;")
+    .replace(/logical or/g, "&or;")
+    .replace(/open parentheses/g, "(")
+    .replace(/rightwards arrow/g, "&rarr;")
+    .replace(/close parentheses/g, ")")
+    .replace(/logical and/g, "&and;");
+  return { __html: str };
+}
+
 export default function Cauhoi({ data, stt, socau }) {
   const [state, dispatch] = useContext(DataContext);
   const { showKetqua } = state;
@@ -38,7 +52,8 @@ export default function Cauhoi({ data, stt, socau }) {
         <FormControl style={{ width: "100%" }}>
           <FormLabel id="demo-controlled-radio-buttons-group">
             <Typography gutterBottom variant="h6" color="primary">
-              {stt + "/" + socau} : {data.cauhoi}
+              {stt + "/" + socau} :{" "}
+              <span dangerouslySetInnerHTML={createMarkup(data.cauhoi)} />
             </Typography>
           </FormLabel>
           <RadioGroup
@@ -81,7 +96,8 @@ export default function Cauhoi({ data, stt, socau }) {
                           : "grey"
                       }
                     >
-                      {d + 1 + ". " + dapan}
+                      {d + 1 + ". "}{" "}
+                      <span dangerouslySetInnerHTML={createMarkup(dapan)} />
                     </Typography>
                   }
                 />

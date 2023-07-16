@@ -32,7 +32,7 @@ class style():
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
-url = "file:///C:/Users/thayt/Desktop/s.html"
+url = "file:///C:/Users/thayt/Desktop/s2.html"
 # url = "https://lms.rdi.edu.vn/"
 
 driver.get(url)
@@ -51,9 +51,18 @@ def SaveData(ma_mon):
     for r in range (1,len(so_cauhoi)+1):
         
         cauhoi = driver.find_element(By.XPATH, '//form/div/div['+str(r)+']/div[2]/div[1]/div[1]').text
-        dapandung_el = driver.find_element(By.XPATH, '//form/div/div['+str(r)+']/div[2]/div[2]/div/div')
 
-        dapandung = dapandung_el.text.split("The correct answer is: ")[1]
+        # input(style.GREEN + cauhoi + style.RESET)         
+
+        try:
+            dapandung_el = driver.find_element(By.XPATH, '//form/div/div['+str(r)+']/div[2]/div[2]/div').text
+
+            # input(style.YELLOW + dapandung_el + style.RESET)  
+
+            dapandung = dapandung_el.split("The correct answer is: ")[1]
+        except :      
+            dapandung = driver.find_element(By.XPATH, '//form/div/div['+str(r)+']/div[2]/div[2]/div/div[2]/img').get_attribute('alt')
+            # input(style.RED + dapandung + style.RESET)
 
 
         countCheckCauhoi = (db.checkDataMon(data_mon, cauhoi, dapandung ))
@@ -68,8 +77,16 @@ def SaveData(ma_mon):
 
             for e in range (1,len(so_dapan)+1) :
 
-                dapan_el = driver.find_element(By.XPATH, '//form/div/div['+str(r)+']/div[2]/div[1]/div[2]/div[2]/div['+str(e)+']/div/div')
-                dapan.append(dapan_el.text)
+                
+                dapan_el = driver.find_element(By.XPATH, '//form/div/div['+str(r)+']/div[2]/div[1]/div[2]/div[2]/div['+str(e)+']/div/div').text
+                
+                if(dapan_el==""):
+                
+                    dapan_el = driver.find_element(By.XPATH, '//form/div/div['+str(r)+']/div[2]/div[1]/div[2]/div[2]/div['+str(e)+']/div/div/p/img').get_attribute('alt')
+                    
+                    input(style.RED + dapan_el + style.RESET)
+
+                dapan.append(dapan_el)
 
             data = {
                 "cauhoi": cauhoi,

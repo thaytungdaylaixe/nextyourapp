@@ -71,6 +71,8 @@ def Btvn(data_mon):
         
         cauhoi = driver.find_element(By.XPATH, '//form/div/div['+str(r)+']/div[2]/div[1]/div[1]').text        
 
+        # input(style.GREEN + cauhoi + style.RESET)   
+
         dapandung_arr = db.getDapanDung(data_mon, cauhoi )
 
         so_dapan = driver.find_elements(By.XPATH, '//form/div/div['+str(r)+']/div[2]/div[1]/div[2]/div[2]/div')
@@ -81,9 +83,15 @@ def Btvn(data_mon):
 
         cauhoi_datontai = 0
 
-        for e in range (1,len(so_dapan)+1) :
-            dapan = driver.find_element(By.XPATH, '//form/div/div['+str(r)+']/div[2]/div[1]/div[2]/div[2]/div['+str(e)+']/div/div').text
-            
+        for e in range (1,len(so_dapan)+1) :                      
+
+            try:
+                dapan = driver.find_element(By.XPATH, '//form/div/div['+str(r)+']/div[2]/div[1]/div[2]/div[2]/div['+str(e)+']/div/div').text
+            except :      
+                dapan = driver.find_element(By.XPATH, '//form/div/div['+str(r)+']/div[2]/div[2]/div/div[2]/img').get_attribute('alt')
+                # input(style.RED + dapan + style.RESET)
+
+
             if(dapan in dapandung_arr):   
                 cauhoi_datontai +=1             
                 driver.find_element(By.XPATH, '//form/div/div['+str(r)+']/div[2]/div/div[2]/div[2]/div['+str(e)+']/input').click()
@@ -144,9 +152,17 @@ def Save(database,ma_mon, so_cau):
     for r in range (1,len(so_cauhoi)+1):
         
         cauhoi = driver.find_element(By.XPATH, '//form/div/div['+str(r)+']/div[2]/div[1]/div[1]').text
-        dapandung_el = driver.find_element(By.XPATH, '//form/div/div['+str(r)+']/div[2]/div[2]/div/div')
 
-        dapandung = dapandung_el.text.split("The correct answer is: ")[1]
+        try:
+            dapandung_el = driver.find_element(By.XPATH, '//form/div/div['+str(r)+']/div[2]/div[2]/div').text
+
+            # input(style.YELLOW + dapandung_el + style.RESET)  
+
+            dapandung = dapandung_el.split("The correct answer is: ")[1]
+        except :      
+            dapandung = driver.find_element(By.XPATH, '//form/div/div['+str(r)+']/div[2]/div[2]/div/div[2]/img').get_attribute('alt')
+            # input(style.RED + dapandung + style.RESET)
+       
 
 
         countCheckCauhoi = (db.checkDataMon(data_mon, cauhoi, dapandung ))
@@ -165,8 +181,12 @@ def Save(database,ma_mon, so_cau):
 
             for e in range (1,len(so_dapan)+1) :
 
-                dapan_el = driver.find_element(By.XPATH, '//form/div/div['+str(r)+']/div[2]/div[1]/div[2]/div[2]/div['+str(e)+']/div/div')
-                dapan.append(dapan_el.text)
+                dapan_el = driver.find_element(By.XPATH, '//form/div/div['+str(r)+']/div[2]/div[1]/div[2]/div[2]/div['+str(e)+']/div/div').text
+               
+                if(dapan_el==""):                
+                    dapan_el = driver.find_element(By.XPATH, '//form/div/div['+str(r)+']/div[2]/div[1]/div[2]/div[2]/div['+str(e)+']/div/div/p/img').get_attribute('alt')
+                
+                dapan.append(dapan_el)
 
             data = {
                 "cauhoi": cauhoi,
