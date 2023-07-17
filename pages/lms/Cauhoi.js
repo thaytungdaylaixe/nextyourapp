@@ -13,6 +13,9 @@ import {
 
 function createMarkup(str) {
   str = str
+    .replace(/logical or top enclose/g, "&#8892;")
+    .replace(/p end enclose/g, "p&#x0305;")
+    .replace(/top enclose p/g, "p&#x0305;")
     .replace(/left right arrow/g, "&harr;")
     .replace(/bottom enclose logical or/g, "&#8891;")
     .replace(/q with bar on top/g, "q&#x0305;")
