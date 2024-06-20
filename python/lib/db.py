@@ -1,5 +1,6 @@
 import json
 import os
+import random
 import datetime
 
 # System call
@@ -20,7 +21,7 @@ class style():
 
 
 # path_data = '../store/lmsData.json'
-path_data = '../store/lmsData.json'
+path_data = './store/lmsData.json'
 
 
 
@@ -43,7 +44,7 @@ def checkInfoMon(database, ma_mon, ten_mon):
 
 
 def getInfoMon(ma_mon, ten_mon):
-    with open(path_data, encoding='utf-8') as outfile:
+    with open(path_data, encoding='utf-8') as outfile:     
         database = json.load(outfile)
         checkInfoMon(database, ma_mon, ten_mon)
 
@@ -51,8 +52,10 @@ def getInfoMon(ma_mon, ten_mon):
 
 def solanLambai():
     print(' ')
-    so_lan = input(style.GREEN + 'Mời bạn chọn bài tập    ' + style.RESET)   
-    so_lan = input(style.GREEN + 'Ban muon lam bao nhieu lan?    ' + style.RESET)   
+    # so_lan = input(style.GREEN + 'Mời bạn chọn bài tập    ' + style.RESET)   
+    # so_lan = input(style.GREEN + 'Ban muon lam bao nhieu lan?    ' + style.RESET)   
+
+    so_lan = random.randint(12,20)
     print(' ')
 
     if(so_lan==''):

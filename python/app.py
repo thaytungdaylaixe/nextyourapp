@@ -119,8 +119,6 @@ def Btvn(data_mon):
 
     time.sleep(2)   
 
-   
-
     try:
         try:
             driver.find_element(By.XPATH, '//*[@value="Trang tiếp"]').click()
@@ -264,6 +262,8 @@ def Main(ma_mon, so_lan, lan_lam_thu):
         Main(ma_mon, so_lan, lan_lam_thu)
 
     Main(ma_mon, so_lan, lan_lam_thu)
+
+
 
 
 # input(style.GREEN + 'Moi ban chon mon    ' + style.RESET)  
